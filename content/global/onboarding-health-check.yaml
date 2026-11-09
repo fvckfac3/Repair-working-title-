@@ -1,0 +1,81 @@
+id: onboarding-health-check
+module: global
+type: assessment
+kind: onboarding
+title: Relationship Health Check
+summary: A private snapshot of where things are hard right now. It shapes your recommended path.
+minutes: 8
+mode: solo
+intensity: light
+intro: >-
+  Think about the past month. Answer honestly. Your answers are private.
+  You'll be asked separately whether to share a summary with your partner,
+  and some sensitive areas are never shared.
+scale:
+  min: 0
+  max: 4
+  labels: [Strongly disagree, Disagree, Neutral, Agree, Strongly agree]
+subscales:
+  - { id: storm, label: Conflict intensity, module: calming-the-storm, threshold: 50, recommend: [cts-conflict-temperature] }
+  - { id: communication, label: Communication, module: communicating-without-wounding }
+  - { id: conflict, label: Handling disagreements, module: fighting-fair }
+  - { id: trust, label: Trust, module: repairing-trust }
+  - { id: infidelity, label: Affair recovery, module: healing-after-infidelity, sensitive: true, threshold: 25 }
+  - { id: resentment, label: Lingering resentment, module: forgiveness-and-resentment }
+  - { id: connection, label: Emotional connection, module: deepening-connection }
+  - { id: intimacy, label: Physical intimacy, module: exploring-intimacy }
+  - { id: friendship, label: Friendship & fun, module: rebuilding-friendship }
+  - { id: meaning, label: Shared direction, module: shared-meaning }
+  - { id: money, label: Money, module: money-as-a-team }
+  - { id: home, label: Household & parenting, module: partners-at-home }
+  - { id: boundaries, label: Family & outside pressures, module: family-and-boundaries }
+  - { id: commitment, label: Uncertainty about the future, module: at-a-crossroads, sensitive: true }
+items:
+  - { id: s1, subscale: storm, text: Our arguments get heated quickly. }
+  - { id: s2, subscale: storm, text: "After we fight, it takes a long time to feel OK again." }
+  - { id: c1, subscale: communication, text: "When I bring up a concern, my partner gets defensive or critical." }
+  - { id: c2, subscale: communication, text: I feel heard and understood by my partner., reverse: true }
+  - { id: k1, subscale: conflict, text: We argue about the same issues again and again without progress. }
+  - { id: k2, subscale: conflict, text: "When we disagree, we can usually find a compromise.", reverse: true }
+  - { id: t1, subscale: trust, text: I can count on my partner to do what they say they'll do., reverse: true }
+  - { id: t2, subscale: trust, text: I sometimes doubt that my partner is being honest with me. }
+  - { id: i1, subscale: infidelity, text: An affair or serious breach of fidelity is something we are trying to recover from. }
+  - { id: r1, subscale: resentment, text: I'm still carrying hurt or anger about things that happened in the past. }
+  - { id: r2, subscale: resentment, text: I find myself keeping score in our relationship. }
+  - { id: e1, subscale: connection, text: I feel emotionally close to my partner., reverse: true }
+  - { id: e2, subscale: connection, text: I feel lonely in this relationship. }
+  - { id: p1, subscale: intimacy, text: I'm satisfied with the physical affection in our relationship., reverse: true }
+  - { id: p2, subscale: intimacy, text: Differences in sexual desire cause tension between us. }
+  - { id: f1, subscale: friendship, text: We still have fun together., reverse: true }
+  - { id: f2, subscale: friendship, text: We feel more like roommates or co-managers than partners. }
+  - { id: m1, subscale: meaning, text: We share a picture of the future we're building together., reverse: true }
+  - { id: m2, subscale: meaning, text: It feels like we're growing apart. }
+  - { id: n1, subscale: money, text: Money is a regular source of conflict or secrecy between us. }
+  - { id: h1, subscale: home, text: The household or parenting load feels unfairly divided. }
+  - { id: h2, subscale: home, text: We disagree about how to raise our children (skip if not applicable). }
+  - { id: b1, subscale: boundaries, text: "Family, friends, work or phones regularly come between us." }
+  - { id: b2, subscale: boundaries, text: I feel my partner puts other people or things ahead of me. }
+  - { id: x1, subscale: commitment, text: "I'm unsure whether I want to stay in this relationship." }
+  - { id: x2, subscale: commitment, text: I'm willing to put real effort into making this relationship better., reverse: true }
+bands:
+  - id: steady
+    label: Mostly steady
+    min: 0
+    narrative: >-
+      Things are mostly OK, with a few areas worth strengthening. Your path
+      starts with the areas that scored highest.
+  - id: strained
+    label: Under strain
+    min: 35
+    narrative: >-
+      Several parts of your relationship are under real strain. That's why
+      you're here, and it's workable. We'll start with the areas that will
+      make the others easier.
+  - id: distressed
+    label: In distress
+    min: 60
+    suggestTherapist: true
+    narrative: >-
+      Your relationship is going through a very hard time. Your path starts
+      with calming things down. We also strongly recommend a couples
+      therapist. This app works well alongside therapy.

@@ -1,0 +1,54 @@
+id: weekly-state-of-us
+module: global
+type: conversation
+title: State of Us
+summary: A 15-minute weekly check-in to celebrate, clear the air, and plan the week ahead.
+minutes: 15
+mode: together
+intensity: light
+intro: >-
+  A regular, predictable time to talk means small issues don't have to wait
+  until they explode. Keep it short and kind, and do it at the same time
+  every week if you can.
+groundRules:
+  - Start with appreciation, always.
+  - Bring at most one concern each. Bigger issues get their own time.
+  - Use your time-out signal if either of you starts to flood.
+phases:
+  - id: appreciate
+    title: Appreciations
+    kind: together
+    prompts:
+      - "Take turns: one specific thing your partner did this week that you appreciated."
+    seconds: 180
+  - id: a-concern
+    title: Partner A's one concern
+    kind: turn
+    speaker: A
+    prompts:
+      - "Use a gentle start: \"I felt ___ when ___. What I need is ___.\""
+    listenerPrompts:
+      - "Summarize, then ask: \"Is there more?\" Don't defend. Just understand."
+    seconds: 180
+  - id: b-concern
+    title: Partner B's one concern
+    kind: turn
+    speaker: B
+    prompts:
+      - "Use a gentle start: \"I felt ___ when ___. What I need is ___.\""
+    listenerPrompts:
+      - "Summarize, then ask: \"Is there more?\" Don't defend. Just understand."
+    seconds: 180
+  - id: plan
+    title: The week ahead
+    kind: together
+    prompts:
+      - What's coming up this week that could be stressful?
+      - When will we have time together?
+      - What's one thing each of us can do to help the other?
+    seconds: 180
+  - id: close
+    title: Close
+    kind: close
+    prompts:
+      - "Finish together: \"This week I'm looking forward to…\""

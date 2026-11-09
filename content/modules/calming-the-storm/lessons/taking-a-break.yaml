@@ -1,0 +1,37 @@
+id: cts-lesson-taking-a-break
+module: calming-the-storm
+type: lesson
+title: Taking a break the right way
+summary: How to pause a fight without it feeling like abandonment.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Not all breaks are equal
+    body: >-
+      Walking out mid-sentence, slamming a door, or going silent for two days
+      are all breaks, and they usually make things worse. To a partner who
+      tends to pursue, they feel like abandonment.
+  - heading: The four parts of a good break
+    body: |-
+      1. Use the signal you agreed on ahead of time.
+      2. Say when you'll come back ("I need 30 minutes. I'll find you at 8.").
+      3. Spend the time actually calming down: walk, breathe, listen to music. Don't rehearse your arguments.
+      4. Come back when you said you would, even if only to set a new time.
+  - heading: Coming back is the repair
+    body: >-
+      The promise to return is what makes a break feel safe. Every time you
+      come back when you said you would, your partner learns that a pause
+      doesn't mean you're leaving.
+  - heading: Either partner can call it
+    body: >-
+      A break isn't a punishment or a way to avoid the topic. Anyone who
+      notices flooding, in themselves or in the other person, can call one,
+      and the other partner agrees to honor it.
+takeaway:
+  question: Which part of a break most helps your partner trust it?
+  options:
+    - Leaving quickly before things get worse
+    - Saying when you'll come back, and doing it
+    - Explaining why they upset you before you go
+  answer: 1

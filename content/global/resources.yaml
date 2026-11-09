@@ -1,0 +1,25 @@
+# Verify all numbers and links before every release.
+- id: emergency
+  name: Emergency services
+  description: If you or someone else is in immediate danger.
+  phone: "911"
+  category: crisis
+- id: suicide-crisis-lifeline
+  name: 988 Suicide & Crisis Lifeline
+  description: Free, confidential, 24/7 support for anyone in emotional distress.
+  phone: "988"
+  text: "988"
+  url: https://988lifeline.org
+  category: crisis
+- id: national-dv-hotline
+  name: National Domestic Violence Hotline
+  description: Confidential support and safety planning, 24/7.
+  phone: "1-800-799-7233"
+  text: "Text START to 88788"
+  url: https://www.thehotline.org
+  category: safety
+- id: find-a-therapist-aamft
+  name: Find a couples therapist (AAMFT)
+  description: Directory of licensed marriage and family therapists.
+  url: https://www.aamft.org
+  category: therapy

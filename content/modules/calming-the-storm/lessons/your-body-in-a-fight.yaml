@@ -1,0 +1,45 @@
+id: cts-lesson-your-body-in-a-fight
+module: calming-the-storm
+type: lesson
+title: Your body in a fight
+summary: Why you can't think straight mid-argument, and what that means for how you fight.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: The alarm goes off
+    body: >-
+      When an argument feels threatening, your body reacts as if you were in
+      danger. Your heart speeds up, stress hormones surge, and blood moves
+      toward your muscles and away from the parts of the brain that handle
+      nuance, empathy and memory.
+  - heading: This is called flooding
+    body: >-
+      Once you're flooded, you can't really listen. You hear criticism that
+      wasn't intended, forget what your partner said a minute ago, and reach
+      for whatever will end the threat: attack, defend or escape. Neither of
+      you is choosing to be like this. It's biology.
+  - heading: Know your signals
+    body: >-
+      Common signs: a racing heart (many people notice it climbing past
+      about 100 beats per minute), a hot face, clenched jaw or fists, tunnel
+      vision, a blank mind, or a strong urge to leave. Everyone's signals
+      are different, so it helps to know your own.
+  - heading: What helps
+    body: >-
+      You can't reason your way out of flooding. You have to calm your body
+      first. That usually takes at least 20 minutes of real rest, without
+      rehearsing the argument in your head. After that, you can come back
+      and actually talk.
+takeaway:
+  question: Your partner is flooded mid-argument. What's most likely to help?
+  options:
+    - Explain your point more clearly so they understand
+    - Pause for at least 20 minutes and calm down separately
+    - Keep going until you reach a resolution
+  answer: 1
+  explanation: >-
+    A flooded brain can't take in new information. Pausing isn't giving up.
+    It gives you both your thinking brains back.
+sources:
+  - "Gottman, J. M. & Silver, N. (1999). The Seven Principles for Making Marriage Work. (Concept: physiological flooding.)"

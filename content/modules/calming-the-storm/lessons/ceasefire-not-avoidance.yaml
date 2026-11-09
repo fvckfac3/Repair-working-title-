@@ -1,0 +1,37 @@
+id: cts-lesson-ceasefire-not-avoidance
+module: calming-the-storm
+type: lesson
+title: A ceasefire is not avoidance
+summary: Why setting hot topics aside for a short time can be the bravest next step.
+minutes: 3
+mode: solo
+intensity: light
+cards:
+  - heading: You can't repair a house that's on fire
+    body: >-
+      When fighting is constant, every attempt to "finally deal with it"
+      adds fuel. A short, agreed pause on the hottest topics gives both of
+      you room to breathe and to remember that you're on the same side.
+  - heading: What a ceasefire is
+    body: >-
+      It is time-limited (usually 1–2 weeks), agreed by both of you, and
+      comes with a list of the topics you are setting aside, not erasing.
+      Those topics go in the "parking lot" and you will come back to them,
+      with better tools.
+  - heading: What a ceasefire is not
+    body: >-
+      It isn't pretending everything is fine, and it isn't one partner
+      silencing the other. It must never be used to hide anything unsafe.
+      Safety concerns always come first.
+  - heading: Use the space well
+    body: >-
+      During the ceasefire, put energy into small moments of connection:
+      a daily appreciation, a short walk, a shared meal. They rebuild the
+      goodwill that hard conversations depend on.
+takeaway:
+  question: What makes a ceasefire different from avoidance?
+  options:
+    - It's agreed by both partners and has an end date
+    - One partner decides the other shouldn't bring things up
+    - The topics are dropped for good
+  answer: 0

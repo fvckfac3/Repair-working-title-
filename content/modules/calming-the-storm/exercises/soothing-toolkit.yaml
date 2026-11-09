@@ -1,0 +1,43 @@
+id: cts-ex-soothing-toolkit
+module: calming-the-storm
+type: exercise
+title: My self-soothing toolkit
+summary: Build a personal list of what actually calms you down, and practice one now.
+minutes: 8
+mode: solo
+intensity: light
+intro: >-
+  During a break, what you do matters. Rehearsing the argument keeps you
+  flooded. Real soothing brings your body back down.
+steps:
+  - id: options
+    kind: multi
+    prompt: What tends to calm me?
+    options:
+      - A walk outside
+      - Slow breathing
+      - A shower
+      - Music
+      - Stretching or exercise
+      - Holding something warm
+      - Writing my thoughts down
+      - Petting an animal
+      - A guided meditation
+      - Cold water on my face
+  - id: own
+    kind: list
+    prompt: Anything else that works for me?
+  - id: avoid
+    kind: list
+    prompt: What makes me MORE wound up, even if it's tempting? (for example, texting friends about the fight, or scrolling)
+  - id: practice
+    kind: instruction
+    prompt: >-
+      Let's practice. Breathe in for 4 counts, hold for 4, and breathe out
+      slowly for 6. Making the exhale longer than the inhale signals your
+      body that it's safe.
+  - id: breathe
+    kind: timer
+    prompt: Breathe slowly for two minutes.
+    seconds: 120
+outro: Your toolkit is saved. You'll find it any time you start a time-out.

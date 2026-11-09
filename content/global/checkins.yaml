@@ -1,0 +1,25 @@
+daily:
+  - id: mood
+    text: How are you feeling today?
+    kind: scale
+    labels: [Awful, Low, OK, Good, Great]
+  - id: connection
+    text: How connected do you feel to your partner today?
+    kind: scale
+    labels: [Very distant, Distant, Neutral, Close, Very close]
+  - id: note
+    text: Anything you'd like your partner to know? (optional, you choose whether to share)
+    kind: text
+weekly:
+  conversation: weekly-state-of-us
+  questions:
+    - id: week-rating
+      text: Overall, how was this week for us?
+      kind: scale
+      labels: [Very hard, Hard, Mixed, Good, Very good]
+    - id: appreciation
+      text: One thing I appreciated about you this week
+      kind: text
+    - id: need
+      text: One thing I need more of next week
+      kind: text

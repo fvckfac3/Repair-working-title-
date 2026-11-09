@@ -1,0 +1,41 @@
+id: cts-conv-low-stakes-reconnection
+module: calming-the-storm
+type: conversation
+title: Ten minutes of low-stakes reconnection
+summary: A gentle, structured chat that has nothing to do with your problems.
+minutes: 10
+mode: together
+intensity: light
+intro: >-
+  When things have been hard, even small talk can feel risky. This short
+  guide gives you safe, light questions so you can just enjoy each other
+  for a few minutes. No problem-solving allowed.
+groundRules:
+  - No hot topics. If one comes up, put it in the parking lot.
+  - Curiosity over correction.
+phases:
+  - id: a-asks
+    title: Partner A answers
+    kind: turn
+    speaker: A
+    prompts:
+      - What's one small thing that made you smile this week?
+      - If we could teleport anywhere for a day, where would you go?
+    listenerPrompts:
+      - Ask one follow-up question.
+    seconds: 180
+  - id: b-asks
+    title: Partner B answers
+    kind: turn
+    speaker: B
+    prompts:
+      - What's one small thing that made you smile this week?
+      - If we could teleport anywhere for a day, where would you go?
+    listenerPrompts:
+      - Ask one follow-up question.
+    seconds: 180
+  - id: close
+    title: Close
+    kind: close
+    prompts:
+      - "Say one thing you enjoyed about the last ten minutes."

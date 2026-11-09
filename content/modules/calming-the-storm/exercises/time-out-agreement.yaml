@@ -1,0 +1,36 @@
+id: cts-ex-time-out-agreement
+module: calming-the-storm
+type: exercise
+title: Our time-out agreement
+summary: Draft the rules for pausing a fight, then confirm them together.
+minutes: 10
+mode: together
+intensity: light
+intro: >-
+  A time-out works best when you've agreed on it while calm. Fill this in
+  together, or each draft it and compare.
+steps:
+  - id: signal
+    kind: text
+    prompt: "What's our signal? (a word, a phrase, a hand gesture, for example \"timeout\" or \"I'm getting flooded\")"
+  - id: length
+    kind: choice
+    prompt: How long is a standard break?
+    options: [20 minutes, 30 minutes, 1 hour, "Whoever calls it says how long"]
+  - id: where
+    kind: text
+    prompt: Where will each of us go during a break?
+  - id: return
+    kind: text
+    prompt: How will we come back? (for example, "the person who called it comes to find the other")
+  - id: max
+    kind: choice
+    prompt: What's the longest a topic can be paused before we return to it or set a time?
+    options: [Same day, 24 hours, "The weekend", "Next State of Us check-in"]
+  - id: promise
+    kind: instruction
+    prompt: >-
+      We agree that either of us can call a time-out at any time, that the
+      other will honor it, and that the person who called it will come back
+      when they said they would.
+outro: Saved as your shared agreement. You can edit it any time from your Us tab.

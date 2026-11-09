@@ -1,0 +1,23 @@
+{
+  "name": "repair",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Repair (working title): a guided app for couples working through hard seasons.",
+  "packageManager": "pnpm@10.28.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "content:build": "tsx scripts/build-content.ts",
+    "content:check": "tsx scripts/build-content.ts --check",
+    "test": "vitest run",
+    "typecheck": "tsc -p packages/content-schema && tsc -p packages/scoring && tsc -p scripts && pnpm --filter mobile typecheck",
+    "mobile": "pnpm --filter mobile start"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.8.3",
+    "vitest": "^3.2.4",
+    "yaml": "^2.8.0",
+    "zod": "^3.25.76"
+  }
+}

@@ -1,0 +1,45 @@
+id: cts-ex-map-our-cycle
+module: calming-the-storm
+type: exercise
+title: Map our cycle
+summary: Trace the steps of your typical fight so you can recognize it as it starts.
+minutes: 10
+mode: either
+intensity: medium
+intro: >-
+  Think of a recent argument that followed a familiar pattern. You'll map
+  what you did, what you felt underneath, and what you think your partner
+  did. Do it alone first. You can share it later in "Naming our cycle together".
+steps:
+  - id: trigger
+    kind: text
+    prompt: What usually sets it off? Describe the moment the temperature starts rising.
+  - id: my-move
+    kind: multi
+    prompt: When it heats up, what do I tend to do?
+    options:
+      - Push harder for a response
+      - Criticize or complain
+      - Raise my voice
+      - Defend or explain myself
+      - Go quiet or shut down
+      - Leave the room
+      - Joke or change the subject
+      - Give in to make it stop
+  - id: my-feeling
+    kind: multi
+    prompt: Underneath that, what am I feeling?
+    help: The softer feeling is often hidden under anger or numbness.
+    options: [Alone, Unimportant, Afraid, Inadequate, Rejected, Overwhelmed, Ashamed, Unseen, Controlled]
+  - id: partner-move
+    kind: text
+    prompt: What do I see my partner do in response?
+  - id: loop
+    kind: text
+    prompt: "Complete the loop: \"The more I ___, the more you ___, and the more you ___, the more I ___.\""
+  - id: name
+    kind: text
+    prompt: Give your cycle a name, something neutral or even a little funny (for example, "the tornado" or "chase and hide").
+outro: >-
+  Seeing the cycle written down is the first step out of it. When you're
+  ready, try the "Naming our cycle together" conversation.

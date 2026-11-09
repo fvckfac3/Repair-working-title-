@@ -1,0 +1,87 @@
+id: cts-conflict-temperature
+module: calming-the-storm
+type: assessment
+title: Conflict Temperature
+summary: How hot are your fights running, and how long do they take to cool down?
+minutes: 4
+mode: solo
+intensity: light
+intro: >-
+  Answer about the past month. There are no right answers. Your responses
+  stay private unless you choose to compare results with your partner.
+scale:
+  min: 0
+  max: 4
+  labels: [Never, Rarely, Sometimes, Often, Almost always]
+subscales:
+  - id: frequency
+    label: How often you clash
+    description: How often small things turn into conflict.
+    threshold: 50
+    recommend: [cts-lesson-against-the-cycle, cts-ex-map-our-cycle, cts-conv-naming-our-cycle]
+  - id: flooding
+    label: Getting overwhelmed
+    description: How often your body goes into fight-or-flight during conflict.
+    threshold: 40
+    recommend: [cts-lesson-your-body-in-a-fight, cts-ex-flooding-signals, cts-ex-soothing-toolkit]
+  - id: recovery
+    label: Bouncing back
+    description: How quickly and fully you recover after a fight.
+    threshold: 50
+    recommend: [cts-lesson-taking-a-break, cts-ex-time-out-agreement, cts-conv-time-out-signal]
+  - id: escalation
+    label: How far it goes
+    description: How intense fights get, and whether they feel unsafe.
+    threshold: 40
+    recommend: [cts-lesson-why-winning-loses, cts-ritual-ceasefire]
+  - id: hope
+    label: Worry about the future
+    description: How worried you are that the relationship may not survive this.
+    threshold: 50
+    recommend: [cts-lesson-ceasefire-not-avoidance, cts-conv-low-stakes-reconnection]
+items:
+  - { id: f1, subscale: frequency, text: Small disagreements turn into big arguments. }
+  - { id: f2, subscale: frequency, text: We argue about the same things over and over. }
+  - { id: f3, subscale: frequency, text: "We can disagree without it becoming a fight.", reverse: true }
+  - { id: fl1, subscale: flooding, text: "During arguments my heart pounds, my face gets hot, or my mind goes blank." }
+  - { id: fl2, subscale: flooding, text: I say things in fights that I later regret. }
+  - { id: fl3, subscale: flooding, text: "I shut down or need to escape when conflict starts." }
+  - { id: r1, subscale: recovery, text: "After a fight, the tension lasts for a day or more." }
+  - { id: r2, subscale: recovery, text: "After a fight, one of us reaches out to make things right.", reverse: true }
+  - { id: r3, subscale: recovery, text: "We go back to feeling close fairly quickly after we argue.", reverse: true }
+  - { id: e1, subscale: escalation, text: "Our fights include yelling, name-calling, or insults." }
+  - { id: e2, subscale: escalation, text: "One of us follows the other or blocks them from leaving during a fight.", flagAtOrAbove: 1 }
+  - { id: e3, subscale: escalation, text: "I feel unsafe during or after our conflicts.", flagAtOrAbove: 1 }
+  - { id: h1, subscale: hope, text: I worry this relationship might end. }
+  - { id: h2, subscale: hope, text: "I believe we can get through this.", reverse: true }
+bands:
+  - id: cool
+    label: Mostly calm
+    min: 0
+    narrative: >-
+      Your conflicts are fairly contained. This module can still give you
+      tools for the moments that do heat up, and a shared language for them.
+  - id: warm
+    label: Running warm
+    min: 30
+    narrative: >-
+      Conflict is taking a real toll. That is common and workable. Start
+      with the lessons on flooding and breaks. Those skills make every
+      later module easier.
+  - id: hot
+    label: Running hot
+    min: 55
+    narrative: >-
+      Your fights are frequent or intense and recovery is slow. Before you
+      try to solve any problems, focus on lowering the temperature: agree on
+      a time-out signal and try the 7-day ceasefire.
+  - id: boiling
+    label: Boiling over
+    min: 75
+    suggestTherapist: true
+    narrative: >-
+      Conflict is likely affecting your wellbeing and your sense of safety.
+      The tools here can help, but we strongly encourage you to work with a
+      couples therapist as well. If you ever feel unsafe, see the Safety &
+      Support resources. You don't have to handle this alone.
+gapThreshold: 25

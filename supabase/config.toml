@@ -1,0 +1,13 @@
+# Minimal Supabase CLI config. Run `supabase init` locally to regenerate the full file.
+project_id = "repair"
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+major_version = 16
+
+[auth]
+site_url = "repair://"
+enable_signup = true

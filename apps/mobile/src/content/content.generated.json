@@ -1,0 +1,2088 @@
+{
+  "version": "da9571998bc3",
+  "modules": [
+    {
+      "slug": "calming-the-storm",
+      "title": "Calming the Storm",
+      "tier": "A",
+      "order": 1,
+      "tagline": "Lower the temperature before you try to solve anything.",
+      "description": "When every conversation turns into a fight, nothing else can be worked on. This module helps you spot the cycle you get stuck in, notice when your body is too flooded to talk, take breaks that help instead of hurt, and agree on a short ceasefire so you can start to repair.",
+      "status": "in_review",
+      "intensity": "light",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Conflict Temperature",
+        "lessons": [
+          "Your body in a fight",
+          "It's you two against the cycle",
+          "Why winning loses",
+          "Taking a break the right way",
+          "A ceasefire is not avoidance"
+        ],
+        "exercises": [
+          "Map our cycle",
+          "My flooding signals",
+          "My self-soothing toolkit",
+          "Our time-out agreement",
+          "The parking lot"
+        ],
+        "conversations": [
+          "Agreeing on a time-out signal",
+          "Naming our cycle together",
+          "Ten minutes of low-stakes reconnection"
+        ],
+        "journal": "After the storm",
+        "ritual": "7-day ceasefire"
+      }
+    },
+    {
+      "slug": "communicating-without-wounding",
+      "title": "Communicating Without Wounding",
+      "tier": "A",
+      "order": 2,
+      "tagline": "Say the hard thing in a way your partner can hear.",
+      "description": "Most couples who struggle aren't short on words. Their words land as attacks, so the other person defends. You'll learn to turn criticism into a request, listen until your partner feels understood, and validate without having to agree.",
+      "status": "draft",
+      "intensity": "light",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Communication Patterns",
+        "lessons": [
+          "Complaints vs. criticism",
+          "The gentle start-up",
+          "Listening to understand",
+          "Validation isn't agreement",
+          "Contempt and its antidote",
+          "Catching defensiveness"
+        ],
+        "exercises": [
+          "Rewrite the criticism",
+          "My feelings & needs vocabulary",
+          "From \"you always\" to \"I need\"",
+          "Reflective listening practice"
+        ],
+        "conversations": [
+          "Speaker-listener practice",
+          "What I meant vs. what you heard",
+          "State of Us (weekly)"
+        ],
+        "journal": "What I wish I'd said",
+        "ritual": "14 days of one appreciation and one curious question"
+      }
+    },
+    {
+      "slug": "fighting-fair",
+      "title": "Fighting Fair",
+      "tier": "A",
+      "order": 3,
+      "tagline": "Disagree without damage, and repair when you slip.",
+      "description": "Some problems can be solved and some are permanent differences you learn to live with. This module helps you tell them apart, use repair attempts in the middle of a fight, find compromise without losing yourself, and talk through a past fight without starting it again.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Conflict Style Profile",
+        "lessons": [
+          "Solvable vs. perpetual problems",
+          "Repair attempts",
+          "Compromise without losing yourself",
+          "The dreams inside gridlock",
+          "Accepting influence"
+        ],
+        "exercises": [
+          "Sort our issues",
+          "Our repair phrase deck",
+          "Core needs vs. flexible areas"
+        ],
+        "conversations": [
+          "Solving a solvable problem",
+          "The dream within the conflict",
+          "Debriefing a past fight"
+        ],
+        "journal": "My part in the pattern",
+        "ritual": "7-day repair attempt challenge"
+      }
+    },
+    {
+      "slug": "repairing-trust",
+      "title": "Repairing Trust",
+      "tier": "B",
+      "order": 4,
+      "tagline": "Rebuild reliability one kept promise at a time.",
+      "description": "Trust wears down in many ways: broken promises, lies big and small, secrecy, and not showing up when it mattered. This module looks at how trust is built in small moments and what real accountability is, and it gives you a structure for repair that relies on consistency, not grand gestures.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Trust Inventory",
+        "lessons": [
+          "How trust is built in small moments",
+          "Betrayal comes in many forms",
+          "What real accountability looks like",
+          "Consistency over grand gestures",
+          "Shame vs. guilt for the partner who broke trust"
+        ],
+        "exercises": [
+          "Our trust timeline",
+          "Promises I can actually keep",
+          "Transparency agreements",
+          "Weekly reliability log"
+        ],
+        "conversations": [
+          "The accountability conversation",
+          "What I need to feel safe",
+          "Monthly trust check-in"
+        ],
+        "journal": "Where trust lives for me",
+        "ritual": "14 days of small kept promises"
+      }
+    },
+    {
+      "slug": "healing-after-infidelity",
+      "title": "Healing After Infidelity",
+      "tier": "B",
+      "order": 5,
+      "tagline": "A structured path through the aftermath of an affair.",
+      "description": "An affair is one of the hardest things a couple can go through. Recovery usually moves through three phases: atoning, attuning and re-attaching. This module has separate tracks for the partner who was hurt and the partner who strayed, plus guided conversations that keep hard questions from re-wounding. We strongly recommend doing this module alongside a couples therapist.",
+      "status": "draft",
+      "intensity": "deep",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [
+          "The affair has ended and contact has stopped, or there is a clear plan to end it.",
+          "We both know about the affair. This app will never be used to disclose it.",
+          "I am choosing to work on recovery, not deciding yet whether to stay."
+        ],
+        "therapistRecommended": true,
+        "hiddenInSafetyMode": true
+      },
+      "outline": {
+        "assessment": "Affair Recovery Stage",
+        "lessons": [
+          "Why you feel like this (betrayal trauma)",
+          "The three phases of recovery",
+          "Questions that help vs. questions that hurt",
+          "For the involved partner: holding steady",
+          "Understanding vulnerabilities without excusing",
+          "When to see a therapist"
+        ],
+        "exercises": [
+          "My trigger plan",
+          "Our transparency agreement",
+          "For the hurt partner",
+          "For the partner who strayed",
+          "The impact letter"
+        ],
+        "conversations": [
+          "Structured question time",
+          "Responding to a trigger",
+          "Building relationship 2.0"
+        ],
+        "journal": "Processing, privately",
+        "ritual": "Daily check-in for 21 days"
+      }
+    },
+    {
+      "slug": "forgiveness-and-resentment",
+      "title": "Forgiveness & Releasing Resentment",
+      "tier": "B",
+      "order": 6,
+      "tagline": "Put down the scorecard without pretending it didn't hurt.",
+      "description": "Unresolved hurts pile up into resentment that colors everything. This module separates forgiveness from forgetting or excusing, helps you find the unmet needs under old grudges, and guides you through offering and receiving amends.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Resentment Load",
+        "lessons": [
+          "What forgiveness is and isn't",
+          "Resentment as an unmet need",
+          "Forgiveness is a process",
+          "Forgiving yourself"
+        ],
+        "exercises": [
+          "Inventory of old hurts",
+          "The unsent letter",
+          "The hurt vs. the story",
+          "Choosing what to bring forward"
+        ],
+        "conversations": [
+          "Bringing up an old hurt safely",
+          "Offering and receiving amends"
+        ],
+        "journal": "What I'm still carrying",
+        "ritual": "A letting-go ceremony"
+      }
+    },
+    {
+      "slug": "deepening-connection",
+      "title": "Deepening Connection",
+      "tier": "C",
+      "order": 7,
+      "tagline": "From roommates back to partners.",
+      "description": "Distance rarely arrives all at once. It builds up from missed moments. This module explains bids for connection and attachment needs, and it shows how to soften: letting your partner see the hurt or fear under the anger, so they can move toward you.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Connection Check",
+        "lessons": [
+          "Bids for connection",
+          "Attachment in couples",
+          "Softening",
+          "Staying curious about each other",
+          "Being reachable"
+        ],
+        "exercises": [
+          "Bids tracker",
+          "How well do you know me now?",
+          "My softer emotions",
+          "Attachment-needs cards"
+        ],
+        "conversations": [
+          "Reaching for each other",
+          "Deepening questions",
+          "The daily stress-reducing conversation"
+        ],
+        "journal": "When I feel closest to you",
+        "ritual": "14 days of six seconds and twenty minutes"
+      }
+    },
+    {
+      "slug": "exploring-intimacy",
+      "title": "Exploring Intimacy",
+      "tier": "C",
+      "order": 8,
+      "tagline": "Rebuild physical closeness with less pressure and more honesty.",
+      "description": "Sex is often the first casualty of conflict and the hardest thing to talk about. This module covers desire differences, responsive vs. spontaneous desire, and what speeds up or slows down each partner's interest. It offers a gradual, no-pressure path back to touch and a private way to share interests in which only mutual matches are shown.",
+      "status": "draft",
+      "intensity": "deep",
+      "gating": {
+        "adultsOnly": true,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": true
+      },
+      "outline": {
+        "assessment": "Intimacy Profile",
+        "lessons": [
+          "Desire differences are normal",
+          "Spontaneous vs. responsive desire",
+          "Accelerators and brakes",
+          "Rebuilding affection after distance or betrayal",
+          "When to see a doctor or sex therapist"
+        ],
+        "exercises": [
+          "Yes / No / Maybe (mutual matches only)",
+          "Accelerators & brakes worksheet",
+          "Non-sexual touch menu",
+          "Graduated touch plan"
+        ],
+        "conversations": [
+          "Talking about sex without blame",
+          "Initiating and declining with care",
+          "Planning intimacy together"
+        ],
+        "journal": "What closeness means to me",
+        "ritual": "7-day affection-only challenge"
+      }
+    },
+    {
+      "slug": "rebuilding-friendship",
+      "title": "Rebuilding Friendship & Fun",
+      "tier": "C",
+      "order": 9,
+      "tagline": "Remember why you liked each other.",
+      "description": "Struggling couples often stop having fun, so all that's left is problems. This module rebuilds fondness, admiration and play, which act as a buffer that makes the hard conversations survivable.",
+      "status": "draft",
+      "intensity": "light",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Friendship & Positivity",
+        "lessons": [
+          "Why the good has to outweigh the bad",
+          "Fondness and admiration as a buffer",
+          "Novelty and shared adventure",
+          "Playfulness heals"
+        ],
+        "exercises": [
+          "What I first loved about you",
+          "Admiration deck",
+          "Our bucket list",
+          "Date planner"
+        ],
+        "conversations": [
+          "Our story, revisited",
+          "Appreciation exchange"
+        ],
+        "journal": "Moments I'm grateful for",
+        "ritual": "4-week date challenge"
+      }
+    },
+    {
+      "slug": "shared-meaning",
+      "title": "Shared Meaning & Future Vision",
+      "tier": "C",
+      "order": 10,
+      "tagline": "Build a future you're both walking toward.",
+      "description": "Couples who repair well tend to share a \"why\": values, rituals and a picture of the future that belongs to both of them. This module helps you build it on purpose.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Shared Meaning",
+        "lessons": [
+          "Why couples need a shared why",
+          "Rituals of connection",
+          "What our roles mean to each of us",
+          "Growing apart vs. growing together"
+        ],
+        "exercises": [
+          "Values card sort",
+          "Design our rituals",
+          "Five-year vision board"
+        ],
+        "conversations": [
+          "Dreams and life goals",
+          "Our relationship mission statement"
+        ],
+        "journal": "The life I want with you",
+        "ritual": "Build one new ritual in 14 days"
+      }
+    },
+    {
+      "slug": "money-as-a-team",
+      "title": "Money as a Team",
+      "tier": "D",
+      "order": 11,
+      "tagline": "Stop fighting about money and start planning with it.",
+      "description": "Money fights are rarely about money. They're about safety, freedom, fairness and the money story each of you grew up with. This module brings those stories into the open and helps you build a system you both trust.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Money Harmony",
+        "lessons": [
+          "Money is never just money",
+          "Your money story",
+          "Financial secrecy",
+          "Shared, separate or hybrid"
+        ],
+        "exercises": [
+          "My money autobiography",
+          "Full-disclosure worksheet",
+          "Choosing our system",
+          "Shared goals planner"
+        ],
+        "conversations": [
+          "The monthly money date",
+          "Resolving a spending conflict"
+        ],
+        "journal": "What money means to me",
+        "ritual": "30-day money transparency challenge"
+      }
+    },
+    {
+      "slug": "partners-at-home",
+      "title": "Partners in Parenting & Household",
+      "tier": "D",
+      "order": 12,
+      "tagline": "Share the load so you can share a life.",
+      "description": "An unequal mental load and clashes over parenting are among the most common sources of chronic resentment. This module makes the invisible work visible, rebalances it, and helps you parent as a team even when your styles differ.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Fair Share",
+        "lessons": [
+          "The invisible mental load",
+          "Couple first, parents too",
+          "United front, different styles",
+          "Protecting your relationship from kid stress"
+        ],
+        "exercises": [
+          "Household task audit",
+          "Our rebalance plan",
+          "Parenting values comparison"
+        ],
+        "conversations": [
+          "Redistributing the load",
+          "Disagreeing about discipline",
+          "The weekly family logistics meeting"
+        ],
+        "journal": "What I carry that you might not see",
+        "ritual": "14-day load-sharing trial"
+      }
+    },
+    {
+      "slug": "family-and-boundaries",
+      "title": "Family, In-Laws & Boundaries",
+      "tier": "D",
+      "order": 13,
+      "tagline": "Become a \"we\" that outside pressures can't split.",
+      "description": "In-laws, friends, exes, work and phones can all pull partners apart. This module helps you agree on boundaries together, handle loyalty binds, and protect your attention for each other.",
+      "status": "draft",
+      "intensity": "medium",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": false,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Boundaries & Loyalty",
+        "lessons": [
+          "Becoming a we",
+          "Healthy vs. rigid boundaries",
+          "Loyalty binds",
+          "Phones, social media and attention"
+        ],
+        "exercises": [
+          "Our boundary map",
+          "Our-team-first agreements",
+          "Holiday & visit planner",
+          "Our tech agreement"
+        ],
+        "conversations": [
+          "Talking about family without attacking",
+          "Setting a boundary together"
+        ],
+        "journal": "Where I feel caught in the middle",
+        "ritual": "7-day phone-free hour"
+      }
+    },
+    {
+      "slug": "at-a-crossroads",
+      "title": "At a Crossroads",
+      "tier": "D",
+      "order": 14,
+      "tagline": "Get clear on whether and how to move forward.",
+      "description": "Often one partner is leaning in and the other is leaning out. This module doesn't push you to stay together. It helps each of you get clear about where you are, your own part in the problems, and the path you choose: keep things as they are, separate, or commit fully to a time-limited effort to repair.",
+      "status": "draft",
+      "intensity": "deep",
+      "gating": {
+        "adultsOnly": false,
+        "confirmations": [],
+        "therapistRecommended": true,
+        "hiddenInSafetyMode": false
+      },
+      "outline": {
+        "assessment": "Commitment & Ambivalence",
+        "lessons": [
+          "Mixed-agenda couples are common",
+          "Three paths forward",
+          "Your own part in the problem",
+          "What all-in really means"
+        ],
+        "exercises": [
+          "Private ambivalence journal",
+          "My contributions inventory",
+          "Decision clarity worksheet"
+        ],
+        "conversations": [
+          "Sharing where I am, honestly",
+          "Agreeing on a path and a timeframe"
+        ],
+        "journal": "What I'm afraid to say out loud",
+        "ritual": "Weekly clarity check for six weeks"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "cts-conflict-temperature",
+      "module": "calming-the-storm",
+      "title": "Conflict Temperature",
+      "summary": "How hot are your fights running, and how long do they take to cool down?",
+      "minutes": 4,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "assessment",
+      "kind": "standard",
+      "intro": "Answer about the past month. There are no right answers. Your responses stay private unless you choose to compare results with your partner.",
+      "scale": {
+        "min": 0,
+        "max": 4,
+        "labels": [
+          "Never",
+          "Rarely",
+          "Sometimes",
+          "Often",
+          "Almost always"
+        ]
+      },
+      "subscales": [
+        {
+          "id": "frequency",
+          "label": "How often you clash",
+          "description": "How often small things turn into conflict.",
+          "threshold": 50,
+          "recommend": [
+            "cts-lesson-against-the-cycle",
+            "cts-ex-map-our-cycle",
+            "cts-conv-naming-our-cycle"
+          ],
+          "sensitive": false
+        },
+        {
+          "id": "flooding",
+          "label": "Getting overwhelmed",
+          "description": "How often your body goes into fight-or-flight during conflict.",
+          "threshold": 40,
+          "recommend": [
+            "cts-lesson-your-body-in-a-fight",
+            "cts-ex-flooding-signals",
+            "cts-ex-soothing-toolkit"
+          ],
+          "sensitive": false
+        },
+        {
+          "id": "recovery",
+          "label": "Bouncing back",
+          "description": "How quickly and fully you recover after a fight.",
+          "threshold": 50,
+          "recommend": [
+            "cts-lesson-taking-a-break",
+            "cts-ex-time-out-agreement",
+            "cts-conv-time-out-signal"
+          ],
+          "sensitive": false
+        },
+        {
+          "id": "escalation",
+          "label": "How far it goes",
+          "description": "How intense fights get, and whether they feel unsafe.",
+          "threshold": 40,
+          "recommend": [
+            "cts-lesson-why-winning-loses",
+            "cts-ritual-ceasefire"
+          ],
+          "sensitive": false
+        },
+        {
+          "id": "hope",
+          "label": "Worry about the future",
+          "description": "How worried you are that the relationship may not survive this.",
+          "threshold": 50,
+          "recommend": [
+            "cts-lesson-ceasefire-not-avoidance",
+            "cts-conv-low-stakes-reconnection"
+          ],
+          "sensitive": false
+        }
+      ],
+      "items": [
+        {
+          "id": "f1",
+          "text": "Small disagreements turn into big arguments.",
+          "subscale": "frequency",
+          "reverse": false
+        },
+        {
+          "id": "f2",
+          "text": "We argue about the same things over and over.",
+          "subscale": "frequency",
+          "reverse": false
+        },
+        {
+          "id": "f3",
+          "text": "We can disagree without it becoming a fight.",
+          "subscale": "frequency",
+          "reverse": true
+        },
+        {
+          "id": "fl1",
+          "text": "During arguments my heart pounds, my face gets hot, or my mind goes blank.",
+          "subscale": "flooding",
+          "reverse": false
+        },
+        {
+          "id": "fl2",
+          "text": "I say things in fights that I later regret.",
+          "subscale": "flooding",
+          "reverse": false
+        },
+        {
+          "id": "fl3",
+          "text": "I shut down or need to escape when conflict starts.",
+          "subscale": "flooding",
+          "reverse": false
+        },
+        {
+          "id": "r1",
+          "text": "After a fight, the tension lasts for a day or more.",
+          "subscale": "recovery",
+          "reverse": false
+        },
+        {
+          "id": "r2",
+          "text": "After a fight, one of us reaches out to make things right.",
+          "subscale": "recovery",
+          "reverse": true
+        },
+        {
+          "id": "r3",
+          "text": "We go back to feeling close fairly quickly after we argue.",
+          "subscale": "recovery",
+          "reverse": true
+        },
+        {
+          "id": "e1",
+          "text": "Our fights include yelling, name-calling, or insults.",
+          "subscale": "escalation",
+          "reverse": false
+        },
+        {
+          "id": "e2",
+          "text": "One of us follows the other or blocks them from leaving during a fight.",
+          "subscale": "escalation",
+          "reverse": false,
+          "flagAtOrAbove": 1
+        },
+        {
+          "id": "e3",
+          "text": "I feel unsafe during or after our conflicts.",
+          "subscale": "escalation",
+          "reverse": false,
+          "flagAtOrAbove": 1
+        },
+        {
+          "id": "h1",
+          "text": "I worry this relationship might end.",
+          "subscale": "hope",
+          "reverse": false
+        },
+        {
+          "id": "h2",
+          "text": "I believe we can get through this.",
+          "subscale": "hope",
+          "reverse": true
+        }
+      ],
+      "bands": [
+        {
+          "id": "cool",
+          "label": "Mostly calm",
+          "min": 0,
+          "narrative": "Your conflicts are fairly contained. This module can still give you tools for the moments that do heat up, and a shared language for them.",
+          "suggestTherapist": false
+        },
+        {
+          "id": "warm",
+          "label": "Running warm",
+          "min": 30,
+          "narrative": "Conflict is taking a real toll. That is common and workable. Start with the lessons on flooding and breaks. Those skills make every later module easier.",
+          "suggestTherapist": false
+        },
+        {
+          "id": "hot",
+          "label": "Running hot",
+          "min": 55,
+          "narrative": "Your fights are frequent or intense and recovery is slow. Before you try to solve any problems, focus on lowering the temperature: agree on a time-out signal and try the 7-day ceasefire.",
+          "suggestTherapist": false
+        },
+        {
+          "id": "boiling",
+          "label": "Boiling over",
+          "min": 75,
+          "narrative": "Conflict is likely affecting your wellbeing and your sense of safety. The tools here can help, but we strongly encourage you to work with a couples therapist as well. If you ever feel unsafe, see the Safety & Support resources. You don't have to handle this alone.",
+          "suggestTherapist": true
+        }
+      ],
+      "gapThreshold": 25
+    },
+    {
+      "id": "cts-lesson-your-body-in-a-fight",
+      "module": "calming-the-storm",
+      "title": "Your body in a fight",
+      "summary": "Why you can't think straight mid-argument, and what that means for how you fight.",
+      "minutes": 4,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "lesson",
+      "cards": [
+        {
+          "heading": "The alarm goes off",
+          "body": "When an argument feels threatening, your body reacts as if you were in danger. Your heart speeds up, stress hormones surge, and blood moves toward your muscles and away from the parts of the brain that handle nuance, empathy and memory."
+        },
+        {
+          "heading": "This is called flooding",
+          "body": "Once you're flooded, you can't really listen. You hear criticism that wasn't intended, forget what your partner said a minute ago, and reach for whatever will end the threat: attack, defend or escape. Neither of you is choosing to be like this. It's biology."
+        },
+        {
+          "heading": "Know your signals",
+          "body": "Common signs: a racing heart (many people notice it climbing past about 100 beats per minute), a hot face, clenched jaw or fists, tunnel vision, a blank mind, or a strong urge to leave. Everyone's signals are different, so it helps to know your own."
+        },
+        {
+          "heading": "What helps",
+          "body": "You can't reason your way out of flooding. You have to calm your body first. That usually takes at least 20 minutes of real rest, without rehearsing the argument in your head. After that, you can come back and actually talk."
+        }
+      ],
+      "takeaway": {
+        "question": "Your partner is flooded mid-argument. What's most likely to help?",
+        "options": [
+          "Explain your point more clearly so they understand",
+          "Pause for at least 20 minutes and calm down separately",
+          "Keep going until you reach a resolution"
+        ],
+        "answer": 1,
+        "explanation": "A flooded brain can't take in new information. Pausing isn't giving up. It gives you both your thinking brains back."
+      },
+      "sources": [
+        "Gottman, J. M. & Silver, N. (1999). The Seven Principles for Making Marriage Work. (Concept: physiological flooding.)"
+      ]
+    },
+    {
+      "id": "cts-lesson-against-the-cycle",
+      "module": "calming-the-storm",
+      "title": "It's you two against the cycle",
+      "summary": "The real enemy isn't your partner. It's the pattern you both get caught in.",
+      "minutes": 5,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "lesson",
+      "cards": [
+        {
+          "heading": "Fights have a shape",
+          "body": "If you look closely, most of your fights follow the same steps, even when the topic changes. One of you reaches, pushes or protests, and the other pulls back, defends or goes quiet. Each move triggers the next."
+        },
+        {
+          "heading": "A common pattern",
+          "body": "A very common version: one partner pursues (they criticize, push for answers, raise their voice) because they feel alone. The other withdraws (they go quiet, leave, minimize) because they feel they're failing. The more one pursues, the more the other withdraws, and the reverse is also true."
+        },
+        {
+          "heading": "Both moves make sense",
+          "body": "Under the pursuing there is usually fear of being unimportant or abandoned. Under the withdrawing there is usually fear of failing, being judged, or making things worse. Both partners are trying to protect the relationship in the only way they know in that moment."
+        },
+        {
+          "heading": "Name the cycle, not the person",
+          "body": "When you can say \"we're in the cycle again\" instead of \"you always…\", you stop being opponents. You become two people facing a shared problem, and that is where change starts."
+        }
+      ],
+      "takeaway": {
+        "question": "Which statement names the cycle rather than blaming a person?",
+        "options": [
+          "You always shut down when I need you.",
+          "I think the pattern grabbed us again. I'm pushing and you're pulling away.",
+          "If you would just listen, we wouldn't fight."
+        ],
+        "answer": 1
+      },
+      "sources": [
+        "Johnson, S. (2008). Hold Me Tight. (Concept: the negative interaction cycle, Emotionally Focused Therapy.)"
+      ]
+    },
+    {
+      "id": "cts-lesson-why-winning-loses",
+      "module": "calming-the-storm",
+      "title": "Why winning loses",
+      "summary": "In a relationship, if one of you wins the argument, you both lose something.",
+      "minutes": 3,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "lesson",
+      "cards": [
+        {
+          "heading": "The scoreboard trap",
+          "body": "In a heated moment, being right feels urgent. You bring up evidence, remember past offenses, and correct the details. Even when you \"win\", your partner walks away feeling smaller, and the distance between you grows."
+        },
+        {
+          "heading": "What you actually want",
+          "body": "Ask yourself: \"Do I want to be right, or do I want to be close?\" Usually what you want is to be understood, to feel safe, and to know you matter. None of those comes from defeating your partner."
+        },
+        {
+          "heading": "Escalation is a warning sign",
+          "body": "Insults, contempt, threats and bringing up a whole history of grievances cause lasting damage. If fights regularly include these, or anyone feels afraid, that is more than a communication problem. Safety comes first. See Safety & Support in your profile."
+        },
+        {
+          "heading": "A different goal",
+          "body": "Change the goal of a disagreement from \"settle who's right\" to \"both of us understand each other a little better\". It's a smaller target, but you can actually hit it."
+        }
+      ],
+      "takeaway": {
+        "question": "In your next disagreement, what will you aim for?",
+        "options": [
+          "Being understood",
+          "Understanding my partner",
+          "Ending calmly, even without a solution",
+          "All of the above"
+        ],
+        "explanation": "There's no wrong answer. Pick one and notice what changes."
+      },
+      "sources": []
+    },
+    {
+      "id": "cts-lesson-taking-a-break",
+      "module": "calming-the-storm",
+      "title": "Taking a break the right way",
+      "summary": "How to pause a fight without it feeling like abandonment.",
+      "minutes": 4,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "lesson",
+      "cards": [
+        {
+          "heading": "Not all breaks are equal",
+          "body": "Walking out mid-sentence, slamming a door, or going silent for two days are all breaks, and they usually make things worse. To a partner who tends to pursue, they feel like abandonment."
+        },
+        {
+          "heading": "The four parts of a good break",
+          "body": "1. Use the signal you agreed on ahead of time.\n2. Say when you'll come back (\"I need 30 minutes. I'll find you at 8.\").\n3. Spend the time actually calming down: walk, breathe, listen to music. Don't rehearse your arguments.\n4. Come back when you said you would, even if only to set a new time."
+        },
+        {
+          "heading": "Coming back is the repair",
+          "body": "The promise to return is what makes a break feel safe. Every time you come back when you said you would, your partner learns that a pause doesn't mean you're leaving."
+        },
+        {
+          "heading": "Either partner can call it",
+          "body": "A break isn't a punishment or a way to avoid the topic. Anyone who notices flooding, in themselves or in the other person, can call one, and the other partner agrees to honor it."
+        }
+      ],
+      "takeaway": {
+        "question": "Which part of a break most helps your partner trust it?",
+        "options": [
+          "Leaving quickly before things get worse",
+          "Saying when you'll come back, and doing it",
+          "Explaining why they upset you before you go"
+        ],
+        "answer": 1
+      },
+      "sources": []
+    },
+    {
+      "id": "cts-lesson-ceasefire-not-avoidance",
+      "module": "calming-the-storm",
+      "title": "A ceasefire is not avoidance",
+      "summary": "Why setting hot topics aside for a short time can be the bravest next step.",
+      "minutes": 3,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "lesson",
+      "cards": [
+        {
+          "heading": "You can't repair a house that's on fire",
+          "body": "When fighting is constant, every attempt to \"finally deal with it\" adds fuel. A short, agreed pause on the hottest topics gives both of you room to breathe and to remember that you're on the same side."
+        },
+        {
+          "heading": "What a ceasefire is",
+          "body": "It is time-limited (usually 1–2 weeks), agreed by both of you, and comes with a list of the topics you are setting aside, not erasing. Those topics go in the \"parking lot\" and you will come back to them, with better tools."
+        },
+        {
+          "heading": "What a ceasefire is not",
+          "body": "It isn't pretending everything is fine, and it isn't one partner silencing the other. It must never be used to hide anything unsafe. Safety concerns always come first."
+        },
+        {
+          "heading": "Use the space well",
+          "body": "During the ceasefire, put energy into small moments of connection: a daily appreciation, a short walk, a shared meal. They rebuild the goodwill that hard conversations depend on."
+        }
+      ],
+      "takeaway": {
+        "question": "What makes a ceasefire different from avoidance?",
+        "options": [
+          "It's agreed by both partners and has an end date",
+          "One partner decides the other shouldn't bring things up",
+          "The topics are dropped for good"
+        ],
+        "answer": 0
+      },
+      "sources": []
+    },
+    {
+      "id": "cts-ex-map-our-cycle",
+      "module": "calming-the-storm",
+      "title": "Map our cycle",
+      "summary": "Trace the steps of your typical fight so you can recognize it as it starts.",
+      "minutes": 10,
+      "mode": "either",
+      "intensity": "medium",
+      "type": "exercise",
+      "intro": "Think of a recent argument that followed a familiar pattern. You'll map what you did, what you felt underneath, and what you think your partner did. Do it alone first. You can share it later in \"Naming our cycle together\".",
+      "steps": [
+        {
+          "id": "trigger",
+          "kind": "text",
+          "prompt": "What usually sets it off? Describe the moment the temperature starts rising.",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "my-move",
+          "kind": "multi",
+          "prompt": "When it heats up, what do I tend to do?",
+          "options": [
+            "Push harder for a response",
+            "Criticize or complain",
+            "Raise my voice",
+            "Defend or explain myself",
+            "Go quiet or shut down",
+            "Leave the room",
+            "Joke or change the subject",
+            "Give in to make it stop"
+          ],
+          "alwaysPrivate": false
+        },
+        {
+          "id": "my-feeling",
+          "kind": "multi",
+          "prompt": "Underneath that, what am I feeling?",
+          "help": "The softer feeling is often hidden under anger or numbness.",
+          "options": [
+            "Alone",
+            "Unimportant",
+            "Afraid",
+            "Inadequate",
+            "Rejected",
+            "Overwhelmed",
+            "Ashamed",
+            "Unseen",
+            "Controlled"
+          ],
+          "alwaysPrivate": false
+        },
+        {
+          "id": "partner-move",
+          "kind": "text",
+          "prompt": "What do I see my partner do in response?",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "loop",
+          "kind": "text",
+          "prompt": "Complete the loop: \"The more I ___, the more you ___, and the more you ___, the more I ___.\"",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "name",
+          "kind": "text",
+          "prompt": "Give your cycle a name, something neutral or even a little funny (for example, \"the tornado\" or \"chase and hide\").",
+          "alwaysPrivate": false
+        }
+      ],
+      "outro": "Seeing the cycle written down is the first step out of it. When you're ready, try the \"Naming our cycle together\" conversation."
+    },
+    {
+      "id": "cts-ex-flooding-signals",
+      "module": "calming-the-storm",
+      "title": "My flooding signals",
+      "summary": "Learn your body's early warning signs so you can pause before you say something you regret.",
+      "minutes": 5,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "exercise",
+      "intro": "Think back to the last time an argument overwhelmed you.",
+      "steps": [
+        {
+          "id": "body",
+          "kind": "multi",
+          "prompt": "What do I notice in my body?",
+          "options": [
+            "Racing heart",
+            "Hot face or neck",
+            "Tight chest",
+            "Clenched jaw or fists",
+            "Shallow breathing",
+            "Stomach drops",
+            "Shaking",
+            "Feeling numb or far away"
+          ],
+          "alwaysPrivate": false
+        },
+        {
+          "id": "mind",
+          "kind": "multi",
+          "prompt": "What happens in my mind?",
+          "options": [
+            "Mind goes blank",
+            "Racing thoughts",
+            "Replaying old fights",
+            "\"Here we go again\"",
+            "Desperate to be understood",
+            "Desperate to get away"
+          ],
+          "alwaysPrivate": false
+        },
+        {
+          "id": "earliest",
+          "kind": "text",
+          "prompt": "Which signal shows up FIRST? That's the one to act on.",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "rating",
+          "kind": "scale",
+          "prompt": "How quickly do I usually go from calm to flooded?",
+          "options": [
+            "Very slowly",
+            "Slowly",
+            "Somewhat quickly",
+            "Quickly",
+            "Almost instantly"
+          ],
+          "alwaysPrivate": false
+        }
+      ],
+      "outro": "Next time you notice your earliest signal, that's your cue to use your time-out signal."
+    },
+    {
+      "id": "cts-ex-soothing-toolkit",
+      "module": "calming-the-storm",
+      "title": "My self-soothing toolkit",
+      "summary": "Build a personal list of what actually calms you down, and practice one now.",
+      "minutes": 8,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "exercise",
+      "intro": "During a break, what you do matters. Rehearsing the argument keeps you flooded. Real soothing brings your body back down.",
+      "steps": [
+        {
+          "id": "options",
+          "kind": "multi",
+          "prompt": "What tends to calm me?",
+          "options": [
+            "A walk outside",
+            "Slow breathing",
+            "A shower",
+            "Music",
+            "Stretching or exercise",
+            "Holding something warm",
+            "Writing my thoughts down",
+            "Petting an animal",
+            "A guided meditation",
+            "Cold water on my face"
+          ],
+          "alwaysPrivate": false
+        },
+        {
+          "id": "own",
+          "kind": "list",
+          "prompt": "Anything else that works for me?",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "avoid",
+          "kind": "list",
+          "prompt": "What makes me MORE wound up, even if it's tempting? (for example, texting friends about the fight, or scrolling)",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "practice",
+          "kind": "instruction",
+          "prompt": "Let's practice. Breathe in for 4 counts, hold for 4, and breathe out slowly for 6. Making the exhale longer than the inhale signals your body that it's safe.",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "breathe",
+          "kind": "timer",
+          "prompt": "Breathe slowly for two minutes.",
+          "seconds": 120,
+          "alwaysPrivate": false
+        }
+      ],
+      "outro": "Your toolkit is saved. You'll find it any time you start a time-out."
+    },
+    {
+      "id": "cts-ex-time-out-agreement",
+      "module": "calming-the-storm",
+      "title": "Our time-out agreement",
+      "summary": "Draft the rules for pausing a fight, then confirm them together.",
+      "minutes": 10,
+      "mode": "together",
+      "intensity": "light",
+      "type": "exercise",
+      "intro": "A time-out works best when you've agreed on it while calm. Fill this in together, or each draft it and compare.",
+      "steps": [
+        {
+          "id": "signal",
+          "kind": "text",
+          "prompt": "What's our signal? (a word, a phrase, a hand gesture, for example \"timeout\" or \"I'm getting flooded\")",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "length",
+          "kind": "choice",
+          "prompt": "How long is a standard break?",
+          "options": [
+            "20 minutes",
+            "30 minutes",
+            "1 hour",
+            "Whoever calls it says how long"
+          ],
+          "alwaysPrivate": false
+        },
+        {
+          "id": "where",
+          "kind": "text",
+          "prompt": "Where will each of us go during a break?",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "return",
+          "kind": "text",
+          "prompt": "How will we come back? (for example, \"the person who called it comes to find the other\")",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "max",
+          "kind": "choice",
+          "prompt": "What's the longest a topic can be paused before we return to it or set a time?",
+          "options": [
+            "Same day",
+            "24 hours",
+            "The weekend",
+            "Next State of Us check-in"
+          ],
+          "alwaysPrivate": false
+        },
+        {
+          "id": "promise",
+          "kind": "instruction",
+          "prompt": "We agree that either of us can call a time-out at any time, that the other will honor it, and that the person who called it will come back when they said they would.",
+          "alwaysPrivate": false
+        }
+      ],
+      "outro": "Saved as your shared agreement. You can edit it any time from your Us tab."
+    },
+    {
+      "id": "cts-ex-parking-lot",
+      "module": "calming-the-storm",
+      "title": "The parking lot",
+      "summary": "Write down the topics you're setting aside for now, so they aren't lost.",
+      "minutes": 5,
+      "mode": "either",
+      "intensity": "light",
+      "type": "exercise",
+      "intro": "Setting a topic aside is easier when you know it won't be forgotten. List the topics that reliably start fights. You'll come back to them in later modules with better tools.",
+      "steps": [
+        {
+          "id": "topics",
+          "kind": "list",
+          "prompt": "Topics to park for now",
+          "help": "Keep each one short and neutral, for example \"holidays with my family\" or \"money for the car\".",
+          "alwaysPrivate": false
+        },
+        {
+          "id": "urgent",
+          "kind": "text",
+          "prompt": "Is any topic too urgent to wait? If so, which, and why?",
+          "help": "Anything involving safety, health or a deadline shouldn't be parked.",
+          "alwaysPrivate": false
+        }
+      ],
+      "outro": "Your parking lot appears on the Us tab. When you're ready, the Fighting Fair module helps you tackle these one at a time."
+    },
+    {
+      "id": "cts-conv-time-out-signal",
+      "module": "calming-the-storm",
+      "title": "Agreeing on a time-out signal",
+      "summary": "A short, calm conversation to agree on how either of you can pause a fight.",
+      "minutes": 15,
+      "mode": "together",
+      "intensity": "light",
+      "type": "conversation",
+      "intro": "Do this at a calm moment, not right after a fight. You'll each share what happens for you when things heat up, then confirm your time-out agreement together.",
+      "groundRules": [
+        "One speaker at a time. The listener's job is to understand, not respond.",
+        "Talk about yourself (\"I notice…\"), not about your partner (\"You always…\").",
+        "Either of you can tap Pause at any time."
+      ],
+      "phases": [
+        {
+          "id": "prep",
+          "title": "Get settled",
+          "kind": "prep",
+          "prompts": [
+            "Sit somewhere comfortable, side by side or facing each other.",
+            "Take three slow breaths together."
+          ],
+          "listenerPrompts": [],
+          "seconds": 60
+        },
+        {
+          "id": "a-shares",
+          "title": "Partner A shares",
+          "kind": "turn",
+          "speaker": "A",
+          "prompts": [
+            "What do I notice in my body when an argument starts to get too hot?",
+            "What do I need from you when I'm overwhelmed?"
+          ],
+          "listenerPrompts": [
+            "Just listen. When they finish, summarize what you heard in a sentence or two."
+          ],
+          "seconds": 180
+        },
+        {
+          "id": "b-shares",
+          "title": "Partner B shares",
+          "kind": "turn",
+          "speaker": "B",
+          "prompts": [
+            "What do I notice in my body when an argument starts to get too hot?",
+            "What do I need from you when I'm overwhelmed?"
+          ],
+          "listenerPrompts": [
+            "Just listen. When they finish, summarize what you heard in a sentence or two."
+          ],
+          "seconds": 180
+        },
+        {
+          "id": "agree",
+          "title": "Agree on the signal",
+          "kind": "together",
+          "prompts": [
+            "Choose a signal word or gesture that feels neutral to both of you.",
+            "Decide: how long is a break, and who comes back to whom?",
+            "Open \"Our time-out agreement\" and fill it in together."
+          ],
+          "listenerPrompts": [],
+          "seconds": 300
+        },
+        {
+          "id": "close",
+          "title": "Close with appreciation",
+          "kind": "close",
+          "prompts": [
+            "Each say one thing you appreciated about how your partner showed up for this conversation."
+          ],
+          "listenerPrompts": []
+        }
+      ]
+    },
+    {
+      "id": "cts-conv-naming-our-cycle",
+      "module": "calming-the-storm",
+      "title": "Naming our cycle together",
+      "summary": "Share your cycle maps and agree on a name for the pattern you both get caught in.",
+      "minutes": 25,
+      "mode": "together",
+      "intensity": "medium",
+      "type": "conversation",
+      "intro": "Each of you should finish \"Map our cycle\" first. In this conversation you aren't deciding who's right about any fight. You're describing the pattern that traps you both.",
+      "groundRules": [
+        "Describe your own moves and feelings, not your partner's motives.",
+        "Listen for the softer feeling under your partner's move.",
+        "If either of you starts to flood, use your time-out signal. This conversation can wait."
+      ],
+      "phases": [
+        {
+          "id": "prep",
+          "title": "Remember the goal",
+          "kind": "prep",
+          "prompts": [
+            "Say together: \"The problem is the cycle, not you.\""
+          ],
+          "listenerPrompts": []
+        },
+        {
+          "id": "a-shares",
+          "title": "Partner A shares their map",
+          "kind": "turn",
+          "speaker": "A",
+          "prompts": [
+            "When things heat up, what I tend to do is…",
+            "Underneath, what I'm usually feeling is…",
+            "What I'm hoping for when I do that is…"
+          ],
+          "listenerPrompts": [
+            "Notice anything that surprises you.",
+            "Reflect back: \"So when you ___, underneath you're feeling ___. Did I get that right?\""
+          ],
+          "seconds": 300
+        },
+        {
+          "id": "b-shares",
+          "title": "Partner B shares their map",
+          "kind": "turn",
+          "speaker": "B",
+          "prompts": [
+            "When things heat up, what I tend to do is…",
+            "Underneath, what I'm usually feeling is…",
+            "What I'm hoping for when I do that is…"
+          ],
+          "listenerPrompts": [
+            "Notice anything that surprises you.",
+            "Reflect back: \"So when you ___, underneath you're feeling ___. Did I get that right?\""
+          ],
+          "seconds": 300
+        },
+        {
+          "id": "name-it",
+          "title": "Name it together",
+          "kind": "together",
+          "prompts": [
+            "Put your loops together: \"The more I ___, the more you ___…\"",
+            "Choose one name for your cycle that you both feel OK saying in the moment.",
+            "Agree on a phrase to use when you notice it, for example \"I think the tornado's here.\""
+          ],
+          "listenerPrompts": [],
+          "seconds": 420
+        },
+        {
+          "id": "close",
+          "title": "Close",
+          "kind": "close",
+          "prompts": [
+            "Each finish this sentence: \"Something I understand better about you now is…\""
+          ],
+          "listenerPrompts": []
+        }
+      ]
+    },
+    {
+      "id": "cts-conv-low-stakes-reconnection",
+      "module": "calming-the-storm",
+      "title": "Ten minutes of low-stakes reconnection",
+      "summary": "A gentle, structured chat that has nothing to do with your problems.",
+      "minutes": 10,
+      "mode": "together",
+      "intensity": "light",
+      "type": "conversation",
+      "intro": "When things have been hard, even small talk can feel risky. This short guide gives you safe, light questions so you can just enjoy each other for a few minutes. No problem-solving allowed.",
+      "groundRules": [
+        "No hot topics. If one comes up, put it in the parking lot.",
+        "Curiosity over correction."
+      ],
+      "phases": [
+        {
+          "id": "a-asks",
+          "title": "Partner A answers",
+          "kind": "turn",
+          "speaker": "A",
+          "prompts": [
+            "What's one small thing that made you smile this week?",
+            "If we could teleport anywhere for a day, where would you go?"
+          ],
+          "listenerPrompts": [
+            "Ask one follow-up question."
+          ],
+          "seconds": 180
+        },
+        {
+          "id": "b-asks",
+          "title": "Partner B answers",
+          "kind": "turn",
+          "speaker": "B",
+          "prompts": [
+            "What's one small thing that made you smile this week?",
+            "If we could teleport anywhere for a day, where would you go?"
+          ],
+          "listenerPrompts": [
+            "Ask one follow-up question."
+          ],
+          "seconds": 180
+        },
+        {
+          "id": "close",
+          "title": "Close",
+          "kind": "close",
+          "prompts": [
+            "Say one thing you enjoyed about the last ten minutes."
+          ],
+          "listenerPrompts": []
+        }
+      ]
+    },
+    {
+      "id": "cts-journal-after-the-storm",
+      "module": "calming-the-storm",
+      "title": "After the storm",
+      "summary": "Private prompts for making sense of a fight once you've calmed down.",
+      "minutes": 5,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "journal",
+      "intro": "These entries are private unless you choose to share one.",
+      "prompts": [
+        "What was I really needing in that argument?",
+        "What was the earliest moment I could have paused?",
+        "What might my partner have been feeling underneath?",
+        "What's one thing I did that I'd like to do differently next time?",
+        "What's one thing my partner did that I appreciated, even a little?"
+      ]
+    },
+    {
+      "id": "cts-ritual-ceasefire",
+      "module": "calming-the-storm",
+      "title": "7-day ceasefire",
+      "summary": "One week with no hot topics and one small act of goodwill every day.",
+      "minutes": 5,
+      "mode": "together",
+      "intensity": "light",
+      "type": "ritual",
+      "intro": "For the next seven days, you both agree to leave the parking-lot topics alone (unless something is urgent or about safety) and to do one small, kind thing for each other each day.",
+      "days": [
+        {
+          "day": 1,
+          "task": "Tell your partner one specific thing you appreciate about them."
+        },
+        {
+          "day": 2,
+          "task": "Ask \"How was your day?\" and listen for five minutes without fixing anything."
+        },
+        {
+          "day": 3,
+          "task": "Do one small chore your partner usually does"
+        },
+        {
+          "day": 4,
+          "task": "Share a memory of a time you laughed together."
+        },
+        {
+          "day": 5,
+          "task": "Offer a six-second hug or other comforting touch"
+        },
+        {
+          "day": 6,
+          "task": "Take a 15-minute walk or have a drink together. No phones"
+        },
+        {
+          "day": 7,
+          "task": "Each share: what felt different this week? Do you want to extend the ceasefire?"
+        }
+      ]
+    },
+    {
+      "id": "onboarding-health-check",
+      "module": "global",
+      "title": "Relationship Health Check",
+      "summary": "A private snapshot of where things are hard right now. It shapes your recommended path.",
+      "minutes": 8,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "assessment",
+      "kind": "onboarding",
+      "intro": "Think about the past month. Answer honestly. Your answers are private. You'll be asked separately whether to share a summary with your partner, and some sensitive areas are never shared.",
+      "scale": {
+        "min": 0,
+        "max": 4,
+        "labels": [
+          "Strongly disagree",
+          "Disagree",
+          "Neutral",
+          "Agree",
+          "Strongly agree"
+        ]
+      },
+      "subscales": [
+        {
+          "id": "storm",
+          "label": "Conflict intensity",
+          "module": "calming-the-storm",
+          "threshold": 50,
+          "recommend": [
+            "cts-conflict-temperature"
+          ],
+          "sensitive": false
+        },
+        {
+          "id": "communication",
+          "label": "Communication",
+          "module": "communicating-without-wounding",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "conflict",
+          "label": "Handling disagreements",
+          "module": "fighting-fair",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "trust",
+          "label": "Trust",
+          "module": "repairing-trust",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "infidelity",
+          "label": "Affair recovery",
+          "module": "healing-after-infidelity",
+          "threshold": 25,
+          "recommend": [],
+          "sensitive": true
+        },
+        {
+          "id": "resentment",
+          "label": "Lingering resentment",
+          "module": "forgiveness-and-resentment",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "connection",
+          "label": "Emotional connection",
+          "module": "deepening-connection",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "intimacy",
+          "label": "Physical intimacy",
+          "module": "exploring-intimacy",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "friendship",
+          "label": "Friendship & fun",
+          "module": "rebuilding-friendship",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "meaning",
+          "label": "Shared direction",
+          "module": "shared-meaning",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "money",
+          "label": "Money",
+          "module": "money-as-a-team",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "home",
+          "label": "Household & parenting",
+          "module": "partners-at-home",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "boundaries",
+          "label": "Family & outside pressures",
+          "module": "family-and-boundaries",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "commitment",
+          "label": "Uncertainty about the future",
+          "module": "at-a-crossroads",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": true
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "Our arguments get heated quickly.",
+          "subscale": "storm",
+          "reverse": false
+        },
+        {
+          "id": "s2",
+          "text": "After we fight, it takes a long time to feel OK again.",
+          "subscale": "storm",
+          "reverse": false
+        },
+        {
+          "id": "c1",
+          "text": "When I bring up a concern, my partner gets defensive or critical.",
+          "subscale": "communication",
+          "reverse": false
+        },
+        {
+          "id": "c2",
+          "text": "I feel heard and understood by my partner.",
+          "subscale": "communication",
+          "reverse": true
+        },
+        {
+          "id": "k1",
+          "text": "We argue about the same issues again and again without progress.",
+          "subscale": "conflict",
+          "reverse": false
+        },
+        {
+          "id": "k2",
+          "text": "When we disagree, we can usually find a compromise.",
+          "subscale": "conflict",
+          "reverse": true
+        },
+        {
+          "id": "t1",
+          "text": "I can count on my partner to do what they say they'll do.",
+          "subscale": "trust",
+          "reverse": true
+        },
+        {
+          "id": "t2",
+          "text": "I sometimes doubt that my partner is being honest with me.",
+          "subscale": "trust",
+          "reverse": false
+        },
+        {
+          "id": "i1",
+          "text": "An affair or serious breach of fidelity is something we are trying to recover from.",
+          "subscale": "infidelity",
+          "reverse": false
+        },
+        {
+          "id": "r1",
+          "text": "I'm still carrying hurt or anger about things that happened in the past.",
+          "subscale": "resentment",
+          "reverse": false
+        },
+        {
+          "id": "r2",
+          "text": "I find myself keeping score in our relationship.",
+          "subscale": "resentment",
+          "reverse": false
+        },
+        {
+          "id": "e1",
+          "text": "I feel emotionally close to my partner.",
+          "subscale": "connection",
+          "reverse": true
+        },
+        {
+          "id": "e2",
+          "text": "I feel lonely in this relationship.",
+          "subscale": "connection",
+          "reverse": false
+        },
+        {
+          "id": "p1",
+          "text": "I'm satisfied with the physical affection in our relationship.",
+          "subscale": "intimacy",
+          "reverse": true
+        },
+        {
+          "id": "p2",
+          "text": "Differences in sexual desire cause tension between us.",
+          "subscale": "intimacy",
+          "reverse": false
+        },
+        {
+          "id": "f1",
+          "text": "We still have fun together.",
+          "subscale": "friendship",
+          "reverse": true
+        },
+        {
+          "id": "f2",
+          "text": "We feel more like roommates or co-managers than partners.",
+          "subscale": "friendship",
+          "reverse": false
+        },
+        {
+          "id": "m1",
+          "text": "We share a picture of the future we're building together.",
+          "subscale": "meaning",
+          "reverse": true
+        },
+        {
+          "id": "m2",
+          "text": "It feels like we're growing apart.",
+          "subscale": "meaning",
+          "reverse": false
+        },
+        {
+          "id": "n1",
+          "text": "Money is a regular source of conflict or secrecy between us.",
+          "subscale": "money",
+          "reverse": false
+        },
+        {
+          "id": "h1",
+          "text": "The household or parenting load feels unfairly divided.",
+          "subscale": "home",
+          "reverse": false
+        },
+        {
+          "id": "h2",
+          "text": "We disagree about how to raise our children (skip if not applicable).",
+          "subscale": "home",
+          "reverse": false
+        },
+        {
+          "id": "b1",
+          "text": "Family, friends, work or phones regularly come between us.",
+          "subscale": "boundaries",
+          "reverse": false
+        },
+        {
+          "id": "b2",
+          "text": "I feel my partner puts other people or things ahead of me.",
+          "subscale": "boundaries",
+          "reverse": false
+        },
+        {
+          "id": "x1",
+          "text": "I'm unsure whether I want to stay in this relationship.",
+          "subscale": "commitment",
+          "reverse": false
+        },
+        {
+          "id": "x2",
+          "text": "I'm willing to put real effort into making this relationship better.",
+          "subscale": "commitment",
+          "reverse": true
+        }
+      ],
+      "bands": [
+        {
+          "id": "steady",
+          "label": "Mostly steady",
+          "min": 0,
+          "narrative": "Things are mostly OK, with a few areas worth strengthening. Your path starts with the areas that scored highest.",
+          "suggestTherapist": false
+        },
+        {
+          "id": "strained",
+          "label": "Under strain",
+          "min": 35,
+          "narrative": "Several parts of your relationship are under real strain. That's why you're here, and it's workable. We'll start with the areas that will make the others easier.",
+          "suggestTherapist": false
+        },
+        {
+          "id": "distressed",
+          "label": "In distress",
+          "min": 60,
+          "narrative": "Your relationship is going through a very hard time. Your path starts with calming things down. We also strongly recommend a couples therapist. This app works well alongside therapy.",
+          "suggestTherapist": true
+        }
+      ],
+      "gapThreshold": 25
+    },
+    {
+      "id": "safety-screen",
+      "module": "global",
+      "title": "Private safety check",
+      "summary": "A few private questions to make sure this app is right for you right now.",
+      "minutes": 2,
+      "mode": "solo",
+      "intensity": "light",
+      "type": "assessment",
+      "kind": "safety",
+      "intro": "These questions are completely private. Your partner will never see your answers or know that this check was shown to you. Some couples exercises can be unsafe when one partner is afraid of the other, so we ask everyone.",
+      "scale": {
+        "min": 0,
+        "max": 3,
+        "labels": [
+          "Never",
+          "Once or twice",
+          "Sometimes",
+          "Often"
+        ]
+      },
+      "subscales": [
+        {
+          "id": "fear",
+          "label": "Fear",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "control",
+          "label": "Controlling behavior",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        },
+        {
+          "id": "harm",
+          "label": "Physical or sexual harm",
+          "threshold": 50,
+          "recommend": [],
+          "sensitive": false
+        }
+      ],
+      "items": [
+        {
+          "id": "q1",
+          "text": "In the past year, have you felt afraid of your partner?",
+          "subscale": "fear",
+          "reverse": false,
+          "flagAtOrAbove": 1
+        },
+        {
+          "id": "q2",
+          "text": "Have you changed what you say or do because you worry about how your partner will react?",
+          "subscale": "fear",
+          "reverse": false,
+          "flagAtOrAbove": 2
+        },
+        {
+          "id": "q3",
+          "text": "Has your partner kept you from seeing friends or family, or controlled your money, phone or movements?",
+          "subscale": "control",
+          "reverse": false,
+          "flagAtOrAbove": 1
+        },
+        {
+          "id": "q4",
+          "text": "Has your partner insulted, humiliated or threatened you, or threatened to hurt themselves to control you?",
+          "subscale": "control",
+          "reverse": false,
+          "flagAtOrAbove": 1
+        },
+        {
+          "id": "q5",
+          "text": "Has your partner pushed, hit, choked, restrained or physically hurt you?",
+          "subscale": "harm",
+          "reverse": false,
+          "flagAtOrAbove": 1
+        },
+        {
+          "id": "q6",
+          "text": "Has your partner pressured or forced you into sexual activity you didn't want?",
+          "subscale": "harm",
+          "reverse": false,
+          "flagAtOrAbove": 1
+        }
+      ],
+      "bands": [
+        {
+          "id": "clear",
+          "label": "No concerns indicated",
+          "min": 0,
+          "narrative": "Thank you. You can retake this check privately any time from Safety & Support.",
+          "suggestTherapist": false
+        }
+      ],
+      "gapThreshold": 100
+    },
+    {
+      "id": "weekly-state-of-us",
+      "module": "global",
+      "title": "State of Us",
+      "summary": "A 15-minute weekly check-in to celebrate, clear the air, and plan the week ahead.",
+      "minutes": 15,
+      "mode": "together",
+      "intensity": "light",
+      "type": "conversation",
+      "intro": "A regular, predictable time to talk means small issues don't have to wait until they explode. Keep it short and kind, and do it at the same time every week if you can.",
+      "groundRules": [
+        "Start with appreciation, always.",
+        "Bring at most one concern each. Bigger issues get their own time.",
+        "Use your time-out signal if either of you starts to flood."
+      ],
+      "phases": [
+        {
+          "id": "appreciate",
+          "title": "Appreciations",
+          "kind": "together",
+          "prompts": [
+            "Take turns: one specific thing your partner did this week that you appreciated."
+          ],
+          "listenerPrompts": [],
+          "seconds": 180
+        },
+        {
+          "id": "a-concern",
+          "title": "Partner A's one concern",
+          "kind": "turn",
+          "speaker": "A",
+          "prompts": [
+            "Use a gentle start: \"I felt ___ when ___. What I need is ___.\""
+          ],
+          "listenerPrompts": [
+            "Summarize, then ask: \"Is there more?\" Don't defend. Just understand."
+          ],
+          "seconds": 180
+        },
+        {
+          "id": "b-concern",
+          "title": "Partner B's one concern",
+          "kind": "turn",
+          "speaker": "B",
+          "prompts": [
+            "Use a gentle start: \"I felt ___ when ___. What I need is ___.\""
+          ],
+          "listenerPrompts": [
+            "Summarize, then ask: \"Is there more?\" Don't defend. Just understand."
+          ],
+          "seconds": 180
+        },
+        {
+          "id": "plan",
+          "title": "The week ahead",
+          "kind": "together",
+          "prompts": [
+            "What's coming up this week that could be stressful?",
+            "When will we have time together?",
+            "What's one thing each of us can do to help the other?"
+          ],
+          "listenerPrompts": [],
+          "seconds": 180
+        },
+        {
+          "id": "close",
+          "title": "Close",
+          "kind": "close",
+          "prompts": [
+            "Finish together: \"This week I'm looking forward to…\""
+          ],
+          "listenerPrompts": []
+        }
+      ]
+    }
+  ],
+  "checkins": {
+    "daily": [
+      {
+        "id": "mood",
+        "text": "How are you feeling today?",
+        "kind": "scale",
+        "labels": [
+          "Awful",
+          "Low",
+          "OK",
+          "Good",
+          "Great"
+        ]
+      },
+      {
+        "id": "connection",
+        "text": "How connected do you feel to your partner today?",
+        "kind": "scale",
+        "labels": [
+          "Very distant",
+          "Distant",
+          "Neutral",
+          "Close",
+          "Very close"
+        ]
+      },
+      {
+        "id": "note",
+        "text": "Anything you'd like your partner to know? (optional, you choose whether to share)",
+        "kind": "text"
+      }
+    ],
+    "weekly": {
+      "conversation": "weekly-state-of-us",
+      "questions": [
+        {
+          "id": "week-rating",
+          "text": "Overall, how was this week for us?",
+          "kind": "scale",
+          "labels": [
+            "Very hard",
+            "Hard",
+            "Mixed",
+            "Good",
+            "Very good"
+          ]
+        },
+        {
+          "id": "appreciation",
+          "text": "One thing I appreciated about you this week",
+          "kind": "text"
+        },
+        {
+          "id": "need",
+          "text": "One thing I need more of next week",
+          "kind": "text"
+        }
+      ]
+    }
+  },
+  "resources": [
+    {
+      "id": "emergency",
+      "name": "Emergency services",
+      "description": "If you or someone else is in immediate danger.",
+      "phone": "911",
+      "region": "US",
+      "category": "crisis"
+    },
+    {
+      "id": "suicide-crisis-lifeline",
+      "name": "988 Suicide & Crisis Lifeline",
+      "description": "Free, confidential, 24/7 support for anyone in emotional distress.",
+      "phone": "988",
+      "text": "988",
+      "url": "https://988lifeline.org",
+      "region": "US",
+      "category": "crisis"
+    },
+    {
+      "id": "national-dv-hotline",
+      "name": "National Domestic Violence Hotline",
+      "description": "Confidential support and safety planning, 24/7.",
+      "phone": "1-800-799-7233",
+      "text": "Text START to 88788",
+      "url": "https://www.thehotline.org",
+      "region": "US",
+      "category": "safety"
+    },
+    {
+      "id": "find-a-therapist-aamft",
+      "name": "Find a couples therapist (AAMFT)",
+      "description": "Directory of licensed marriage and family therapists.",
+      "url": "https://www.aamft.org",
+      "region": "US",
+      "category": "therapy"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+id: cts-ritual-ceasefire
+module: calming-the-storm
+type: ritual
+title: 7-day ceasefire
+summary: One week with no hot topics and one small act of goodwill every day.
+minutes: 5
+mode: together
+intensity: light
+intro: >-
+  For the next seven days, you both agree to leave the parking-lot topics
+  alone (unless something is urgent or about safety) and to do one small,
+  kind thing for each other each day.
+days:
+  - { day: 1, task: Tell your partner one specific thing you appreciate about them. }
+  - { day: 2, task: Ask "How was your day?" and listen for five minutes without fixing anything. }
+  - { day: 3, task: Do one small chore your partner usually does, without announcing it. }
+  - { day: 4, task: Share a memory of a time you laughed together. }
+  - { day: 5, task: Offer a six-second hug or other comforting touch, if that's welcome. }
+  - { day: 6, task: Take a 15-minute walk or have a drink together. No phones, no problems. }
+  - { day: 7, task: "Each share: what felt different this week? Do you want to extend the ceasefire?" }

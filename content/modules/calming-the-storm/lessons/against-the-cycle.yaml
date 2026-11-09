@@ -1,0 +1,41 @@
+id: cts-lesson-against-the-cycle
+module: calming-the-storm
+type: lesson
+title: "It's you two against the cycle"
+summary: The real enemy isn't your partner. It's the pattern you both get caught in.
+minutes: 5
+mode: solo
+intensity: light
+cards:
+  - heading: Fights have a shape
+    body: >-
+      If you look closely, most of your fights follow the same steps, even
+      when the topic changes. One of you reaches, pushes or protests, and the
+      other pulls back, defends or goes quiet. Each move triggers the next.
+  - heading: A common pattern
+    body: >-
+      A very common version: one partner pursues (they criticize, push for
+      answers, raise their voice) because they feel alone. The other
+      withdraws (they go quiet, leave, minimize) because they feel they're
+      failing. The more one pursues, the more the other withdraws, and the
+      reverse is also true.
+  - heading: Both moves make sense
+    body: >-
+      Under the pursuing there is usually fear of being unimportant or
+      abandoned. Under the withdrawing there is usually fear of failing,
+      being judged, or making things worse. Both partners are trying to
+      protect the relationship in the only way they know in that moment.
+  - heading: Name the cycle, not the person
+    body: >-
+      When you can say "we're in the cycle again" instead of "you always…",
+      you stop being opponents. You become two people facing a shared
+      problem, and that is where change starts.
+takeaway:
+  question: "Which statement names the cycle rather than blaming a person?"
+  options:
+    - "You always shut down when I need you."
+    - "I think the pattern grabbed us again. I'm pushing and you're pulling away."
+    - "If you would just listen, we wouldn't fight."
+  answer: 1
+sources:
+  - "Johnson, S. (2008). Hold Me Tight. (Concept: the negative interaction cycle, Emotionally Focused Therapy.)"

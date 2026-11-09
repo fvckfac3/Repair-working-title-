@@ -1,0 +1,57 @@
+id: cts-conv-time-out-signal
+module: calming-the-storm
+type: conversation
+title: Agreeing on a time-out signal
+summary: A short, calm conversation to agree on how either of you can pause a fight.
+minutes: 15
+mode: together
+intensity: light
+intro: >-
+  Do this at a calm moment, not right after a fight. You'll each share
+  what happens for you when things heat up, then confirm your time-out
+  agreement together.
+groundRules:
+  - One speaker at a time. The listener's job is to understand, not respond.
+  - Talk about yourself ("I notice…"), not about your partner ("You always…").
+  - Either of you can tap Pause at any time.
+phases:
+  - id: prep
+    title: Get settled
+    kind: prep
+    prompts:
+      - Sit somewhere comfortable, side by side or facing each other.
+      - "Take three slow breaths together."
+    seconds: 60
+  - id: a-shares
+    title: Partner A shares
+    kind: turn
+    speaker: A
+    prompts:
+      - What do I notice in my body when an argument starts to get too hot?
+      - What do I need from you when I'm overwhelmed?
+    listenerPrompts:
+      - Just listen. When they finish, summarize what you heard in a sentence or two.
+    seconds: 180
+  - id: b-shares
+    title: Partner B shares
+    kind: turn
+    speaker: B
+    prompts:
+      - What do I notice in my body when an argument starts to get too hot?
+      - What do I need from you when I'm overwhelmed?
+    listenerPrompts:
+      - Just listen. When they finish, summarize what you heard in a sentence or two.
+    seconds: 180
+  - id: agree
+    title: Agree on the signal
+    kind: together
+    prompts:
+      - Choose a signal word or gesture that feels neutral to both of you.
+      - "Decide: how long is a break, and who comes back to whom?"
+      - Open "Our time-out agreement" and fill it in together.
+    seconds: 300
+  - id: close
+    title: Close with appreciation
+    kind: close
+    prompts:
+      - "Each say one thing you appreciated about how your partner showed up for this conversation."

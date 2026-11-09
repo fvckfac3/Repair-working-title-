@@ -1,0 +1,15 @@
+id: cts-journal-after-the-storm
+module: calming-the-storm
+type: journal
+title: After the storm
+summary: Private prompts for making sense of a fight once you've calmed down.
+minutes: 5
+mode: solo
+intensity: light
+intro: These entries are private unless you choose to share one.
+prompts:
+  - What was I really needing in that argument?
+  - What was the earliest moment I could have paused?
+  - What might my partner have been feeling underneath?
+  - What's one thing I did that I'd like to do differently next time?
+  - What's one thing my partner did that I appreciated, even a little?

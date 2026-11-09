@@ -1,0 +1,39 @@
+id: cts-lesson-why-winning-loses
+module: calming-the-storm
+type: lesson
+title: Why winning loses
+summary: In a relationship, if one of you wins the argument, you both lose something.
+minutes: 3
+mode: solo
+intensity: light
+cards:
+  - heading: The scoreboard trap
+    body: >-
+      In a heated moment, being right feels urgent. You bring up evidence,
+      remember past offenses, and correct the details. Even when you "win",
+      your partner walks away feeling smaller, and the distance between you
+      grows.
+  - heading: What you actually want
+    body: >-
+      Ask yourself: "Do I want to be right, or do I want to be close?"
+      Usually what you want is to be understood, to feel safe, and to know
+      you matter. None of those comes from defeating your partner.
+  - heading: Escalation is a warning sign
+    body: >-
+      Insults, contempt, threats and bringing up a whole history of grievances
+      cause lasting damage. If fights regularly include these, or anyone feels
+      afraid, that is more than a communication problem. Safety comes first.
+      See Safety & Support in your profile.
+  - heading: A different goal
+    body: >-
+      Change the goal of a disagreement from "settle who's right" to "both of
+      us understand each other a little better". It's a smaller target, but
+      you can actually hit it.
+takeaway:
+  question: "In your next disagreement, what will you aim for?"
+  options:
+    - Being understood
+    - Understanding my partner
+    - Ending calmly, even without a solution
+    - All of the above
+  explanation: There's no wrong answer. Pick one and notice what changes.

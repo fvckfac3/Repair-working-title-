@@ -1,0 +1,42 @@
+slug: healing-after-infidelity
+title: Healing After Infidelity
+tier: B
+order: 5
+tagline: A structured path through the aftermath of an affair.
+description: >-
+  An affair is one of the hardest things a couple can go through. Recovery
+  usually moves through three phases: atoning, attuning and re-attaching.
+  This module has separate tracks for the partner who was hurt and the
+  partner who strayed, plus guided conversations that keep hard questions
+  from re-wounding. We strongly recommend doing this module alongside a
+  couples therapist.
+status: draft
+intensity: deep
+gating:
+  therapistRecommended: true
+  hiddenInSafetyMode: true
+  confirmations:
+    - The affair has ended and contact has stopped, or there is a clear plan to end it.
+    - We both know about the affair. This app will never be used to disclose it.
+    - I am choosing to work on recovery, not deciding yet whether to stay.
+outline:
+  assessment: Affair Recovery Stage
+  lessons:
+    - Why you feel like this (betrayal trauma)
+    - The three phases of recovery
+    - Questions that help vs. questions that hurt
+    - "For the involved partner: holding steady"
+    - Understanding vulnerabilities without excusing
+    - When to see a therapist
+  exercises:
+    - My trigger plan
+    - Our transparency agreement
+    - For the hurt partner
+    - For the partner who strayed
+    - The impact letter
+  conversations:
+    - Structured question time
+    - Responding to a trigger
+    - Building relationship 2.0
+  journal: Processing, privately
+  ritual: Daily check-in for 21 days

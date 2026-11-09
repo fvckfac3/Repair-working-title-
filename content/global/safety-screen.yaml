@@ -1,0 +1,40 @@
+# DRAFT: original wording, pending clinical review. Before launch, replace or
+# align with a validated, licensed IPV screening instrument (for example, HITS
+# or WAST, with permission) per the plan's safety requirements.
+id: safety-screen
+module: global
+type: assessment
+kind: safety
+title: Private safety check
+summary: A few private questions to make sure this app is right for you right now.
+minutes: 2
+mode: solo
+intensity: light
+intro: >-
+  These questions are completely private. Your partner will never see your
+  answers or know that this check was shown to you. Some couples exercises
+  can be unsafe when one partner is afraid of the other, so we ask everyone.
+scale:
+  min: 0
+  max: 3
+  labels: [Never, Once or twice, Sometimes, Often]
+subscales:
+  - id: fear
+    label: Fear
+  - id: control
+    label: Controlling behavior
+  - id: harm
+    label: Physical or sexual harm
+items:
+  - { id: q1, subscale: fear, text: "In the past year, have you felt afraid of your partner?", flagAtOrAbove: 1 }
+  - { id: q2, subscale: fear, text: "Have you changed what you say or do because you worry about how your partner will react?", flagAtOrAbove: 2 }
+  - { id: q3, subscale: control, text: "Has your partner kept you from seeing friends or family, or controlled your money, phone or movements?", flagAtOrAbove: 1 }
+  - { id: q4, subscale: control, text: "Has your partner insulted, humiliated or threatened you, or threatened to hurt themselves to control you?", flagAtOrAbove: 1 }
+  - { id: q5, subscale: harm, text: "Has your partner pushed, hit, choked, restrained or physically hurt you?", flagAtOrAbove: 1 }
+  - { id: q6, subscale: harm, text: "Has your partner pressured or forced you into sexual activity you didn't want?", flagAtOrAbove: 1 }
+bands:
+  - id: clear
+    label: No concerns indicated
+    min: 0
+    narrative: Thank you. You can retake this check privately any time from Safety & Support.
+gapThreshold: 100

@@ -1,0 +1,59 @@
+id: cts-conv-naming-our-cycle
+module: calming-the-storm
+type: conversation
+title: Naming our cycle together
+summary: Share your cycle maps and agree on a name for the pattern you both get caught in.
+minutes: 25
+mode: together
+intensity: medium
+intro: >-
+  Each of you should finish "Map our cycle" first. In this conversation you
+  aren't deciding who's right about any fight. You're describing the
+  pattern that traps you both.
+groundRules:
+  - Describe your own moves and feelings, not your partner's motives.
+  - Listen for the softer feeling under your partner's move.
+  - If either of you starts to flood, use your time-out signal. This conversation can wait.
+phases:
+  - id: prep
+    title: Remember the goal
+    kind: prep
+    prompts:
+      - "Say together: \"The problem is the cycle, not you.\""
+  - id: a-shares
+    title: Partner A shares their map
+    kind: turn
+    speaker: A
+    prompts:
+      - When things heat up, what I tend to do is…
+      - Underneath, what I'm usually feeling is…
+      - What I'm hoping for when I do that is…
+    listenerPrompts:
+      - Notice anything that surprises you.
+      - "Reflect back: \"So when you ___, underneath you're feeling ___. Did I get that right?\""
+    seconds: 300
+  - id: b-shares
+    title: Partner B shares their map
+    kind: turn
+    speaker: B
+    prompts:
+      - When things heat up, what I tend to do is…
+      - Underneath, what I'm usually feeling is…
+      - What I'm hoping for when I do that is…
+    listenerPrompts:
+      - Notice anything that surprises you.
+      - "Reflect back: \"So when you ___, underneath you're feeling ___. Did I get that right?\""
+    seconds: 300
+  - id: name-it
+    title: Name it together
+    kind: together
+    prompts:
+      - "Put your loops together: \"The more I ___, the more you ___…\""
+      - Choose one name for your cycle that you both feel OK saying in the moment.
+      - "Agree on a phrase to use when you notice it, for example \"I think the tornado's here.\""
+    seconds: 420
+  - id: close
+    title: Close
+    kind: close
+    prompts:
+      - "Each finish this sentence: \"Something I understand better about you now is…\""

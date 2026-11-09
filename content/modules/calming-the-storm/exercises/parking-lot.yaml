@@ -1,0 +1,22 @@
+id: cts-ex-parking-lot
+module: calming-the-storm
+type: exercise
+title: The parking lot
+summary: Write down the topics you're setting aside for now, so they aren't lost.
+minutes: 5
+mode: either
+intensity: light
+intro: >-
+  Setting a topic aside is easier when you know it won't be forgotten. List
+  the topics that reliably start fights. You'll come back to them in later
+  modules with better tools.
+steps:
+  - id: topics
+    kind: list
+    prompt: Topics to park for now
+    help: Keep each one short and neutral, for example "holidays with my family" or "money for the car".
+  - id: urgent
+    kind: text
+    prompt: Is any topic too urgent to wait? If so, which, and why?
+    help: Anything involving safety, health or a deadline shouldn't be parked.
+outro: Your parking lot appears on the Us tab. When you're ready, the Fighting Fair module helps you tackle these one at a time.

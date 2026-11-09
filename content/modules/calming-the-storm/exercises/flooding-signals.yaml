@@ -1,0 +1,40 @@
+id: cts-ex-flooding-signals
+module: calming-the-storm
+type: exercise
+title: My flooding signals
+summary: Learn your body's early warning signs so you can pause before you say something you regret.
+minutes: 5
+mode: solo
+intensity: light
+intro: Think back to the last time an argument overwhelmed you.
+steps:
+  - id: body
+    kind: multi
+    prompt: What do I notice in my body?
+    options:
+      - Racing heart
+      - Hot face or neck
+      - Tight chest
+      - Clenched jaw or fists
+      - Shallow breathing
+      - Stomach drops
+      - Shaking
+      - Feeling numb or far away
+  - id: mind
+    kind: multi
+    prompt: What happens in my mind?
+    options:
+      - Mind goes blank
+      - Racing thoughts
+      - Replaying old fights
+      - "\"Here we go again\""
+      - Desperate to be understood
+      - Desperate to get away
+  - id: earliest
+    kind: text
+    prompt: Which signal shows up FIRST? That's the one to act on.
+  - id: rating
+    kind: scale
+    prompt: How quickly do I usually go from calm to flooded?
+    options: [Very slowly, Slowly, Somewhat quickly, Quickly, Almost instantly]
+outro: Next time you notice your earliest signal, that's your cue to use your time-out signal.

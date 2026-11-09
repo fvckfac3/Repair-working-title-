@@ -1,0 +1,35 @@
+slug: exploring-intimacy
+title: Exploring Intimacy
+tier: C
+order: 8
+tagline: Rebuild physical closeness with less pressure and more honesty.
+description: >-
+  Sex is often the first casualty of conflict and the hardest thing to talk
+  about. This module covers desire differences, responsive vs. spontaneous
+  desire, and what speeds up or slows down each partner's interest. It
+  offers a gradual, no-pressure path back to touch and a private way to
+  share interests in which only mutual matches are shown.
+status: draft
+intensity: deep
+gating:
+  adultsOnly: true
+  hiddenInSafetyMode: true
+outline:
+  assessment: Intimacy Profile
+  lessons:
+    - Desire differences are normal
+    - Spontaneous vs. responsive desire
+    - Accelerators and brakes
+    - Rebuilding affection after distance or betrayal
+    - When to see a doctor or sex therapist
+  exercises:
+    - Yes / No / Maybe (mutual matches only)
+    - Accelerators & brakes worksheet
+    - Non-sexual touch menu
+    - Graduated touch plan
+  conversations:
+    - Talking about sex without blame
+    - Initiating and declining with care
+    - Planning intimacy together
+  journal: What closeness means to me
+  ritual: 7-day affection-only challenge

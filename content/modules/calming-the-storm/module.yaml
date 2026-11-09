@@ -1,0 +1,32 @@
+slug: calming-the-storm
+title: Calming the Storm
+tier: A
+order: 1
+tagline: Lower the temperature before you try to solve anything.
+description: >-
+  When every conversation turns into a fight, nothing else can be worked on.
+  This module helps you spot the cycle you get stuck in, notice when your
+  body is too flooded to talk, take breaks that help instead of hurt, and
+  agree on a short ceasefire so you can start to repair.
+status: in_review
+intensity: light
+outline:
+  assessment: Conflict Temperature
+  lessons:
+    - Your body in a fight
+    - It's you two against the cycle
+    - Why winning loses
+    - Taking a break the right way
+    - A ceasefire is not avoidance
+  exercises:
+    - Map our cycle
+    - My flooding signals
+    - My self-soothing toolkit
+    - Our time-out agreement
+    - The parking lot
+  conversations:
+    - Agreeing on a time-out signal
+    - Naming our cycle together
+    - Ten minutes of low-stakes reconnection
+  journal: After the storm
+  ritual: 7-day ceasefire
