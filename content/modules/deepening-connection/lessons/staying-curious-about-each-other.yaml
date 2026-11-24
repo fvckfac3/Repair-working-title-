@@ -1,0 +1,31 @@
+id: dc-lesson-staying-curious-about-each-other
+module: deepening-connection
+type: lesson
+title: Staying curious about each other
+summary: Update what you know instead of treating a partner as a finished story.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: People change in small ways
+    body: A favorite way to unwind, a work worry, or a hope for the weekend can shift. Familiarity does
+      not guarantee current knowledge, even in a long relationship.
+  - heading: Ask an open, bounded question
+    body: Try “What has been taking more energy than I realize lately?” or “What is something small you
+      are looking forward to?” Invite a pass and avoid pressing for sensitive details.
+  - heading: Listen for correction
+    body: "Summarize: “It sounds as though your new schedule is tiring.” Then ask “Did I get that
+      right?” Let the person correct the summary without having to defend their preference."
+  - heading: Remember with permission
+    body: "If welcome, follow up later: “You mentioned a difficult meeting; would you like to tell me
+      how it went?” The goal is attention, not scoring answers or proving how well you know
+      someone."
+takeaway:
+  question: What makes a curiosity question respectful?
+  options:
+    - It allows a pass and accepts correction
+    - It demands a complete personal history
+    - It awards points for the right answer
+  answer: 0
+  explanation: Curiosity is an invitation rather than an examination.
+sources: []

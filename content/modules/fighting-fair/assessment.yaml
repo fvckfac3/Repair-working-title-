@@ -1,0 +1,113 @@
+id: ff-assessment-conflict-style
+module: fighting-fair
+type: assessment
+title: Conflict Style Profile
+summary: Notice tendencies to avoid, escalate, listen, repair, and work through differences.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Think about disagreements in the past month. This original, unvalidated reflection describes
+  tendencies, not fixed conflict types, a diagnosis, or a safety screen. High scores indicate more
+  concern, not a verdict on either person. Stop if you wish. If fear, coercion, or violence is
+  present, prioritize individual safety and specialized support rather than couples activities.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: avoidance
+    label: Issues left unaddressed
+    description: Concerns set aside without an agreed next step.
+    threshold: 50
+    recommend:
+      - ff-lesson-solvable
+      - ff-ex-sort
+  - id: escalation
+    label: Escalation
+    description: Disagreements become heated or disrespectful.
+    threshold: 50
+    recommend:
+      - ff-lesson-repairs
+      - ff-ex-phrases
+  - id: listening
+    label: Room for both views
+    description: Whether different perspectives can be heard.
+    threshold: 50
+    recommend:
+      - ff-lesson-influence
+      - ff-conv-solvable
+  - id: repair
+    label: Difficulty repairing
+    description: How hard it is to pause or acknowledge an impact.
+    threshold: 50
+    recommend:
+      - ff-lesson-repairs
+      - ff-conv-debrief
+  - id: gridlock
+    label: Recurring differences
+    description: Repeated issues that may need a different approach.
+    threshold: 50
+    recommend:
+      - ff-lesson-dreams
+      - ff-ex-needs
+items:
+  - id: a1
+    subscale: avoidance
+    text: I leave an important issue unaddressed because I expect the discussion to go nowhere.
+  - id: a2
+    subscale: avoidance
+    text: When a topic is paused, we can decide whether and how to return to it.
+    reverse: true
+  - id: e1
+    subscale: escalation
+    text: Our disagreements become louder or more personal than I want.
+  - id: e2
+    subscale: escalation
+    text: We can disagree without insults or ridicule.
+    reverse: true
+  - id: l1
+    subscale: listening
+    text: My perspective is dismissed before I can explain it.
+  - id: l2
+    subscale: listening
+    text: I can hear a different view without needing to win immediately.
+    reverse: true
+  - id: r1
+    subscale: repair
+    text: After a hurtful exchange, it is hard to acknowledge what happened.
+  - id: r2
+    subscale: repair
+    text: A request to pause is respected during a disagreement.
+    reverse: true
+  - id: g1
+    subscale: gridlock
+    text: The same disagreement returns even after we try a solution.
+  - id: g2
+    subscale: gridlock
+    text: I can distinguish a practical detail we might change from a deeper difference.
+    reverse: true
+bands:
+  - id: less
+    label: Fewer concerns noticed
+    min: 0
+    narrative: Your answers suggest fewer difficulties in the areas asked about. A low score cannot
+      establish safety or settle whether a specific issue matters. Choose a skill that fits your
+      situation.
+  - id: some
+    label: Some concerns noticed
+    min: 30
+    narrative: Some conflict patterns may be getting in the way. Review the relevant subscales and
+      consider one small, safe practice rather than treating the profile as a fixed type.
+  - id: more
+    label: More concerns noticed
+    min: 60
+    suggestTherapist: true
+    narrative: Disagreement may be taking a substantial toll. Consider support suited to your
+      circumstances. If fear, coercion, or violence is present, prioritize individual safety and
+      specialized support, not couples work.

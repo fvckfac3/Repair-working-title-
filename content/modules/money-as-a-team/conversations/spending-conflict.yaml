@@ -1,0 +1,55 @@
+id: mat-conv-spending-conflict
+module: money-as-a-team
+type: conversation
+title: Resolving a spending conflict
+summary: Discuss one decision without demanding access or assigning character labels.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use only for a disagreement where both can speak and decline freely; this is not a way to
+  address financial control. If there is fear, coercion or violence, do not use this guide together.
+  Seek individual support from a local domestic abuse specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - Describe one decision and its practical impact on you without naming private amounts.
+      - What need or boundary is relevant?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What was your understanding of the decision?
+      - What need or limit would you like considered?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - Identify the actual shared decision, if any. Consider a request, an alternative, and no
+        agreement; neither owes the other account access.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - If both choose a next step, name who will do it and when to review; otherwise end and
+        consider independent support.

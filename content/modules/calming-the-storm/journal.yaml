@@ -6,7 +6,7 @@ summary: Private prompts for making sense of a fight once you've calmed down.
 minutes: 5
 mode: solo
 intensity: light
-intro: These entries are private unless you choose to share one.
+intro: Entries stay on this device. There is no app lock or encryption, so anyone with access to it may be able to read them. In-app sharing is not available.
 prompts:
   - What was I really needing in that argument?
   - What was the earliest moment I could have paused?

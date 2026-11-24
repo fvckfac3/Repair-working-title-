@@ -1,0 +1,38 @@
+id: aac-ex-decision
+module: at-a-crossroads
+type: exercise
+title: Decision clarity worksheet
+summary: Compare options, practical questions and support while keeping the outcome open.
+minutes: 10
+mode: solo
+intensity: deep
+intro: Work alone, use broad notes, and skip anything you would not want recorded on this device.
+  This is not legal, financial, or safety-planning advice.
+steps:
+  - id: options
+    kind: list
+    prompt: List options relevant to you, such as maintaining the current arrangement, taking time,
+      trying a change, or exploring separation.
+    alwaysPrivate: true
+  - id: compare
+    kind: text
+    prompt: For each option, note possible benefits, concerns, needs and uncertainties. Include the
+      possibility that you do not know yet.
+    alwaysPrivate: true
+  - id: information
+    kind: text
+    prompt: What independent information about housing, care, work or other practical issues would help?
+      Identify a relevant professional or service, not a presumed answer.
+    alwaysPrivate: true
+  - id: safety
+    kind: text
+    prompt: Could exploring or discussing any option increase risk? If so, consider contacting an
+      individual domestic abuse specialist from a safer device rather than discussing it together.
+    alwaysPrivate: true
+  - id: next
+    kind: text
+    prompt: What is one reversible, self-chosen next step—or would you prefer to wait? No decision or
+      disclosure is required.
+    alwaysPrivate: true
+outro: Your choice may change. A professional can offer situation-specific information without
+  deciding for you.

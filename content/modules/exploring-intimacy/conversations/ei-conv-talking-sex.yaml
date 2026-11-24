@@ -1,0 +1,62 @@
+id: ei-conv-talking-sex
+module: exploring-intimacy
+type: conversation
+title: Talking about sex without blame
+summary: Explore meaning and preferences without requesting an outcome.
+minutes: 15
+mode: together
+intensity: deep
+intro: "For adults: choose a calm time only if both freely want this conversation and feel safe. You
+  can discuss closeness without naming sexual details."
+groundRules:
+  - Both people choose freely whether to take part, skip a prompt, pause, or stop without
+    consequence.
+  - If fear, coercion, or violence is present, do not use this guide together; seek specialist
+    individual support and make choices that are safe for you.
+  - Speak for yourself; listen without debating, interpreting, or demanding disclosure.
+  - A boundary, uncertainty, or no does not require justification. Do not negotiate, pressure, or
+    infer consent from silence.
+phases:
+  - id: prepare
+    title: Choose whether this is a good time
+    kind: prep
+    prompts:
+      - Check that both freely want to talk now. Either person may pass or end without a promise to
+        resume.
+      - Choose a low-pressure setting and a short time; no one owes an answer.
+  - id: turn-a
+    title: First perspective
+    kind: turn
+    speaker: A
+    prompts:
+      - What does closeness mean to me lately, including nonsexual connection or personal space?
+      - What helps me feel free to express a preference or boundary?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: turn-b
+    title: Second perspective
+    kind: turn
+    speaker: B
+    prompts:
+      - What does closeness mean to me lately, including nonsexual connection or personal space?
+      - What helps me feel free to express a preference or boundary?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: choose
+    title: Choose a possible next step
+    kind: together
+    prompts:
+      - "Ask: “What did I understand correctly, and what did I miss?”"
+      - If both want, choose one nonsexual or solo step that supports comfort; no sexual activity
+        needs to follow.
+    seconds: 180
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Either person can name something useful or simply end. Nothing shared here is consent to
+        touch.

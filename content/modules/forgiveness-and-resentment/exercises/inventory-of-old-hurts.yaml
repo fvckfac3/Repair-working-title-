@@ -1,0 +1,38 @@
+id: far-exercise-inventory-of-old-hurts
+module: forgiveness-and-resentment
+type: exercise
+title: Inventory of old hurts
+summary: Sort a few hurts by what you need now.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Choose manageable examples. You can skip details, stop, or write elsewhere if recording them
+  on this device is not safe. Information is stored unencrypted on this device and may be visible to
+  anyone with access. Use a safer device or skip writing if this could put you at risk.
+steps:
+  - id: list
+    kind: list
+    prompt: List up to three old hurts in a few words each.
+    alwaysPrivate: true
+  - id: one
+    kind: text
+    prompt: "Choose one: what happened, and is it over or still happening?"
+    alwaysPrivate: true
+  - id: impact
+    kind: text
+    prompt: "What impact remains for me: a feeling, a practical cost, or a boundary concern?"
+    alwaysPrivate: true
+  - id: need
+    kind: choice
+    prompt: What seems most useful next?
+    options:
+      - Rest or personal support
+      - A boundary I control
+      - A voluntary request, if safe
+      - More time or uncertainty
+    alwaysPrivate: true
+  - id: next
+    kind: text
+    prompt: What is one small action I can take, or what would help me decide?
+    alwaysPrivate: true
+outro: You do not need to rank hurts against anyone else’s or share this inventory.

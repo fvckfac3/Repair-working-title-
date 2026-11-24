@@ -1,0 +1,31 @@
+id: dc-lesson-being-reachable
+module: deepening-connection
+type: lesson
+title: Being reachable
+summary: Practice small, realistic responses rather than promising constant availability.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: Availability has limits
+    body: Being emotionally reachable does not mean answering immediately, dropping work, providing
+      therapy, or being available around the clock. A clear limit can be kinder than a promise you
+      cannot keep.
+  - heading: Acknowledge the attempt
+    body: "Try “I hear that this matters.” Then ask: “Do you want listening, help thinking, or some
+      space?” If you cannot offer it now, say so plainly."
+  - heading: Make a realistic offer
+    body: "Offer an achievable window only if you can: “I have ten minutes after I finish this task;
+      would that help?” Follow up if you offered, and allow the other person to decline."
+  - heading: Notice what works
+    body: Afterward, ask whether your response helped, without insisting on praise. If the answer is no,
+      listen or revise. Each person is responsible for their own boundaries and support network.
+takeaway:
+  question: What is a realistic way to be reachable?
+  options:
+    - Acknowledge the request and offer only the time you can give
+    - Promise to be available at all times
+    - Decide the other person needs advice without asking
+  answer: 0
+  explanation: Reachability includes honest limits and respect for the other person’s choice.
+sources: []

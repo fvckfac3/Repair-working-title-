@@ -1,0 +1,33 @@
+id: aac-lesson-contributions
+module: at-a-crossroads
+type: lesson
+title: Looking at my actions without taking blame
+summary: Reflect on choices you control without assuming equal responsibility for harm.
+minutes: 5
+mode: solo
+intensity: deep
+cards:
+  - heading: Use a concrete example
+    body: "For a non-abusive disagreement, identify something you said or did and its effect: “I
+      interrupted when we were discussing plans.” Consider what you might do differently without
+      making a claim about the other person’s motives."
+  - heading: Responsibility has limits
+    body: You are responsible for your choices, not another person’s threats, abuse, control, or
+      violence. Trying to avoid someone’s anger does not cause their abusive behavior. Shared
+      patterns must not obscure unequal power or responsibility.
+  - heading: Avoid forced confession
+    body: This reflection is not a demand to list faults or hand an inventory to a partner. You may skip
+      a topic, use an abstract example, or seek individual help rather than write it down.
+  - heading: Choose an action for yourself
+    body: A possible action might be to seek support, set a limit, or communicate differently where
+      safe. It does not require agreeing to reconciliation, accepting mistreatment, or staying in a
+      conversation.
+takeaway:
+  question: How should personal reflection treat abuse?
+  options:
+    - Both people are equally responsible for one person’s abuse.
+    - The person using abuse is responsible; the other person is not required to fix it.
+    - A person must share a list of faults to prove good faith.
+  answer: 1
+  explanation: Accountability is specific to each person’s actions and must not blame someone for abuse.
+sources: []

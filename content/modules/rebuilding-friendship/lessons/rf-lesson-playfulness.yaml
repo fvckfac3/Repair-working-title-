@@ -1,0 +1,34 @@
+id: rf-lesson-playfulness
+module: rebuilding-friendship
+type: lesson
+title: Playfulness without pressure
+summary: Invite lightness that does not require laughter or make someone the joke.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Play can be quiet
+    body: Playfulness might look like making up a silly name for a recipe, trying a new card game, or
+      exchanging an absurd question. It need not look extroverted, competitive, physical, or sexual.
+      Some people prefer not to play, and that is fine.
+  - heading: Consent includes humor
+    body: A joke at someone’s expense is not playful for them if it stings. Ask whether teasing is
+      welcome, stop if it is not, and do not demand that someone laugh. If humor is used to avoid a
+      concern, return to the concern separately when appropriate.
+  - heading: Offer an exit
+    body: "Try an invitation with no penalty: “Want to answer one silly question, or would you rather
+      rest?” A no is useful information. Avoid hidden tests such as “If you loved me, you would
+      play.”"
+  - heading: Keep the experiment small
+    body: If both want to, try one five-minute activity and check whether it felt comfortable. A quiet
+      evening, taking separate time, or discontinuing the experiment may be a better choice than
+      pushing for fun. Play is not treatment or proof that harm is resolved.
+takeaway:
+  question: What makes a playful invitation respectful?
+  options:
+    - Insisting they laugh at your joke
+    - Inviting them and accepting no without consequences
+    - Using a joke to avoid discussing an important concern
+  answer: 1
+  explanation: Playfulness works best as a choice, not a test or a way to minimize harm.
+sources: []

@@ -1,0 +1,32 @@
+id: dc-lesson-softening
+module: deepening-connection
+type: lesson
+title: Softening
+summary: Find a more precise feeling and ask for something small, if safe.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: Anger may carry information
+    body: Irritation can accompany hurt, loneliness, fear, or a crossed boundary. It can also be an
+      appropriate signal of mistreatment; you do not have to replace it with a gentler feeling.
+  - heading: Try a three-part sentence
+    body: "If it is safe and you want to share, use “When ___ happened, I felt ___; would you be willing
+      to ___?” Example: “When plans changed without a message, I felt left out; could you text me
+      next time?”"
+  - heading: Be specific, not exposed
+    body: You choose how much to reveal. “I need a little quiet” is enough; you do not have to disclose
+      a trauma, demonstrate vulnerability, or accept touch to connect.
+  - heading: A request is not control
+    body: The other person can say no. If they do, consider an alternative or a boundary within your
+      control. If it is unsafe to express a need, seek individual support rather than practicing
+      disclosure together.
+takeaway:
+  question: Which is a specific, optional request?
+  options:
+    - “I felt left out when plans changed; would you message me next time?”
+    - “You must prove you care right now.”
+    - “I should reveal everything even if I feel unsafe.”
+  answer: 0
+  explanation: The request gives useful information without demanding agreement.
+sources: []

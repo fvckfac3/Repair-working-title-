@@ -1,0 +1,32 @@
+id: ff-ex-phrases
+module: fighting-fair
+type: exercise
+title: Our repair phrase deck
+summary: Prepare language for pausing, owning an action, and hearing a no.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Start on your own and choose a low-stakes example. Sharing is optional. If fear, coercion, or
+  violence is present, prioritize individual safety and specialized support rather than couples
+  activities.
+steps:
+  - id: pause
+    kind: text
+    prompt: Write a pause phrase you could use, such as “I need to stop for now.” You do not need to
+      promise to return if that would be unsafe.
+  - id: own
+    kind: text
+    prompt: "Write an ownership phrase for an action you could realistically recognize: “I interrupted;
+      I will stop.”"
+  - id: listen
+    kind: text
+    prompt: "Write a clarification phrase: “Could you tell me what I missed?” The other person may
+      decline."
+  - id: receive
+    kind: text
+    prompt: Write a response that respects a declined repair, such as “I hear that you need space.”
+  - id: practice
+    kind: instruction
+    prompt: Read the phrases aloud to yourself. Keep only wording that sounds genuine. Do not use humor,
+      a gift, or touch to bypass accountability or consent.
+outro: You may revise, keep this to yourself, or stop. No agreement is required.

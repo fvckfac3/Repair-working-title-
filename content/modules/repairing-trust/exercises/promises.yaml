@@ -1,0 +1,34 @@
+id: rt-ex-promises
+module: repairing-trust
+type: exercise
+title: Promises I can actually keep
+summary: Draft a specific commitment within your control and a plan for change.
+minutes: 9
+mode: solo
+intensity: medium
+intro: Work alone on a manageable example. Skip details or steps and stop whenever you wish; sharing
+  is optional. If fear, coercion, or violence is present, prioritize individual safety and
+  specialized support instead of couples activities.
+steps:
+  - id: need
+    kind: text
+    prompt: Choose a small action relevant to a shared plan or your own reliability. Avoid promising
+      someone else’s feelings or response.
+  - id: action
+    kind: text
+    prompt: "Write what you will do and by when: “I will ___ by ___.” Check that it is within your
+      control and capacity."
+  - id: obstacle
+    kind: text
+    prompt: What might get in the way? What will you do if that happens, and how will you communicate a
+      change if appropriate?
+  - id: evidence
+    kind: text
+    prompt: How could the action be observed without surveillance or sharing passwords, locations, or
+      private messages? A receipt for a shared expense is one possible example.
+  - id: review
+    kind: instruction
+    prompt: Offer the commitment only if welcome. The other person may decline it or choose a different
+      boundary. Do not use the promise to demand trust or contact.
+outro: Keep, revise, or discard your reflection. A draft is not an agreement and does not require
+  contact or reconciliation.

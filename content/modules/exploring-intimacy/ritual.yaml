@@ -1,0 +1,28 @@
+id: ei-ritual-connection
+module: exploring-intimacy
+type: ritual
+title: 7-day connection without pressure
+summary: Seven optional, nonsexual invitations to notice or nurture connection.
+minutes: 5
+mode: solo
+intensity: light
+intro: For adults. This is a solo set of choices, not a touch challenge. Choose, change, or skip any
+  day. If fear, coercion, or violence is present, prioritize specialist individual support. Nothing
+  requires another person or an intimate outcome.
+days:
+  - day: 1
+    task: Notice one moment of comfort or connection, including time alone.
+  - day: 2
+    task: List two non-touch activities that feel restorative; try one if you wish.
+  - day: 3
+    task: Write one sentence that makes it easy to decline an invitation.
+  - day: 4
+    task: Choose a small kindness for yourself, such as a quiet break.
+  - day: 5
+    task: Notice one boundary you want to honor today, including a wish for space.
+  - day: 6
+    task: If safe and genuinely welcome to both, offer a brief conversation or a walk; accept no or
+      uncertainty without asking again. Otherwise choose a solo activity.
+  - day: 7
+    task: Reflect on what felt comfortable and what you would leave out next time. No progress requires
+      touch or sex.

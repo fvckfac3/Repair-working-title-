@@ -1,4 +1,5 @@
 import { router } from 'expo-router';
+import { useState } from 'react';
 import { Alert, Platform } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
@@ -8,16 +9,19 @@ import { useStore } from '@/state/store';
 
 export default function ProfileScreen() {
   const { state, dispatch } = useStore();
+  const [showAllJournal, setShowAllJournal] = useState(false);
+  const assessmentCount = state.results[onboardingAssessment.id]?.length ?? 0;
 
-  const reset = () => {
-    const doReset = () => dispatch({ type: 'reset' });
+  const deleteEntry = (id: string) => {
+    const doDelete = () => dispatch({ type: 'deleteJournal', id });
+    const message = 'Remove this journal entry when changes are saved? Backups and device or browser traces may remain.';
     if (Platform.OS === 'web') {
-      if (globalThis.confirm?.('Delete all Repair data on this device?')) doReset();
+      if (globalThis.confirm?.(message)) doDelete();
       return;
     }
-    Alert.alert('Delete all data?', 'This permanently removes everything stored on this device.', [
+    Alert.alert('Delete this entry?', message, [
       { text: 'Cancel', style: 'cancel' },
-      { text: 'Delete', style: 'destructive', onPress: doReset },
+      { text: 'Delete entry', style: 'destructive', onPress: doDelete },
     ]);
   };
 
@@ -36,36 +40,48 @@ export default function ProfileScreen() {
 
       <Section title="My journal">
         {state.journal.length === 0 ? (
-          <ThemedText type="small" themeColor="textSecondary">
-            No entries yet. Journal prompts appear inside each module.
-          </ThemedText>
+          <Card>
+            <ThemedText type="small" themeColor="textSecondary">
+              No entries yet. Find a journal prompt in the library when you're ready.
+            </ThemedText>
+            <Button label="Browse the library" variant="secondary" onPress={() => router.push('/library')} />
+          </Card>
         ) : (
-          state.journal.slice(0, 20).map((j) => (
-            <Card key={j.id}>
-              <ThemedText type="small" themeColor="textSecondary">
-                {new Date(j.createdAt).toLocaleDateString()} · {j.prompt}
-              </ThemedText>
-              <ThemedText type="small">{j.text}</ThemedText>
-            </Card>
-          ))
+          <>
+            {(showAllJournal ? state.journal : state.journal.slice(0, 20)).map((j) => (
+              <Card key={j.id}>
+                <ThemedText type="small" themeColor="textSecondary">
+                  {new Date(j.createdAt).toLocaleDateString()} · {j.prompt}
+                </ThemedText>
+                <ThemedText type="small">{j.text}</ThemedText>
+                <Button label={`Delete entry from ${new Date(j.createdAt).toLocaleDateString()}`}
+                  variant="secondary" onPress={() => deleteEntry(j.id)} />
+              </Card>
+            ))}
+            {state.journal.length > 20 && (
+              <Button label={showAllJournal ? 'Show recent entries' : `Show all ${state.journal.length} entries`}
+                variant="secondary" onPress={() => setShowAllJournal(!showAllJournal)} />
+            )}
+          </>
         )}
       </Section>
 
       <Section title="Assessments">
         <Card onPress={() => router.push(`/activity/${onboardingAssessment.id}`)}>
-          <ThemedText type="smallBold">Retake the {onboardingAssessment.title}</ThemedText>
+          <ThemedText type="smallBold">{assessmentCount ? 'Retake' : 'Take'} the {onboardingAssessment.title}</ThemedText>
           <ThemedText type="small" themeColor="textSecondary">
-            Taken {state.results[onboardingAssessment.id]?.length ?? 0} time(s). Retaking updates your path.
+            {assessmentCount ? `Saved results: ${assessmentCount}. Retaking may update your path.` : 'Not taken yet.'}
           </ThemedText>
         </Card>
       </Section>
 
       <Section title="Privacy">
         <ThemedText type="small" themeColor="textSecondary">
-          Everything you enter is private by default and stored only on this device. Repair is
-          an educational tool, not therapy or a crisis service.
+          This prototype stores what you enter unencrypted on this device, without an app lock.
+          Someone with device access may be able to see it. Accounts, partner syncing, and sharing
+          are not implemented. Repair is an educational tool, not therapy or a crisis service.
         </ThemedText>
-        <Button label="Delete all my data" variant="secondary" onPress={reset} />
+        <Button label="Review deletion in Safety & Support" variant="secondary" onPress={() => router.push('/safety')} />
       </Section>
     </Screen>
   );

@@ -1,0 +1,51 @@
+id: dc-conversation-reaching-for-each-other
+module: deepening-connection
+type: conversation
+title: Reaching for each other
+summary: Practice a small, optional request and a respectful response.
+minutes: 10
+mode: together
+intensity: deep
+intro: Use only when both want to participate and feel safe saying no. Start with a low-stakes need;
+  each person chooses how much to share.
+groundRules:
+  - Both freely choose to participate; either person can pass, pause, or end without penalty.
+  - If fear, coercion, intimidation or violence is present, do not do a joint activity; prioritize
+    individual safety and specialist support.
+  - No one owes disclosure, touch, reassurance, agreement, or a promise to continue.
+  - Listen without interrupting or fixing. Respect privacy and do not use what is shared as
+    ammunition later.
+phases:
+  - id: prep
+    title: Choose a small topic
+    kind: prep
+    prompts:
+      - Ask whether now is a good time. Each can pass. Choose a pause signal; either can end without
+        promising to resume.
+    seconds: 60
+  - id: a
+    title: Partner A reaches
+    kind: turn
+    prompts:
+      - "Name a manageable feeling or need and an optional request: “I have felt stretched; would
+        you listen for five minutes?”"
+    speaker: A
+    listenerPrompts:
+      - "Reflect the request. Answer honestly: yes, no, or an alternative you can actually offer."
+    seconds: 180
+  - id: b
+    title: Partner B reaches
+    kind: turn
+    prompts:
+      - If you want, name a feeling or need and make a small request. It can be different from
+        Partner A’s.
+    speaker: B
+    listenerPrompts:
+      - Reflect what you heard. You may decline or offer a different option.
+    seconds: 180
+  - id: close
+    title: Choose what happens next
+    kind: close
+    prompts:
+      - Each can say whether the response was useful. Agree only on what both freely want; taking
+        space is also an option.

@@ -1,0 +1,62 @@
+id: ei-conv-initiation
+module: exploring-intimacy
+type: conversation
+title: Initiating and declining with care
+summary: Practice invitations and responses that leave a genuine choice.
+minutes: 15
+mode: together
+intensity: deep
+intro: "For adults: talk about words, not a live request for touch or sex. Do this only when both
+  freely want to and feel safe."
+groundRules:
+  - Both people choose freely whether to take part, skip a prompt, pause, or stop without
+    consequence.
+  - If fear, coercion, or violence is present, do not use this guide together; seek specialist
+    individual support and make choices that are safe for you.
+  - Speak for yourself; listen without debating, interpreting, or demanding disclosure.
+  - Silence, uncertainty, or a pressured yes is not consent. Stop rather than persuading.
+phases:
+  - id: prepare
+    title: Choose whether this is a good time
+    kind: prep
+    prompts:
+      - Check that both freely want to talk now. Either person may pass or end without a promise to
+        resume.
+      - Choose a low-pressure setting and a short time; no one owes an answer.
+  - id: turn-a
+    title: First perspective
+    kind: turn
+    speaker: A
+    prompts:
+      - What makes an invitation feel easy to decline for me?
+      - What words could I use to say no, not now, or stop?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: turn-b
+    title: Second perspective
+    kind: turn
+    speaker: B
+    prompts:
+      - What makes an invitation feel easy to decline for me?
+      - What words could I use to say no, not now, or stop?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: choose
+    title: Choose a possible next step
+    kind: together
+    prompts:
+      - "If both wish, try a hypothetical: “Would you like to spend time together? It is okay to say
+        no.” The other may say no; respond “Thanks for telling me.”"
+      - Name what each person would like after a decline, including being left alone. Do not ask for
+        a replacement or explanation.
+    seconds: 180
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - "End with a reminder: a future invitation still needs a fresh, specific and freely given
+        yes; either person can change their mind."

@@ -1,0 +1,18 @@
+id: sm-journal-life
+module: shared-meaning
+type: journal
+title: The life I want
+summary: Reflect on meaning and future possibilities in your own terms.
+minutes: 7
+mode: solo
+intensity: medium
+intro: This reflection belongs to your choices. Imagine a life with or without this relationship;
+  you do not have to decide the future now.
+prompts:
+  - What gives my days meaning at present, however ordinary?
+  - Which values feel most important to me, and where do my actions already express them?
+  - What roles or expectations feel chosen? Which feel heavy or unclear?
+  - What would I want more space for in the next year, independent of anyone else’s plans?
+  - What is one uncertainty I can leave open, and one small step under my control?
+  - If fear, coercion or violence is present, what specialist individual support could I consider
+    safely?

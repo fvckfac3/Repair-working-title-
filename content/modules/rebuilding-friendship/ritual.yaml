@@ -1,0 +1,25 @@
+id: rf-ritual-dates
+module: rebuilding-friendship
+type: ritual
+title: 4-week low-pressure date challenge
+summary: One optional, flexible shared activity per week, sized to real life.
+minutes: 5
+mode: together
+intensity: light
+intro: Only start if both freely want to and feel safe. If fear, coercion or violence is present,
+  prioritize specialist individual support. Each week either person can decline, change, or stop
+  without consequence; a missed week is not failure. Days 1, 8, 15 and 22 mark the four weekly
+  prompts.
+days:
+  - day: 1
+    task: "Week 1: If both want to, pick a 10-minute, no-spend option that fits energy and access.
+      Decide together, or choose not to plan."
+  - day: 8
+    task: "Week 2: Offer one small variation, such as a different question over a drink. Either person
+      may decline or suggest a lower-effort alternative."
+  - day: 15
+    task: "Week 3: Choose an activity that accommodates the tighter time, energy, access, or budget
+      limit; cancel if either person prefers."
+  - day: 22
+    task: "Week 4: If both wish, repeat or change a favorite idea. Ask what felt good or awkward and
+      whether to continue; no commitment is required."

@@ -1,0 +1,32 @@
+id: cww-ex-reflective
+module: communicating-without-wounding
+type: exercise
+title: Reflective listening practice
+summary: Rehearse summarizing a message and checking for corrections.
+minutes: 7
+mode: solo
+intensity: light
+intro: Work at your own pace. Choose an example that is safe to consider; you need not share your
+  answers. If fear, coercion, or violence is present, prioritize individual safety and specialized
+  support.
+steps:
+  - id: sample
+    kind: instruction
+    prompt: "Practice alone first with this sentence: “When dinner started late, I felt overwhelmed
+      because I had another commitment.”"
+  - id: reflection
+    kind: text
+    prompt: Write a one-sentence reflection of the event and feeling, starting “I heard that…”.
+  - id: question
+    kind: text
+    prompt: Write one open check, such as “Did I understand the hard part?” Avoid inserting an
+      accusation or advice.
+  - id: correction
+    kind: instruction
+    prompt: "Imagine the speaker replies: “It was not the late dinner; it was that nobody told me.”
+      Revise your reflection to include the correction."
+  - id: optional
+    kind: instruction
+    prompt: "If you both freely choose and feel safe, practice on a low-stakes topic: one speaks
+      briefly, one reflects, then switch. Either can decline or stop."
+outro: Keep what is useful. You may revise, stop, or choose not to share your work.

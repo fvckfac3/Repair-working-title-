@@ -1,0 +1,32 @@
+id: fab-lesson-loyalty
+module: family-and-boundaries
+type: lesson
+title: Loyalty binds
+summary: Handle competing expectations without forcing a choice between important people.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: The squeeze
+    body: A relative asks for frequent visits while your partner wants quieter weekends. You may care
+      about both relationships and still have limits on time, money, energy or accessibility.
+  - heading: Untangle the requests
+    body: Write the requests separately. Ask what you can offer voluntarily and what another person can
+      decide for themselves. Do not make promises on someone else’s behalf or share their private
+      reasons.
+  - heading: Speak from your position
+    body: Try “I can visit Sunday afternoon, but I cannot host overnight.” A partner can choose whether
+      to attend. Declining an invitation is not disloyalty, and neither person must use the other as
+      an excuse.
+  - heading: Expect feelings, not compliance
+    body: Someone may feel disappointed even when the limit is respectful. Acknowledge the feeling
+      without promising to change your answer; revisit only if you want to and it is safe.
+takeaway:
+  question: What helps when two people make competing demands?
+  options:
+    - Promise on behalf of your partner.
+    - Clarify what you can offer without sharing another person’s private reasons.
+    - Force your partner to attend.
+  answer: 1
+  explanation: You can acknowledge disappointment without deciding for someone else.
+sources: []

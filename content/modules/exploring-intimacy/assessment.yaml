@@ -1,0 +1,112 @@
+id: ei-assessment-intimacy-profile
+module: exploring-intimacy
+type: assessment
+title: Intimacy Profile
+summary: Notice where choice, comfort, communication, or health questions deserve attention.
+minutes: 5
+mode: solo
+intensity: deep
+kind: standard
+intro: For adults. Think about the past month and the kinds of closeness, including no sexual
+  activity, that you personally want. Skip anything that does not apply. This original educational
+  reflection is not validated, a diagnosis, a safety screen, or a measure of how much sex anyone
+  should want. If fear, coercion, or violence is present, prioritize specialist individual support
+  over couples activities. Physical pain deserves attention from a clinician.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: choice
+    label: Choice and boundaries
+    description: Space to choose, decline, or change your mind.
+    threshold: 50
+    recommend:
+      - ei-lesson-desire-differences
+      - ei-ex-choices-boundaries
+  - id: conversation
+    label: Talking about intimacy
+    description: Comfort expressing preferences and limits.
+    threshold: 50
+    recommend:
+      - ei-lesson-accelerators-brakes
+      - ei-ex-accelerators-brakes
+  - id: context
+    label: Context and desire
+    description: Room to notice circumstances without treating desire differences as a defect.
+    threshold: 50
+    recommend:
+      - ei-lesson-responsive-desire
+      - ei-ex-accelerators-brakes
+  - id: connection
+    label: Desired connection
+    description: Access to the kinds of connection you actually want.
+    threshold: 50
+    recommend:
+      - ei-lesson-rebuilding-affection
+      - ei-ex-connection-menu
+  - id: health
+    label: Physical comfort and support
+    description: Whether physical discomfort or questions make desired closeness harder.
+    threshold: 50
+    recommend:
+      - ei-lesson-clinician-support
+items:
+  - id: ch1
+    subscale: choice
+    text: I feel free to decline any kind of closeness without having to explain myself.
+    reverse: true
+  - id: ch2
+    subscale: choice
+    text: I feel pressure to agree to intimacy that I do not want.
+  - id: co1
+    subscale: conversation
+    text: I find it hard to say what kind of closeness I would or would not welcome.
+  - id: co2
+    subscale: conversation
+    text: I can speak about my preferences without needing to defend them.
+    reverse: true
+  - id: cx1
+    subscale: context
+    text: I feel rushed rather than able to notice whether I want closeness.
+  - id: cx2
+    subscale: context
+    text: I have room to notice what affects my interest without judging it.
+    reverse: true
+  - id: cn1
+    subscale: connection
+    text: The kinds of connection I want have been hard to make room for.
+  - id: cn2
+    subscale: connection
+    text: I can choose forms of connection that fit my comfort, including no touch.
+    reverse: true
+  - id: h1
+    subscale: health
+    text: A physical discomfort or health change is getting in the way of closeness I want.
+  - id: h2
+    subscale: health
+    text: If physical discomfort comes up, I know I can seek support from a qualified clinician.
+    reverse: true
+bands:
+  - id: low
+    label: A place to begin
+    min: 0
+    narrative: Your answers suggest fewer areas of strain among the questions answered. This does not
+      establish safety or prescribe an amount of intimacy. Follow your own choices; any question or
+      activity can be skipped.
+  - id: some
+    label: Some questions to explore
+    min: 35
+    narrative: Some answered areas may deserve care. Look at the individual themes and choose one
+      relevant lesson or reflection; do not use a score to pressure anyone.
+  - id: more
+    label: More areas need attention
+    min: 65
+    narrative: Several answered areas may feel difficult. You can go slowly or stop. If physical pain is
+      involved, consider a clinician; if fear, coercion, or violence is present, seek specialist
+      individual support rather than a couples activity.

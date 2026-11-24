@@ -1,0 +1,41 @@
+id: rt-ritual-small-promises
+module: repairing-trust
+type: ritual
+title: 14 days of small kept promises
+summary: Practice realistic commitments and honest updates without demanding trust.
+minutes: 5
+mode: solo
+intensity: light
+intro: This is a solo practice. Choose commitments within your control, and skip or stop whenever
+  needed. No one owes you contact, forgiveness, or reconciliation. If fear, coercion, or violence is
+  present, prioritize individual safety and specialized support, not couples activities.
+days:
+  - day: 1
+    task: Choose one small action you control and set a realistic time for it.
+  - day: 2
+    task: Carry out or honestly revise the action; notice what helped or got in the way.
+  - day: 3
+    task: Choose a commitment small enough to fit your actual capacity today.
+  - day: 4
+    task: If plans change, practice an early, honest update where appropriate.
+  - day: 5
+    task: Review a missed commitment without excuses; identify one corrective action you can take.
+  - day: 6
+    task: If an offer of help is welcome, make it specific and accept a no.
+  - day: 7
+    task: "Review your week: which promise was feasible, and what should change?"
+  - day: 8
+    task: Choose one task with a clear finish, not a promise about someone else’s feelings.
+  - day: 9
+    task: Complete the task or name the obstacle and revise your plan honestly.
+  - day: 10
+    task: If a shared plan is affected, provide the relevant update without requiring a response.
+  - day: 11
+    task: Practice saying a clear, respectful no to a commitment you cannot keep.
+  - day: 12
+    task: Take one practical corrective step on a past miss, without demanding forgiveness.
+  - day: 13
+    task: Choose a small action that respects another person’s stated boundaries.
+  - day: 14
+    task: Review the two weeks and decide what you will continue, change, or stop. Another person
+      decides what the evidence means to them.

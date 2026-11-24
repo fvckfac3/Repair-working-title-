@@ -1,0 +1,37 @@
+id: hai-exercise-for-involved-partner
+module: healing-after-infidelity
+type: exercise
+title: For the involved partner
+summary: Plan accountable behavior without asking the hurt person to manage your discomfort.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Use this if you identify as the person who broke an agreement; skip it otherwise. This is a
+  private preparation exercise, not a script for disclosing an affair or new information in the app.
+  Information is stored unencrypted on this device and may be visible to anyone with access. Use a
+  safer device or skip writing if this could put you at risk.
+steps:
+  - id: action
+    kind: text
+    prompt: What specific choice of mine do I need to own, without explaining it away?
+    alwaysPrivate: true
+  - id: impact
+    kind: text
+    prompt: What impact might that choice have had? What do I not actually know about the other person’s
+      experience?
+    alwaysPrivate: true
+  - id: accountability
+    kind: text
+    prompt: What realistic action can I take that does not require the other person to comfort or
+      monitor me?
+    help: "Example: arrange individual counseling, or keep a commitment that I have freely offered."
+    alwaysPrivate: true
+  - id: support
+    kind: text
+    prompt: Who can support me with shame or uncertainty without pressuring the other person?
+    alwaysPrivate: true
+  - id: respect
+    kind: instruction
+    prompt: Rehearse accepting “not now” or “no.” Acknowledgment is not a transaction that earns
+      forgiveness or reconciliation.
+outro: Act consistently over time; the other person gets to make their own decisions.

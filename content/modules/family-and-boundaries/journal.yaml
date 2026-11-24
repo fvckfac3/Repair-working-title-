@@ -1,0 +1,17 @@
+id: fab-journal
+module: family-and-boundaries
+type: journal
+title: Where I feel caught in the middle
+summary: Explore the pull of different relationships without making an immediate decision.
+minutes: 6
+mode: solo
+intensity: medium
+intro: Use roles or broad descriptions instead of names if you prefer. Choose a prompt or skip it.
+  Entries are stored on this device; consider whether writing is safe if someone else can access it.
+prompts:
+  - Whose expectations feel loudest, and which expectation is actually mine to decide?
+  - What do I value about the relationships involved, including my relationship with myself?
+  - What limit would protect my time, privacy or energy without controlling another person?
+  - What could I say without giving away someone else’s private reasons?
+  - If expressing a limit does not feel safe, what individual support might I contact using a safer
+    device?

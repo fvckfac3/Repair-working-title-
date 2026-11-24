@@ -1,0 +1,26 @@
+id: aac-ritual
+module: at-a-crossroads
+type: ritual
+title: Six-week personal clarity check
+summary: A personal check once a week for up to six weeks, with no required decision.
+minutes: 5
+mode: solo
+intensity: light
+intro: These are weekly prompts on days 1, 8, 15, 22, 29 and 36. Skip, stop, or change pace at any
+  time. Do not record private plans if your device may be monitored; seek individual specialist
+  support if fear or control is present.
+days:
+  - day: 1
+    task: Notice your current feelings and one need, without naming a path.
+  - day: 8
+    task: Ask whether you have enough space to think and whether an independent support person would
+      help.
+  - day: 15
+    task: Consider what has changed, if anything, and what remains uncertain.
+  - day: 22
+    task: Review practical questions about any options you choose, including staying or separation; seek
+      qualified individual information if useful.
+  - day: 29
+    task: Notice your limits and whether any voluntary plan still feels right; you may stop it.
+  - day: 36
+    task: Consider a next step, more time, or no change. You do not owe anyone a decision or a report.

@@ -22,15 +22,15 @@ steps:
     prompt: Where will each of us go during a break?
   - id: return
     kind: text
-    prompt: How will we come back? (for example, "the person who called it comes to find the other")
+    prompt: If both people want to return later, how could we check whether it feels safe and workable?
   - id: max
     kind: choice
-    prompt: What's the longest a topic can be paused before we return to it or set a time?
-    options: [Same day, 24 hours, "The weekend", "Next State of Us check-in"]
+    prompt: If both want to revisit this, when might we check in about it?
+    options: [Same day, Another day, "Next weekly check-in", "Decide later or not at all"]
   - id: promise
     kind: instruction
     prompt: >-
-      We agree that either of us can call a time-out at any time, that the
-      other will honor it, and that the person who called it will come back
-      when they said they would.
-outro: Saved as your shared agreement. You can edit it any time from your Us tab.
+      Either person may call a time-out, leave the conversation, and decide
+      not to resume. A break should never be used to restrict someone's safety
+      or ability to leave. If you feel afraid or controlled, seek individual support.
+outro: Your responses are saved on this device. This does not create a shared agreement or send anything to a partner.

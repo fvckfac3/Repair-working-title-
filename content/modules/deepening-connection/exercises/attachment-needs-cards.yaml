@@ -1,0 +1,43 @@
+id: dc-exercise-attachment-needs-cards
+module: deepening-connection
+type: exercise
+title: Attachment-needs cards
+summary: Choose a need and a manageable way to care for it.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Use these options as prompts, not labels or a diagnosis. Select what fits today; the same
+  need can be met in different ways, including outside the relationship. Information is stored
+  unencrypted on this device and may be visible to anyone with access. Use a safer device or skip
+  writing if this could put you at risk.
+steps:
+  - id: needs
+    kind: multi
+    prompt: Which needs are present today?
+    options:
+      - Being listened to
+      - Predictability
+      - Space and autonomy
+      - Practical help
+      - Reassurance
+      - Play or ease
+      - Rest
+      - None of these
+    alwaysPrivate: true
+  - id: one
+    kind: text
+    prompt: Choose one need. What does it look like in a concrete moment?
+    help: "Example: “I want someone to listen for five minutes without advice.”"
+    alwaysPrivate: true
+  - id: self
+    kind: text
+    prompt: What is one way I could care for this need independently or with another trusted support?
+    alwaysPrivate: true
+  - id: ask
+    kind: text
+    prompt: If safe, what optional request could I make? What will I do if the answer is no?
+    alwaysPrivate: true
+  - id: review
+    kind: instruction
+    prompt: Review tomorrow if you want. A need can be legitimate even when another person cannot meet it.
+outro: A request is an invitation; both people retain the right to their limits.

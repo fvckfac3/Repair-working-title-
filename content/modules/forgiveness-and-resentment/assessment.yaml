@@ -1,0 +1,97 @@
+id: far-assessment-resentment-load
+module: forgiveness-and-resentment
+type: assessment
+title: Resentment Load
+summary: Notice recurring hurt, unmet needs, and pressure around repair.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Think about the past month. Answer from your own experience and skip any item that does not
+  fit. This original educational reflection is not a validated measure, diagnosis, or test of
+  whether you should forgive. A low score does not establish safety. If fear, coercion or violence
+  is present, prioritize individual safety and specialist support rather than joint activities.
+  Information is stored unencrypted on this device and may be visible to anyone with access. Use a
+  safer device or skip writing if this could put you at risk.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: recurrence
+    label: Old hurts returning
+    threshold: 50
+    recommend:
+      - far-exercise-inventory-of-old-hurts
+      - far-lesson-resentment-as-an-unmet-need
+    sensitive: true
+  - id: needs
+    label: Needs left unaddressed
+    threshold: 50
+    recommend:
+      - far-exercise-the-hurt-vs-the-story
+      - far-exercise-choosing-what-to-bring-forward
+    sensitive: true
+  - id: pressure
+    label: Pressure and choice
+    threshold: 50
+    recommend:
+      - far-lesson-what-forgiveness-is-and-isnt
+      - far-exercise-the-unsent-letter
+    sensitive: true
+items:
+  - id: r1
+    subscale: recurrence
+    text: An earlier hurt comes back to mind during ordinary interactions.
+  - id: r2
+    subscale: recurrence
+    text: I keep a mental tally of past hurts or sacrifices.
+  - id: r3
+    subscale: recurrence
+    text: I can give an old hurt some attention without it taking over my whole day.
+    reverse: true
+  - id: n1
+    subscale: needs
+    text: I am unsure what I need in response to an old hurt.
+  - id: n2
+    subscale: needs
+    text: A boundary or practical need connected to a past hurt remains unaddressed.
+  - id: n3
+    subscale: needs
+    text: I can name at least one next step that is within my control.
+    reverse: true
+  - id: p1
+    subscale: pressure
+    text: I feel pressured to act as though I am over a hurt.
+  - id: p2
+    subscale: pressure
+    text: I can choose whether or not to discuss or forgive a hurt.
+    reverse: true
+  - id: p3
+    subscale: pressure
+    text: I worry that having boundaries will be treated as a failure to forgive.
+bands:
+  - id: lighter
+    label: Some room to reflect
+    min: 0
+    narrative: The areas you answered may feel relatively manageable right now. You may still have a
+      serious hurt or need a boundary. Choose a solo activity if useful; no score determines whether
+      you should forgive.
+  - id: carrying
+    label: Some hurts need attention
+    min: 30
+    narrative: Some answered areas may be using energy. Consider identifying the specific need under one
+      hurt or writing an unsent letter. You do not have to bring it to the other person.
+  - id: heavy
+    label: Consider more support
+    min: 60
+    suggestTherapist: true
+    narrative: The areas you answered may feel heavy. Consider an individual counselor or trusted
+      support. Joint help is appropriate only when freely chosen and there is no fear, coercion or
+      violence; otherwise seek individual specialist support.
+gapThreshold: 25

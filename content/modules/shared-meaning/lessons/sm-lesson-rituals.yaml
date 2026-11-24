@@ -1,0 +1,34 @@
+id: sm-lesson-rituals
+module: shared-meaning
+type: lesson
+title: Rituals of connection
+summary: Design repeatable moments that can change or end.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: A ritual is a repeated choice
+    body: "A ritual is an ordinary action with a meaning you attach to it: a quiet tea, a greeting, a
+      weekly walk, or a solo pause before bed. It need not involve touch, cost money, or include
+      another person. Repetition is useful only while it still fits."
+  - heading: Make it small enough to survive real life
+    body: "Name a cue, action, and flexible length: “After I put the kettle on, I take two quiet
+      breaths.” Consider access, disability, caregiving, work, and energy. A version that takes one
+      minute may be more sustainable than an idealized hour."
+  - heading: Invite rather than assign
+    body: For a shared ritual, ask whether the other person wants it and what would make it comfortable.
+      Either person can say no, skip a day, or change their mind. An invitation is not evidence that
+      a partner has agreed.
+  - heading: Review the meaning
+    body: After a week, ask whether the ritual actually supported the purpose you chose. If a routine
+      creates pressure or resentment, reduce it, change it, or stop. A missed day is not a
+      relationship verdict.
+takeaway:
+  question: What belongs in a flexible ritual?
+  options:
+    - A cue, a small action, and permission to change or skip
+    - A rule that neither person may ever miss it
+    - An activity the other person has not agreed to
+  answer: 0
+  explanation: A ritual can be useful and still remain voluntary and adaptable.
+sources: []

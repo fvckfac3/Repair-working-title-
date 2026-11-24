@@ -1,0 +1,34 @@
+id: rf-lesson-novelty
+module: rebuilding-friendship
+type: lesson
+title: Novelty and shared adventure
+summary: Try a new variation sized for real-world constraints.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Novel does not mean expensive
+    body: A different route around the block, a new question over tea, or listening to a song can change
+      the texture of familiar time. Adventure can happen at home or separately; it does not require
+      travel, mobility, money, childcare, or high energy.
+  - heading: Start with constraints
+    body: Before choosing, each person can name time, cost, access, sensory, and energy limits. A plan
+      that ignores those limits is less likely to be enjoyable. “Ten minutes after dinner, at home,
+      no spending” is a useful design brief.
+  - heading: Choose together, without a sales pitch
+    body: Each person can suggest an option and decline the other’s. Look for something both genuinely
+      want, or decide not to make a plan. No one needs to disclose a reason or agree to a compromise
+      that feels uncomfortable.
+  - heading: Review without grading
+    body: Afterward, ask “What was pleasant or awkward? What would we change?” An activity that fell
+      flat is information, not a failed relationship test. Modify it, choose something else, or
+      stop.
+takeaway:
+  question: What makes a plan accessible and low-pressure?
+  options:
+    - Choosing the most exciting idea regardless of constraints
+    - Starting with both people’s time, energy, access and budget
+    - Treating a declined idea as a rejection
+  answer: 1
+  explanation: A good plan fits actual constraints and remains optional.
+sources: []

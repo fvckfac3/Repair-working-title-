@@ -1,0 +1,35 @@
+id: dc-exercise-how-well-do-you-know-me-now
+module: deepening-connection
+type: exercise
+title: How well do you know me now?
+summary: Update your understanding without a competitive quiz.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Start by considering what you do and do not know. If you later ask someone, ask permission
+  and make passing easy; do not assume a correct answer earns closeness. Information is stored
+  unencrypted on this device and may be visible to anyone with access. Use a safer device or skip
+  writing if this could put you at risk.
+steps:
+  - id: guess
+    kind: text
+    prompt: What is one current source of energy or stress for the other person? Label your answer as a
+      guess.
+    alwaysPrivate: true
+  - id: change
+    kind: text
+    prompt: What is one preference, interest, or goal that might have changed since you last asked?
+    alwaysPrivate: true
+  - id: question
+    kind: text
+    prompt: Write one open question you could offer, such as “What is taking more energy than it used to?”
+    alwaysPrivate: true
+  - id: listen
+    kind: instruction
+    prompt: If it is safe and they agree, ask the question. Listen without correcting; they can pass. If
+      they decline, respect that.
+  - id: learn
+    kind: text
+    prompt: What did I learn, or what uncertainty can I leave open?
+    alwaysPrivate: true
+outro: The aim is a current understanding, not points or proof.

@@ -1,0 +1,35 @@
+id: mat-lesson-privacy
+module: money-as-a-team
+type: lesson
+title: Privacy, secrecy and financial control
+summary: Distinguish privacy from broken shared agreements and coercive control.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: Privacy is not proof of harm
+    body: People may reasonably keep financial details private. No one owes a partner passwords, account
+      access, balances or a complete financial history. Agreeing to a shared expense differs from
+      surrendering privacy.
+  - heading: Notice an actual commitment
+    body: When an agreed shared bill is not covered or a material shared obligation is concealed, the
+      practical impact may be real. Describe the specific agreement and effect; do not turn every
+      private purchase into a betrayal.
+  - heading: Control is not a budgeting style
+    body: Taking someone’s wages, withholding necessities, threatening consequences for ordinary
+      choices, or monitoring every transaction can be financial abuse. The person experiencing it is
+      not responsible for fixing another person’s control.
+  - heading: Put safety first
+    body: If fear, coercion or violence is present, do not confront the person through a joint exercise
+      or require disclosure. A domestic abuse specialist can help individually using a safer device;
+      in immediate danger contact local emergency services if safe.
+takeaway:
+  question: Which response respects privacy and safety?
+  options:
+    - Demand passwords to prove trust.
+    - Discuss a shared commitment voluntarily; seek individual specialist help if control is present.
+    - Assume privacy always means deception.
+  answer: 1
+  explanation: Consent and practical agreements can coexist; control calls for individual support, not
+    joint problem-solving.
+sources: []

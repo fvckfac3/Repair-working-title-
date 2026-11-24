@@ -118,10 +118,18 @@ export function buildBundle(contentDir = CONTENT): { bundle: Bundle | null; erro
     const where = files.get(a.id);
     if (a.type === 'assessment') {
       const subscaleIds = new Set(a.subscales.map((s) => s.id));
+      if (subscaleIds.size !== a.subscales.length) errors.push(`${where}: duplicate subscale ids`);
+      if (a.scale.max <= a.scale.min) errors.push(`${where}: scale max must be greater than min`);
       for (const item of a.items) {
         if (!subscaleIds.has(item.subscale)) errors.push(`${where}: item "${item.id}" has unknown subscale "${item.subscale}"`);
         if (item.flagAtOrAbove !== undefined && (item.flagAtOrAbove < a.scale.min || item.flagAtOrAbove > a.scale.max)) {
           errors.push(`${where}: item "${item.id}" flagAtOrAbove is outside the scale`);
+        }
+        if (item.reverse && item.flagAtOrAbove !== undefined) {
+          errors.push(`${where}: item "${item.id}" cannot combine reverse scoring and flagAtOrAbove`);
+        }
+        if (a.kind === 'safety' && item.flagAtOrAbove === undefined) {
+          errors.push(`${where}: safety item "${item.id}" needs a flag threshold`);
         }
       }
       const itemIds = a.items.map((i) => i.id);
@@ -135,8 +143,17 @@ export function buildBundle(contentDir = CONTENT): { bundle: Bundle | null; erro
         errors.push(`${where}: scale needs exactly ${a.scale.max - a.scale.min + 1} labels`);
       }
       if (!a.bands.some((b) => b.min === 0)) errors.push(`${where}: needs a band starting at 0`);
+      if (new Set(a.bands.map((b) => b.id)).size !== a.bands.length) errors.push(`${where}: duplicate band ids`);
+      if (new Set(a.bands.map((b) => b.min)).size !== a.bands.length) errors.push(`${where}: duplicate band thresholds`);
+    }
+    if (a.type === 'lesson' && a.takeaway.answer !== undefined &&
+        (a.takeaway.answer < 0 || a.takeaway.answer >= a.takeaway.options.length)) {
+      errors.push(`${where}: takeaway answer must index an available option`);
     }
     if (a.type === 'exercise') {
+      if (new Set(a.steps.map((step) => step.id)).size !== a.steps.length) {
+        errors.push(`${where}: duplicate step ids`);
+      }
       for (const step of a.steps) {
         if (['choice', 'multi', 'scale'].includes(step.kind) && !step.options?.length) {
           errors.push(`${where}: step "${step.id}" (${step.kind}) needs options`);
@@ -145,6 +162,9 @@ export function buildBundle(contentDir = CONTENT): { bundle: Bundle | null; erro
       }
     }
     if (a.type === 'conversation') {
+      if (new Set(a.phases.map((p) => p.id)).size !== a.phases.length) {
+        errors.push(`${where}: duplicate phase ids`);
+      }
       for (const p of a.phases) {
         if (p.kind === 'turn' && !p.speaker) errors.push(`${where}: turn phase "${p.id}" needs a speaker`);
       }
@@ -160,6 +180,12 @@ export function buildBundle(contentDir = CONTENT): { bundle: Bundle | null; erro
 
   if (checkins && !ids.has(checkins.weekly.conversation)) {
     errors.push(`global/checkins.yaml: weekly conversation "${checkins.weekly.conversation}" not found`);
+  }
+  if (checkins && activities.find((a) => a.id === checkins.weekly.conversation)?.type !== 'conversation') {
+    errors.push('global/checkins.yaml: weekly conversation must reference a conversation activity');
+  }
+  if (resources && new Set(resources.map((r) => r.id)).size !== resources.length) {
+    errors.push('global/resources.yaml: duplicate resource ids');
   }
   for (const kind of ['onboarding', 'safety'] as const) {
     const count = activities.filter((a) => a.type === 'assessment' && a.kind === kind).length;

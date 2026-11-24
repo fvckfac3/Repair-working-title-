@@ -1,0 +1,28 @@
+id: mat-ex-autobiography
+module: money-as-a-team
+type: exercise
+title: My money autobiography
+summary: Trace a formative money message and decide whether it still serves you.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Work alone; use broad descriptions rather than names, account details or amounts. Skip
+  anything you do not want to record.
+steps:
+  - id: memory
+    kind: text
+    prompt: Recall one early money message or experience. What did it teach you?
+    alwaysPrivate: true
+  - id: response
+    kind: text
+    prompt: What current situation brings it to mind, and what feeling or physical signal do you notice?
+    alwaysPrivate: true
+  - id: context
+    kind: text
+    prompt: What circumstances are different now, including resources or responsibilities?
+    alwaysPrivate: true
+  - id: choice
+    kind: text
+    prompt: Name one rule to keep, revise or question, and one small action you could take.
+    alwaysPrivate: true
+outro: You can keep this reflection to yourself; a story is an invitation to understand, not a label.

@@ -1,0 +1,55 @@
+id: pah-conv-discipline
+module: partners-at-home
+type: conversation
+title: Disagreeing about discipline
+summary: Explore a non-urgent parenting disagreement with child safety and dignity first.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use only where children are in your care and neither person fears the other. If a child is at
+  immediate risk, address safety and seek appropriate help rather than waiting for this guide. If
+  there is fear, coercion or violence, do not use this guide together. Seek individual support from
+  a local domestic abuse specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - Describe a recent non-urgent moment without labeling the child. What did you want to protect
+        or teach?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What did you observe and what value or need mattered to you?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - Find a response that respects safety and developmental needs; agree only if both freely
+        support it. Choose when to review and whose professional input might help.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Name what remains unresolved; neither person must defend harmful treatment or remain silent
+        about safety concerns.

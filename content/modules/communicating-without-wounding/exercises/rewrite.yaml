@@ -1,0 +1,33 @@
+id: cww-ex-rewrite
+module: communicating-without-wounding
+type: exercise
+title: Rewrite the criticism
+summary: Turn one global judgment into a specific, answerable request.
+minutes: 7
+mode: solo
+intensity: light
+intro: Work at your own pace. Choose an example that is safe to consider; you need not share your
+  answers. If fear, coercion, or violence is present, prioritize individual safety and specialized
+  support.
+steps:
+  - id: example
+    kind: text
+    prompt: Write one criticism you have said or considered. Choose a low-stakes example, and omit names
+      or details you do not want to record.
+  - id: observation
+    kind: text
+    prompt: "Describe one observable event: what happened, where, and when? Remove labels and claims
+      about intent."
+  - id: impact
+    kind: text
+    prompt: "What feeling and practical impact did you notice? For example: “I felt rushed when I needed
+      to leave.”"
+  - id: request
+    kind: text
+    prompt: "Write one request with an action and time: “Could you ___ by ___?” Make room for no or
+      another proposal."
+  - id: review
+    kind: instruction
+    prompt: "Read it once: does it avoid insults, threats, and “always/never”? Revise or keep it as a
+      solo draft. You do not have to deliver it."
+outro: Keep what is useful. You may revise, stop, or choose not to share your work.

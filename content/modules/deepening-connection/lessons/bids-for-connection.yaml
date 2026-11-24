@@ -1,0 +1,31 @@
+id: dc-lesson-bids-for-connection
+module: deepening-connection
+type: lesson
+title: Bids for connection
+summary: Notice small invitations and answer in a way that is honest and kind.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: An invitation can be ordinary
+    body: “Look at this bird,” a sigh after work, or asking to sit together may be an invitation for
+      attention. It is also fine to ask directly rather than hoping someone guesses. Not every
+      glance or message is a bid.
+  - heading: Three possible responses
+    body: "You might turn toward: “That color is amazing.” You might miss it while distracted, or
+      respond sharply. A missed moment is information, not a verdict about the relationship."
+  - heading: A respectful not-now is a response
+    body: If you are busy, try “I want to hear this; I can listen after dinner if that works.” Follow
+      through only if both still want to. The other person can decline or prefer another time.
+  - heading: Make one invitation clear
+    body: "Try a small, specific ask: “Could we talk for five minutes?” or “Would you look at this with
+      me?” If the answer is no, respect it; connection cannot be demanded."
+takeaway:
+  question: Which is a responsive answer when you cannot listen right now?
+  options:
+    - “I cannot listen now; would after dinner work?”
+    - Ignore the invitation without noticing it
+    - Demand they repeat it until you are ready
+  answer: 0
+  explanation: An honest limit plus an optional alternative can acknowledge the invitation.
+sources: []

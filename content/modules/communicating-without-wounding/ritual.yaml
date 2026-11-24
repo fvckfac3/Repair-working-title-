@@ -1,0 +1,48 @@
+id: cww-ritual-appreciation-curiosity
+module: communicating-without-wounding
+type: ritual
+title: 14 days of one appreciation and one curious question
+summary: Offer optional appreciation and curiosity in small, concrete moments.
+minutes: 5
+mode: together
+intensity: light
+intro: Only do this together if both freely choose and feel safe. Either may pass, skip a day, or
+  stop; appreciation must be genuine and does not erase hurt. If fear, coercion, or violence is
+  present, prioritize individual safety and specialized support instead of couples activities.
+days:
+  - day: 1
+    task: If welcome, name one specific helpful action you noticed; ask whether there is anything small
+      they would enjoy this week.
+  - day: 2
+    task: Appreciate a small effort if genuine; ask “What made today easier or harder?”
+  - day: 3
+    task: Notice a practical kindness; ask “Would you like listening, help, or no conversation?”
+  - day: 4
+    task: If appropriate, name something you enjoyed; ask “What would a restful evening look like for
+      you?”
+  - day: 5
+    task: Thank them for something specific if it feels honest; ask “Is there a routine you would like
+      to simplify?”
+  - day: 6
+    task: Notice a quality in action; ask “What is one thing you are looking forward to?”
+  - day: 7
+    task: Offer a specific appreciation if welcome; ask “How has this practice felt, and would you like
+      to continue?”
+  - day: 8
+    task: Notice something you valued today; ask “What would make tomorrow a little easier?”
+  - day: 9
+    task: Thank them for a concrete contribution if genuine; ask “What do you want me to understand
+      better about your week?”
+  - day: 10
+    task: Appreciate an instance of consideration; ask “Is there a small preference I have overlooked?”
+  - day: 11
+    task: Name a moment you enjoyed, if any; ask “Would you prefer company or quiet tonight?”
+  - day: 12
+    task: If welcome, notice something they handled; ask “What kind of support, if any, is useful right
+      now?”
+  - day: 13
+    task: Name one small action you appreciated; ask “Is there something pleasant you would like to make
+      time for?”
+  - day: 14
+    task: If you wish, share a genuine appreciation; ask “What should we keep, change, or stop about
+      this practice?”

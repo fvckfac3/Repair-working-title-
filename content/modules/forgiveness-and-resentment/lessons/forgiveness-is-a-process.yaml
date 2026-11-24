@@ -1,0 +1,30 @@
+id: far-lesson-forgiveness-is-a-process
+module: forgiveness-and-resentment
+type: lesson
+title: Forgiveness is a process
+summary: Allow feelings to change without treating forgiveness as a required destination.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: Nonlinear does not mean failure
+    body: A hurt can feel quieter one week and vivid the next. A reminder is not proof you are back at
+      the beginning, and you need not measure yourself against someone else’s timeline.
+  - heading: Distinguish old and ongoing
+    body: "Ask: “Is this a memory of something that stopped, or is something similar still happening?”
+      An ongoing pattern may call for a boundary or outside support, not an exercise in letting go."
+  - heading: Use a review, not a deadline
+    body: Choose a time to notice what has changed in your needs, sleep, boundaries, or access to
+      support. The purpose is information, not declaring the hurt over or promising forgiveness.
+  - heading: Pick your own outcome
+    body: You might choose forgiveness, uncertainty, distance, practical repair, or ending the
+      relationship. You can revise your choice. A trustworthy response respects that autonomy.
+takeaway:
+  question: If the same hurtful behavior is still happening, what is a helpful next question?
+  options:
+    - “What boundary or support might I need?”
+    - “How quickly can I promise forgiveness?”
+    - “How do I prove it did not matter?”
+  answer: 0
+  explanation: Ongoing behavior deserves attention rather than a forced closure date.
+sources: []

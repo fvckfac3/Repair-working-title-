@@ -1,0 +1,63 @@
+id: rt-conv-accountability
+module: repairing-trust
+type: conversation
+title: The accountability conversation
+summary: Offer an accountable acknowledgement and listen to the impact if it is welcome.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use this educational guide only when both freely want to and feel safe. It does not replace
+  professional support or require reconciliation.
+groundRules:
+  - Both people must freely choose to participate; either may skip, pause, or stop without a
+    required return.
+  - No insults, threats, coercion, forced disclosures, or pressure to forgive, agree, or reconcile.
+  - If fear, coercion, or violence is present, do not do this together. Prioritize individual safety
+    and specialized support.
+phases:
+  - id: prep
+    title: Agree on roles and scope
+    kind: prep
+    prompts:
+      - Only proceed if both want to. Partner A is the person offering accountability for one
+        specific action; Partner B is the person affected. Pick a manageable incident and agree that
+        either can stop.
+    seconds: 60
+  - id: a
+    title: A names the action
+    kind: turn
+    speaker: A
+    prompts:
+      - What did I do? State the action plainly and own it without excuses or asking for forgiveness.
+    listenerPrompts:
+      - You do not need to accept the account or respond. You may stop.
+    seconds: 120
+  - id: b
+    title: B may describe the impact
+    kind: turn
+    speaker: B
+    prompts:
+      - If you want, what was the impact on you? What, if anything, do you want A to understand? You
+        may pass.
+    listenerPrompts:
+      - Reflect the impact and ask if your summary is accurate. Do not debate, demand reassurance,
+        or rush forgiveness.
+    seconds: 180
+  - id: offer
+    title: A offers a plan
+    kind: turn
+    speaker: A
+    prompts:
+      - What specific action can I take or offer, within my control? If it changes, how will I
+        communicate that?
+    listenerPrompts:
+      - You may accept, decline, or request something different. A plan is not a promise of renewed
+        trust.
+    seconds: 120
+  - id: close
+    title: Close without obligation
+    kind: close
+    prompts:
+      - Each may name a boundary or say “I am done for now.” No follow-up, forgiveness, or
+        reconciliation is required.
+    seconds: 60

@@ -1,5 +1,9 @@
 # Repair: Build Plan
 
+> This is a product roadmap, not a statement of shipped capabilities. The current
+> app is an internal, local-only prototype; see the root README and
+> [release readiness](release-readiness.md) for current limitations and blockers.
+
 ## Part 5: Technical architecture
 
 ### Stack
@@ -110,11 +114,11 @@ docs/content-map.md       # Part 2 of this plan, kept as the source of truth
 - [x] Supabase schema with RLS + regression tests (`supabase/tests`)
 - [x] Activity players: assessment, lesson, exercise, conversation (single device), journal, ritual
 - [x] Safety system v1: private screen, safety mode, quick exit, crisis resources, module gating
-- [x] Module 1 *Calming the Storm* authored; Modules 2–14 outlined
+- [x] Draft content authored for all 14 modules; all await independent clinical and safety review
 - [ ] Auth + Supabase sync + partner pairing UI (schema and RPCs are ready)
 - [ ] Two-device realtime conversation guides
 - [ ] Partner result comparison UI (`compareResults` is implemented and tested)
 - [ ] App lock, encrypted journal at rest, crisis keyword detection
-- [ ] Author Modules 2, 3, 4, 7 → clinical review → publish
+- [ ] Independently review all modules, the safety screen and scoring → document sign-off → publish only when release requirements are met
 - [ ] Notifications, RevenueCat, PostHog, Sentry
 - [ ] Beta

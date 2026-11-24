@@ -1,0 +1,56 @@
+id: far-conversation-offering-amends
+module: forgiveness-and-resentment
+type: conversation
+title: Offering and receiving amends
+summary: Make a specific offer without demanding forgiveness or contact.
+minutes: 12
+mode: together
+intensity: deep
+intro: Use only if both freely agree, feel safe, and already know the issue. Either person can
+  decline an apology, an offer, or further discussion.
+groundRules:
+  - Both must freely choose to participate and be able to stop or decline without retaliation.
+  - If fear, coercion, intimidation or violence is present, do not use a joint guide; seek
+    individual specialist support.
+  - Speak about one event and its impact; no insults, interrogation, or pressure to forgive.
+  - Either person can pause or end without promising to return; respect requests for space.
+phases:
+  - id: prep
+    title: Agree on the issue
+    kind: prep
+    prompts:
+      - Choose one known event. If either person does not want to proceed, stop.
+    seconds: 60
+  - id: offer
+    title: Partner A offers
+    kind: turn
+    prompts:
+      - "Name your action, acknowledge the impact you understand, and offer one feasible repair:
+        “Would this be useful?” Avoid “but” and do not demand forgiveness."
+    speaker: A
+    listenerPrompts:
+      - You may listen, ask for clarification, decline, or say you need time.
+    seconds: 180
+  - id: response
+    title: Partner B responds
+    kind: turn
+    prompts:
+      - Say what you heard and, if you wish, what would or would not be useful. It is fine not to
+        know.
+    speaker: B
+    listenerPrompts:
+      - Accept the response without negotiating away the other person’s boundary.
+    seconds: 180
+  - id: next
+    title: Name any voluntary next step
+    kind: together
+    prompts:
+      - "If an offer is accepted, make it specific: who will do what and by when? If not, leave it
+        open without pressure."
+    seconds: 120
+  - id: close
+    title: Finish
+    kind: close
+    prompts:
+      - Either person can end or take space. Acknowledging the discussion does not mean the hurt is
+        resolved.

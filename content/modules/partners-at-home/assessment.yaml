@@ -1,0 +1,119 @@
+id: pah-assessment
+module: partners-at-home
+type: assessment
+title: Fair Share
+summary: Notice planning load, follow-through, time for connection and parenting coordination where
+  relevant.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: If children are not in your care, you can skip the three parenting questions rather than give
+  inaccurate answers. Skipping any question leaves this assessment incomplete; no overall profile,
+  band or recommendations will be available from it. You can still browse the library for appropriate
+  activities when available, subject to safety and entry requirements. Think about the past month, or
+  the nearest relevant period. These original prompts are educational, not a validated measure or
+  diagnosis; scores cannot tell you what to do. Cutoffs are illustrative, not clinical. Your result is
+  stored on this device; consider whether using it is safe if someone else has access. If fear,
+  coercion or violence is present, skip joint work and seek individual specialist support.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: planning
+    label: Invisible planning
+    description: Whether noticing and coordinating tasks feels uneven.
+    threshold: 50
+    recommend:
+      - pah-lesson-mental-load
+      - pah-ex-audit
+    sensitive: false
+  - id: follow-through
+    label: Task follow-through
+    description: Whether responsibilities have clear ownership and backup.
+    threshold: 50
+    recommend:
+      - pah-ex-audit
+      - pah-ex-rebalance
+    sensitive: false
+  - id: connection
+    label: Time and capacity
+    description: Whether the household leaves room for rest and connection.
+    threshold: 50
+    recommend:
+      - pah-lesson-partnership
+      - pah-lesson-logistics
+    sensitive: false
+  - id: parenting
+    label: Parenting coordination
+    description: If applicable, difficulties discussing care for children.
+    threshold: 50
+    recommend:
+      - pah-lesson-parenting
+      - pah-ex-parenting
+    sensitive: true
+items:
+  - id: p1
+    subscale: planning
+    text: I am usually the one who notices what the household needs.
+  - id: p2
+    subscale: planning
+    text: I carry the work of remembering deadlines and arranging care.
+  - id: p3
+    subscale: planning
+    text: The planning behind household tasks is recognized.
+    reverse: true
+  - id: f1
+    subscale: follow-through
+    text: Tasks fall through because no one knows who owns them.
+  - id: f2
+    subscale: follow-through
+    text: I have to remind someone repeatedly about a responsibility they agreed to take.
+  - id: f3
+    subscale: follow-through
+    text: We have a workable backup when the usual person cannot do a task.
+    reverse: true
+  - id: t1
+    subscale: connection
+    text: There is little time left for me to rest after household responsibilities.
+  - id: t2
+    subscale: connection
+    text: It is hard to make room for the kind of connection I want.
+  - id: t3
+    subscale: connection
+    text: My available time and capacity are considered when tasks are allocated.
+    reverse: true
+  - id: c1
+    subscale: parenting
+    text: If children are in our care, differences about how to respond to them remain unresolved.
+  - id: c2
+    subscale: parenting
+    text: If children are in our care, I feel able to raise a concern about their wellbeing.
+    reverse: true
+  - id: c3
+    subscale: parenting
+    text: If children are in our care, scheduling and care decisions create repeated tension.
+bands:
+  - id: lower
+    label: Some areas to explore
+    min: 0
+    narrative: Your answers suggest fewer reported difficulties among items answered. A low score does
+      not prove tasks are fair; an audit may reveal overlooked work.
+  - id: middle
+    label: Some load may be uneven
+    min: 35
+    narrative: Your responses suggest planning, follow-through, time or parenting may need attention.
+      Start with one recurring task and consider capacity as well as hours.
+  - id: higher
+    label: The load may be straining you
+    min: 65
+    narrative: Your responses suggest considerable strain. Consider individual or practical support. If
+      fear, control or violence is present, seek an individual domestic abuse specialist rather than
+      joint work.
+gapThreshold: 25

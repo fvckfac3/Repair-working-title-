@@ -1,0 +1,34 @@
+id: sm-lesson-roles
+module: shared-meaning
+type: lesson
+title: What our roles mean to each of us
+summary: Translate labels into responsibilities, choice, and support.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: A title can hide different expectations
+    body: Words such as partner, parent, provider, caregiver, or homemaker carry cultural and personal
+      meanings. None of these roles is required for a relationship. Ask what a label means to you
+      rather than assuming another person shares your definition.
+  - heading: Look at the invisible parts
+    body: A responsibility often includes noticing, planning, arranging, doing, and following up.
+      “Handle dinner” may include checking supplies, accommodating needs, shopping, cooking, and
+      cleaning. Name the pieces before judging whether an arrangement is workable.
+  - heading: Check authority and capacity
+    body: Who can make decisions? Who has time, resources, access, or energy? Is anyone expected to take
+      on work without freely agreeing? A fair arrangement accounts for paid work, care, health, and
+      personal time; equal numbers of tasks are not necessarily equal effort.
+  - heading: Make a reversible experiment
+    body: If both freely want to and feel safe, choose one specific task, person, scope, and review
+      date. Either person can say a role or arrangement does not work. Safety, bodily autonomy, and
+      access to basic resources are not bargaining chips.
+takeaway:
+  question: What helps make a role discussion concrete?
+  options:
+    - Assuming a title has one universal meaning
+    - Naming the planning, doing, and follow-up a task involves
+    - Counting tasks without considering time or capacity
+  answer: 1
+  explanation: Specific responsibilities and real constraints reveal more than labels.
+sources: []

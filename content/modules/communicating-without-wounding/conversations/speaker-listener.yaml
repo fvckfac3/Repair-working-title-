@@ -1,0 +1,49 @@
+id: cww-conv-speaker-listener
+module: communicating-without-wounding
+type: conversation
+title: Speaker-listener practice
+summary: Practice reflecting on a small everyday preference, not a hot issue.
+minutes: 12
+mode: together
+intensity: light
+intro: Use this guide at a calm time only if both freely want to. It is educational, not therapy. No
+  conversation or reconciliation is required.
+groundRules:
+  - Participate only if both freely choose. Either person may pause, decline a prompt, or stop
+    without owing a return time.
+  - Speak one at a time; no insults, threats, or pressure to agree.
+  - If fear, coercion, or violence is present, do not do this together. Prioritize individual safety
+    and specialized support.
+phases:
+  - id: prep
+    title: Choose a light topic
+    kind: prep
+    prompts:
+      - Each agree to practice or stop. Pick something low-stakes, such as a preferred weekend
+        breakfast.
+    seconds: 60
+  - id: a
+    title: A describes
+    kind: turn
+    speaker: A
+    prompts:
+      - What is one small preference I have, and what do I enjoy about it?
+    listenerPrompts:
+      - Reflect the preference in your own words and ask, “Did I get that?” Accept a correction.
+    seconds: 120
+  - id: b
+    title: B describes
+    kind: turn
+    speaker: B
+    prompts:
+      - What is one small preference I have, and what do I enjoy about it?
+    listenerPrompts:
+      - Reflect, then check for a correction. Do not argue the preference away.
+    seconds: 120
+  - id: close
+    title: Notice and close
+    kind: close
+    prompts:
+      - If you wish, each name one part of the reflection that felt accurate. Either person can end
+        without solving anything.
+    seconds: 60

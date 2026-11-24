@@ -1,0 +1,61 @@
+id: sm-conv-mission
+module: shared-meaning
+type: conversation
+title: A relationship mission statement
+summary: Draft optional language that reflects both voices without requiring agreement.
+minutes: 15
+mode: together
+intensity: medium
+intro: Only begin if both freely want to and feel safe. A mission statement is a draft, not a
+  promise to stay, a contract, or an excuse for harm.
+groundRules:
+  - Both people choose freely whether to take part, skip a prompt, pause, or stop without
+    consequence.
+  - If fear, coercion, or violence is present, do not use this guide together; seek specialist
+    individual support and make choices that are safe for you.
+  - Speak for yourself; listen without debating, interpreting, or demanding disclosure.
+phases:
+  - id: prepare
+    title: Choose whether this is a good time
+    kind: prep
+    prompts:
+      - Check that both freely want to talk now. Either person may pass or end without a promise to
+        resume.
+      - Choose a low-pressure setting and a short time; no one owes an answer.
+  - id: turn-a
+    title: First perspective
+    kind: turn
+    speaker: A
+    prompts:
+      - What value would I want our interactions to express, and what behavior would show it?
+      - What wording would feel untrue or too demanding?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: turn-b
+    title: Second perspective
+    kind: turn
+    speaker: B
+    prompts:
+      - What value would I want our interactions to express, and what behavior would show it?
+      - What wording would feel untrue or too demanding?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: choose
+    title: Choose a possible next step
+    kind: together
+    prompts:
+      - "If both want, try one sentence: “We want to make room for [value] by [specific behavior].”
+        Include only wording both genuinely accept."
+      - Name an unresolved difference without forcing it into the sentence. Decide whether the draft
+        is worth revisiting, or choose not to make one.
+    seconds: 180
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Each may say what felt accurate or pass. Either person may change their mind about the words
+        later.

@@ -1,0 +1,46 @@
+id: rf-ex-date-planner
+module: rebuilding-friendship
+type: exercise
+title: Date planner
+summary: Draft a flexible plan that fits actual constraints and a freely given yes.
+minutes: 8
+mode: solo
+intensity: light
+intro: Make an individual draft. A date can be a brief conversation, a quiet activity, or nothing at
+  all; the other person can decline.
+steps:
+  - id: budget
+    kind: choice
+    prompt: What spending range fits you right now?
+    help: Choose the option that leaves you comfortable.
+    options:
+      - No spending
+      - A small amount
+      - A planned larger amount
+      - Not sure
+  - id: capacity
+    kind: multi
+    prompt: What constraints should a plan account for?
+    help: Choose any that apply.
+    options:
+      - Time
+      - Energy
+      - Physical or sensory access
+      - Childcare or caregiving
+      - Privacy
+      - Travel
+      - Other or none
+  - id: plan
+    kind: text
+    prompt: Draft one idea with a place, time, and duration that fit your choices.
+    help: "For example: a 15-minute tea at home, with no spending."
+  - id: backup
+    kind: text
+    prompt: What is a simpler alternative, including canceling or taking time alone?
+  - id: invite
+    kind: text
+    prompt: Write an invitation with an easy no and a way to reschedule only if both want to.
+  - id: review
+    kind: text
+    prompt: Afterward, if it happens, what one question will help you learn whether it was enjoyable?
+outro: A draft is not a booking or a commitment. Both people choose whether to take part.

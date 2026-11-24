@@ -1,0 +1,41 @@
+id: dc-ritual-small-connection
+module: deepening-connection
+type: ritual
+title: 14 days of small connection
+summary: Try a small invitation or moment of attention each day, only if both want to.
+minutes: 5
+mode: together
+intensity: light
+intro: These ideas are optional, not a streak to maintain. Choose a few minutes when both freely
+  agree; either may pass or stop. There is no required touch, kiss, disclosure, or fixed
+  conversation length. If fear, coercion or violence is present, skip joint activities and seek
+  individual specialist support.
+days:
+  - day: 1
+    task: Ask whether a short check-in is welcome. If yes, each can share one word for the day.
+  - day: 2
+    task: Offer one specific appreciation if genuine; accept a pass without explanation.
+  - day: 3
+    task: Ask “What is one small thing you are looking forward to?” and listen if they want to answer.
+  - day: 4
+    task: Offer to share a cup of tea, a short walk, or quiet company; a no is fine.
+  - day: 5
+    task: Ask “Would you like listening, ideas, or space today?” Respect the answer.
+  - day: 6
+    task: Share a song, picture, or ordinary observation if it would be welcome.
+  - day: 7
+    task: "Check in: which, if any, invitation felt good this week? Each can pass."
+  - day: 8
+    task: Ask about a current interest without assuming it is the same as before.
+  - day: 9
+    task: Offer one practical kindness you can genuinely do; let the other person decline.
+  - day: 10
+    task: Each name an amount of quiet or company you would like today, if you wish.
+  - day: 11
+    task: Ask “What was one manageable moment today?” Listen without fixing.
+  - day: 12
+    task: Offer a short shared activity that does not involve screens, or choose your own alternative.
+  - day: 13
+    task: Make one specific request with room for no; accept the answer without persuasion.
+  - day: 14
+    task: "Review together only if both want: keep one helpful idea, change it, or end the ritual."

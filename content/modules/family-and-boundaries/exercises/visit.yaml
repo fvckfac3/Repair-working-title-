@@ -1,0 +1,30 @@
+id: fab-ex-visit
+module: family-and-boundaries
+type: exercise
+title: Holiday and visit planner
+summary: Plan a possible visit with space for different participation and access needs.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Use a hypothetical or real invitation. No one is required to attend, host, disclose reasons
+  or sever ties.
+steps:
+  - id: options
+    kind: list
+    prompt: List options, including attending separately, a shorter visit, another location or declining.
+    alwaysPrivate: true
+  - id: needs
+    kind: text
+    prompt: Consider travel, costs, rest, accessibility, child care and safety without entering
+      sensitive details.
+    alwaysPrivate: true
+  - id: limits
+    kind: text
+    prompt: What arrival, departure, hosting or conversation limit would you choose for yourself?
+    alwaysPrivate: true
+  - id: plan
+    kind: text
+    prompt: If others freely agree, who will communicate which part of the plan, and by when? Avoid
+      sharing anyone else’s private reason.
+    alwaysPrivate: true
+outro: The plan remains provisional until everyone whose participation is needed agrees.

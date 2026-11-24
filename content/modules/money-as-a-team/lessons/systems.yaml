@@ -1,0 +1,34 @@
+id: mat-lesson-systems
+module: money-as-a-team
+type: lesson
+title: Shared, separate or hybrid
+summary: Compare arrangements by agency and practical needs rather than one ideal.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: No universal setup
+    body: Some people keep resources separate, pool them, or combine shared expenses with individual
+      resources. None is inherently fair or safe; income, caregiving, health and local circumstances
+      can differ.
+  - heading: Discuss functions, not passwords
+    body: If both freely agree, identify a shared expense, how it is handled, who follows through, and
+      what happens if circumstances change. A planning conversation does not require access to
+      someone else’s accounts.
+  - heading: Check actual agency
+    body: Ask whether each person can access necessities, make ordinary choices, question a plan and
+      decline changes without retaliation. A supposedly shared system can be controlling if only one
+      person has meaningful access.
+  - heading: Try and review
+    body: Choose a small, reversible arrangement only if both consent. Write what is being tried and
+      when to review it. For personal questions about obligations, taxes, benefits or financial
+      products, seek independent qualified advice.
+takeaway:
+  question: What matters more than a particular account structure?
+  options:
+    - Both people can make choices and review a voluntary plan.
+    - All money must be pooled.
+    - One person should control the plan.
+  answer: 0
+  explanation: Fairness and agency matter more than the arrangement’s label.
+sources: []

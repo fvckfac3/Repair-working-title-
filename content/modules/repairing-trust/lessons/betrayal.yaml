@@ -1,0 +1,32 @@
+id: rt-lesson-betrayal
+module: repairing-trust
+type: lesson
+title: Betrayal comes in many forms
+summary: Name the action and impact without deciding what another person must forgive.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Begin with the concrete event
+    body: Trust can be strained by a broken commitment, a lie about a shared expense, or not showing up
+      after offering help. What matters is the action, its context, and its impact—not a competition
+      over who has suffered more.
+  - heading: Separate privacy from deception
+    body: People can have personal boundaries and private information. A missed disclosure may matter
+      when it affects a shared decision, but privacy alone is not proof of betrayal or permission to
+      monitor someone.
+  - heading: Name impacts without forcing a narrative
+    body: An affected person might feel anger, uncertainty, or no immediate reaction. They choose what
+      to share. The person who acted can listen without demanding a timeline for recovery.
+  - heading: Consider what kind of support fits
+    body: This module addresses everyday trust concerns, not a full response to infidelity, coercion, or
+      violence. For fear or abuse, seek individual safety and specialized support instead of couples
+      activities.
+takeaway:
+  question: Which statement respects both trust and individual boundaries?
+  options:
+    - “Personal privacy alone is not proof of deception.”
+    - “To prove trust, everyone must share passwords.”
+    - “A small promise cancels earlier harm.”
+  answer: 0
+  explanation: A shared decision may require relevant information; it does not erase individual boundaries.

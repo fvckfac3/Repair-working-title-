@@ -41,8 +41,10 @@ export function itemConcern(
   scale: { min: number; max: number },
   reverse = false,
 ): number {
-  if (scale.max <= scale.min) throw new Error('scale.max must be greater than scale.min');
-  if (value < scale.min || value > scale.max) {
+  if (!Number.isInteger(scale.min) || !Number.isInteger(scale.max) || scale.max <= scale.min) {
+    throw new Error('scale must have finite integer bounds with max greater than min');
+  }
+  if (!Number.isInteger(value) || value < scale.min || value > scale.max) {
     throw new RangeError(`answer ${value} outside scale ${scale.min}-${scale.max}`);
   }
   const normalized = (value - scale.min) / (scale.max - scale.min);
@@ -60,6 +62,7 @@ export function bandFor(bands: Band[], score: number): Band | null {
 export function scoreAssessment(assessment: Assessment, answers: Answers): AssessmentResult {
   const flags: string[] = [];
   const buckets = new Map<string, number[]>();
+  const complete = assessment.items.every((item) => answers[item.id] !== undefined);
 
   for (const item of assessment.items) {
     const value = answers[item.id];
@@ -89,20 +92,22 @@ export function scoreAssessment(assessment: Assessment, answers: Answers): Asses
   const overall = scored.length
     ? round1(scored.reduce((a, s) => a + s.score, 0) / scored.length)
     : null;
-  const band = overall === null ? null : bandFor(assessment.bands, overall);
+  // The available items remain useful to review, but a partial questionnaire
+  // must not masquerade as a complete profile or produce a confident label.
+  const band = !complete || overall === null ? null : bandFor(assessment.bands, overall);
 
   const recommendations: string[] = [];
   const byConcern = [...scored].sort((a, b) => b.score - a.score);
   for (const s of byConcern) {
     const def = assessment.subscales.find((d) => d.id === s.id)!;
-    if (s.score >= def.threshold) {
+    if (complete && s.score >= def.threshold) {
       for (const id of def.recommend) if (!recommendations.includes(id)) recommendations.push(id);
     }
   }
 
   return {
     assessmentId: assessment.id,
-    complete: assessment.items.every((i) => answers[i.id] !== undefined),
+    complete,
     overall,
     band,
     subscales,
@@ -143,7 +148,9 @@ export function compareResults(
     .filter((m) => !m.sensitive)
     .map((m) => {
       const p = partner.subscales.find((s) => s.id === m.id);
-      if (m.score === null || !p || p.score === null) return null;
+      // Sensitivity can change between content versions. Either side marking
+      // a subscale sensitive is enough to exclude it from the comparison.
+      if (m.score === null || !p || p.sensitive || p.score === null) return null;
       const gap = round1(Math.abs(m.score - p.score));
       return { id: m.id, label: m.label, mine: m.score, partner: p.score, gap, notable: gap >= gapThreshold };
     })
@@ -167,6 +174,7 @@ export function rankModules(
 ): ModuleRecommendation[] {
   const best = new Map<string, number>();
   for (const result of results) {
+    if (!result.complete) continue;
     for (const s of result.subscales) {
       if (!s.module || s.score === null) continue;
       best.set(s.module, Math.max(best.get(s.module) ?? 0, s.score));

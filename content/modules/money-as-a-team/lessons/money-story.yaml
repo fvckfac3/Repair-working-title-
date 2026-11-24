@@ -1,0 +1,34 @@
+id: mat-lesson-money-story
+module: money-as-a-team
+type: lesson
+title: Your money story
+summary: Notice messages about money without treating them as fixed identities.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: Recall a message
+    body: "Think of a sentence you absorbed about money: “Save everything” or “We can always manage.” It
+      may have helped in one situation without fitting your life now; you do not need to revisit
+      painful details."
+  - heading: Connect past and present
+    body: "Notice one trigger, such as an unexpected charge, and your reaction. Ask what it may be
+      protecting: stability, independence, generosity, or another value. Your history can explain a
+      reaction without excusing harmful behavior."
+  - heading: Preference or constraint?
+    body: Labels such as “spender” and “saver” can hide caregiving, disability, debt, unequal income or
+      a lack of available choices. Describe a behavior and context instead of assigning a permanent
+      personality.
+  - heading: Choose what to keep
+    body: "Choose one inherited rule to keep, revise or question. If sharing feels safe, offer only what
+      you want: “Unexpected costs make me anxious; advance notice would help.” The other person may
+      have a different story."
+takeaway:
+  question: Which statement keeps a money story open to change?
+  options:
+    - “I learned to save during uncertainty, and I can reconsider that rule.”
+    - “My partner must follow my rules.”
+    - “My history proves all spending is unsafe.”
+  answer: 0
+  explanation: A learned rule can be useful, limited, or revised without labeling either person.
+sources: []

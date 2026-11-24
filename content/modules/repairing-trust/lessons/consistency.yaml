@@ -1,0 +1,31 @@
+id: rt-lesson-consistency
+module: repairing-trust
+type: lesson
+title: Consistency over grand gestures
+summary: Use a limited, observable plan instead of a dramatic promise.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Make the promise fit your control
+    body: “I will submit the payment by Friday” is within your control; “you will feel safe again by
+      Friday” is not. Agree only to actions you can actually take.
+  - heading: Set a check, not a deadline for trust
+    body: Choose a short review period and how to observe the action, such as a receipt for a shared
+      bill. Avoid demanding passwords, device access, location tracking, or unlimited disclosure.
+  - heading: When a plan fails
+    body: "Acknowledge the miss promptly without hiding it: “I missed Friday. I will submit it today;
+      would another arrangement work better?” The other person may choose a different plan or
+      boundary."
+  - heading: Let the affected person decide
+    body: Consistency can provide information, not an entitlement to closeness. Someone may still choose
+      distance, a different arrangement, or separation. If fear, coercion, or violence is present,
+      prioritize individual safety and specialized support.
+takeaway:
+  question: What can a person reasonably promise?
+  options:
+    - That a partner will trust them by a deadline.
+    - A specific action they control, with an honest update if it changes.
+    - That they will never make any mistake.
+  answer: 1
+  explanation: A commitment should describe behavior within the person’s control.

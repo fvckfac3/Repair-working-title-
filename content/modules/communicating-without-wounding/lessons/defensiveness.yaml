@@ -1,0 +1,29 @@
+id: cww-lesson-defensiveness
+module: communicating-without-wounding
+type: lesson
+title: Catching defensiveness
+summary: Find the piece you can own without accepting an inaccurate or unsafe accusation.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Notice the urge to counterattack
+    body: When a concern arrives, you may want to list the other person’s mistakes. Pause, breathe, or
+      say “I need a moment.” A pause need not become a promise to resume if doing so is unsafe.
+  - heading: Look for a small true piece
+    body: You might say “I did forget to call.” Owning this piece does not require accepting “you never
+      care,” taking responsibility for someone else’s conduct, or admitting to something untrue.
+  - heading: Separate impact from intent
+    body: “I did not intend to leave you waiting, and I see that you waited” can be more accurate than
+      defending intent alone. Ask what practical change would help; decide whether you can agree.
+  - heading: Ask for a different form
+    body: "You can set a limit: “I can discuss the missed call, but not while I am being insulted.” If
+      either person feels unsafe, stop and seek individual support rather than pressing on."
+takeaway:
+  question: What does taking partial responsibility mean?
+  options:
+    - Agreeing with every accusation.
+    - Owning a true action without accepting untrue claims.
+    - Proving the other person is more at fault.
+  answer: 1
+  explanation: An honest, limited acknowledgement is not total blame.

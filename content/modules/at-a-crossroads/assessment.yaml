@@ -1,0 +1,119 @@
+id: aac-assessment
+module: at-a-crossroads
+type: assessment
+title: Commitment & Ambivalence
+summary: Reflect on decision space and support needs without scoring whether you should stay or leave.
+minutes: 5
+mode: solo
+intensity: deep
+kind: standard
+intro: Think about the past month, or the nearest relevant period. These original prompts are
+  educational, not a validated measure or diagnosis; scores cannot tell you what to do. Skip any
+  item; a skipped answer means no overall band or recommendations. Cutoffs are illustrative, not
+  clinical. Your result is stored on this device; consider whether using it is safe if someone else
+  has access. If fear, coercion or violence is present, skip joint work and seek individual
+  specialist support.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: clarity
+    label: Clarity about my needs
+    description: How hard it feels to name your own needs and limits.
+    threshold: 50
+    recommend:
+      - aac-lesson-mixed
+      - aac-ex-ambivalence
+    sensitive: true
+  - id: space
+    label: Room to decide
+    description: Whether pressure makes it difficult to consider choices.
+    threshold: 50
+    recommend:
+      - aac-lesson-paths
+      - aac-ex-decision
+    sensitive: true
+  - id: options
+    label: Understanding options
+    description: Whether practical questions make possible paths hard to evaluate.
+    threshold: 50
+    recommend:
+      - aac-lesson-paths
+      - aac-ex-decision
+    sensitive: true
+  - id: support
+    label: Support and reflection
+    description: Whether you have space and support to reflect independently.
+    threshold: 50
+    recommend:
+      - aac-lesson-contributions
+      - aac-ex-contributions
+    sensitive: true
+items:
+  - id: clarity-1
+    subscale: clarity
+    text: I find it hard to name what matters most to me in this decision.
+  - id: clarity-2
+    subscale: clarity
+    text: I can identify a limit or need that matters to me.
+    reverse: true
+  - id: clarity-3
+    subscale: clarity
+    text: My feelings about the future are difficult to sort through.
+  - id: space-1
+    subscale: space
+    text: I feel rushed to state a decision before I am ready.
+  - id: space-2
+    subscale: space
+    text: I can reconsider my options without being pressured into an answer.
+    reverse: true
+  - id: space-3
+    subscale: space
+    text: I feel afraid of threats or retaliation if I choose a path the other person dislikes.
+    flagAtOrAbove: 1
+  - id: options-1
+    subscale: options
+    text: I have unanswered practical questions about the paths available to me.
+  - id: options-2
+    subscale: options
+    text: I know what information might help me understand my options.
+    reverse: true
+  - id: options-3
+    subscale: options
+    text: It is hard to imagine more than one possible next step.
+  - id: support-1
+    subscale: support
+    text: I have access to someone I can talk to individually without pressure to choose a particular
+      path.
+    reverse: true
+  - id: support-2
+    subscale: support
+    text: I find it difficult to distinguish my own actions from another person’s choices.
+  - id: support-3
+    subscale: support
+    text: I lack private time or space to think about what I want.
+bands:
+  - id: lower
+    label: Some space for reflection
+    min: 0
+    narrative: Your responses suggest fewer reported barriers among the items answered. The score does
+      not indicate whether to stay or separate, or whether a situation is safe.
+  - id: middle
+    label: More space or information may help
+    min: 35
+    narrative: Your responses suggest uncertainty or pressure in some areas. You can seek independent
+      information, take time, or choose a next step without sharing a decision.
+  - id: higher
+    label: Consider individual support
+    min: 65
+    narrative: Your responses suggest that finding space to decide may be difficult. An individual
+      counselor or relevant specialist may help you explore options without choosing for you. If
+      there is fear, coercion or violence, seek domestic abuse specialist support individually, not
+      couples work.
+gapThreshold: 25

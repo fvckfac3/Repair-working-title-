@@ -1,0 +1,30 @@
+id: aac-ex-contributions
+module: at-a-crossroads
+type: exercise
+title: My choices and contributions
+summary: Reflect on an action you control without accepting responsibility for another person’s harm.
+minutes: 10
+mode: solo
+intensity: deep
+intro: Use a non-abusive example if one is available; skip this exercise if reflection would invite
+  self-blame. You are not responsible for someone else’s coercion or violence.
+steps:
+  - id: situation
+    kind: text
+    prompt: Describe one non-abusive disagreement in broad terms, without identifying details.
+    alwaysPrivate: true
+  - id: action
+    kind: text
+    prompt: What did you choose to say or do, and what effect do you think it had?
+    alwaysPrivate: true
+  - id: responsibility
+    kind: text
+    prompt: What was within your control, and what belonged to someone else? Abuse is the responsibility
+      of the person using it.
+    alwaysPrivate: true
+  - id: future
+    kind: text
+    prompt: Is there one action, limit or support you want for yourself? It need not involve contact or
+      reconciliation.
+    alwaysPrivate: true
+outro: Your reflection is not a confession or a condition for choosing a path.

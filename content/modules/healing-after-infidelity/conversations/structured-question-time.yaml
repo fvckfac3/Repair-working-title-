@@ -1,0 +1,61 @@
+id: hai-conversation-structured-question-time
+module: healing-after-infidelity
+type: conversation
+title: Structured question time
+summary: Use one decision-focused question, with a clear option to stop.
+minutes: 15
+mode: together
+intensity: deep
+intro: Choose a calm time only if both already know the relevant facts and freely agree. This is not
+  a disclosure tool. If a question could introduce new information, stop and seek professional
+  guidance outside this guide.
+groundRules:
+  - Do this only if both freely want to, already know the relevant facts, and feel safe saying no.
+    Do not use this guide to disclose an affair or new information.
+  - If there is fear, coercion, intimidation or violence, do not do a joint activity; seek
+    individual specialist support instead.
+  - Either person can pause or end without penalty. Do not pursue, threaten, demand a response, or
+    require a return time.
+  - Avoid unwanted graphic detail. The listener may ask for clarification, not cross-examine.
+phases:
+  - id: prep
+    title: Choose a container
+    kind: prep
+    prompts:
+      - Agree on one question and a time limit. Each may say “not today.”
+      - Name a pause signal and a safe way to end without deciding when to resume.
+    seconds: 60
+  - id: question
+    title: Partner A asks
+    kind: turn
+    prompts:
+      - State one question and why the answer matters to a practical decision. Specify the level of
+        detail you do and do not want.
+    speaker: A
+    listenerPrompts:
+      - Check that you understand the question. You may decline or suggest talking with an
+        individual professional.
+    seconds: 180
+  - id: response
+    title: Partner B responds
+    kind: turn
+    prompts:
+      - If you choose to respond, answer the agreed question briefly and honestly within the agreed
+        limits. Do not introduce new information in this guide.
+    speaker: B
+    listenerPrompts:
+      - Listen without demanding extra detail. You can stop or take space.
+    seconds: 180
+  - id: check
+    title: Check what is needed
+    kind: together
+    prompts:
+      - Each can say whether they need a pause, an individual support person, or no further
+        discussion. Do not demand a next session.
+    seconds: 120
+  - id: close
+    title: Close without a verdict
+    kind: close
+    prompts:
+      - Thank the other person only if genuine. Each choose a grounding or support action for after
+        the conversation.

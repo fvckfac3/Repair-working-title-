@@ -1,0 +1,99 @@
+id: hai-assessment-recovery-needs
+module: healing-after-infidelity
+type: assessment
+title: Recovery Needs Check
+summary: Notice where you may want steadiness, support, or more choice.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Answer on your own about the past two weeks, from your own perspective, whether you were
+  hurt, were involved, or are unsure of your role. Skip items that do not fit. This original
+  reflection is not a diagnosis, a validated measure, or a test of readiness; its ranges are
+  prompts, not stages. If fear, coercion or violence is present, prioritize individual safety and
+  specialist support rather than joint work. Information is stored unencrypted on this device and
+  may be visible to anyone with access. Use a safer device or skip writing if this could put you at
+  risk.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: settling
+    label: Finding steadiness
+    threshold: 50
+    recommend:
+      - hai-lesson-why-reactions-can-linger
+      - hai-exercise-my-trigger-plan
+    sensitive: true
+  - id: support
+    label: Support and choices
+    threshold: 50
+    recommend:
+      - hai-lesson-a-flexible-map
+      - hai-exercise-for-hurt-partner
+    sensitive: true
+  - id: questions
+    label: Managing hard questions
+    threshold: 50
+    recommend:
+      - hai-lesson-questions-with-a-purpose
+      - hai-exercise-boundaries-without-surveillance
+    sensitive: true
+items:
+  - id: s1
+    subscale: settling
+    text: Reminders of the situation interrupt my day or make it hard to settle.
+  - id: s2
+    subscale: settling
+    text: I have a way to pause and ground myself when a reminder hits.
+    reverse: true
+  - id: s3
+    subscale: settling
+    text: I feel pulled to revisit the issue when I need rest.
+  - id: c1
+    subscale: support
+    text: I feel unsure where to find support that fits my situation.
+  - id: c2
+    subscale: support
+    text: I can choose my next step without having to decide the whole relationship now.
+    reverse: true
+  - id: c3
+    subscale: support
+    text: I feel pressured to make a decision before I am ready.
+  - id: q1
+    subscale: questions
+    text: I find it hard to tell which questions would help me make a decision.
+  - id: q2
+    subscale: questions
+    text: I know how to stop a conversation that is becoming too much.
+    reverse: true
+  - id: q3
+    subscale: questions
+    text: After discussing the issue, I am left with more detail than I wanted.
+bands:
+  - id: less-strain
+    label: Some room to choose
+    min: 0
+    narrative: Your answers suggest some capacity for steadiness or choice in the areas answered. The
+      result does not prove you are safe or ready for a joint conversation. Choose any useful solo
+      practice and seek support whenever you want.
+  - id: mixed-strain
+    label: Some needs deserve attention
+    min: 30
+    narrative: Some areas answered may be taking energy. Start with one small grounding or support step.
+      You do not need to forgive, reconcile, or explain the score to anyone.
+  - id: more-strain
+    label: More support may help
+    min: 60
+    suggestTherapist: true
+    narrative: The areas you answered may feel especially demanding. Consider an individual therapist or
+      other trusted support. When both people freely want it and there is no fear, coercion or
+      violence, a qualified couples therapist may help; safety and individual specialist support
+      come first otherwise.
+gapThreshold: 25

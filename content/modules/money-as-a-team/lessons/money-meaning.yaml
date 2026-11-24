@@ -1,0 +1,35 @@
+id: mat-lesson-money-meaning
+module: money-as-a-team
+type: lesson
+title: Money carries meaning
+summary: Separate practical decisions from the meanings and constraints around them.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: The bill and the story
+    body: A bill is a practical problem; it may also bring up fear, anger, or a sense of being alone.
+      Money can simply be scarce. Treat numbers and feelings as different information rather than
+      evidence that either person is bad.
+  - heading: Name the decision
+    body: Instead of “you never care about money,” try “The electricity bill is due Friday; can we
+      decide who will check it?” Describe one decision and its timing before interpreting motives or
+      arguing about character.
+  - heading: Ask about meaning
+    body: A purchase may represent rest to one person and uncertainty to another. If both want to
+      discuss it, ask “What matters to you about this?” and accept “I am not ready to talk.” Meaning
+      does not erase an action’s real impact.
+  - heading: Make a small test
+    body: If both choose to discuss it, agree on a limited next action, its owner and a review date.
+      Each can consider what to revisit next week; no account details or promise to agree are
+      required.
+takeaway:
+  question: What is a useful first step when an ordinary bill becomes an argument?
+  options:
+    - Identify the specific decision and ask what matters to each person.
+    - Assume the other person is irresponsible.
+    - Demand all account records.
+  answer: 0
+  explanation: A concrete decision leaves room for feelings and constraints without demanding private
+    information.
+sources: []

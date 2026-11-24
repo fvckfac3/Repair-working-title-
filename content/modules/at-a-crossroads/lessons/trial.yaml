@@ -1,0 +1,34 @@
+id: aac-lesson-trial
+module: at-a-crossroads
+type: lesson
+title: A time-limited effort, if freely chosen
+summary: Define an optional relationship effort without making six months or any outcome mandatory.
+minutes: 5
+mode: solo
+intensity: deep
+cards:
+  - heading: A trial is one option
+    body: Some people choose to try specific changes for a period; others choose separation, maintain
+      their current arrangement, or need more time. A trial is not a prerequisite for leaving and
+      should not be proposed where coercion or violence is present.
+  - heading: Make consent ongoing
+    body: If both freely want a trial, discuss what each is willing to do and for how long. Either
+      person may decline, change their mind, or stop. A deadline is for review, not a promise to
+      stay or reconcile.
+  - heading: Use observable, bounded actions
+    body: Rather than “try harder,” identify an action such as one optional 15-minute planning check
+      each week, the person responsible, and what happens if it is missed. Include individual rest,
+      support, and limits; do not demand passwords or private writing.
+  - heading: Review without a verdict
+    body: At the chosen review, each person can ask whether actions occurred, how they felt, and what
+      they want next. Continuing, changing the plan, taking time, or separating can all remain
+      possibilities. Seek independent professional support as useful.
+takeaway:
+  question: What makes an optional trial respectful?
+  options:
+    - A fixed six-month promise that cannot be withdrawn.
+    - Specific actions and a review point, with consent that can be withdrawn.
+    - Mandatory sharing of all private thoughts.
+  answer: 1
+  explanation: A review is not a commitment to a particular outcome, and consent can be withdrawn.
+sources: []

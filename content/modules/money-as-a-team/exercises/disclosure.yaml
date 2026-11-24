@@ -1,0 +1,35 @@
+id: mat-ex-disclosure
+module: money-as-a-team
+type: exercise
+title: Choosing what to discuss
+summary: Set boundaries around a possible money conversation without revealing financial details.
+minutes: 10
+mode: solo
+intensity: medium
+intro: A shared decision never requires full disclosure. Do not enter account numbers, passwords,
+  documents or exact amounts. If control makes conversation unsafe, skip it and seek individual
+  specialist support.
+steps:
+  - id: topic
+    kind: choice
+    prompt: Choose a broad topic you might discuss, or decide not to.
+    options:
+      - A shared expense
+      - A future goal
+      - A spending disagreement
+      - Not ready to discuss
+    alwaysPrivate: true
+  - id: boundary
+    kind: text
+    prompt: What information would you keep private? Write a category rather than details.
+    alwaysPrivate: true
+  - id: request
+    kind: text
+    prompt: If you want to, draft a request without demanding another person’s details.
+    alwaysPrivate: true
+  - id: stop
+    kind: text
+    prompt: What signals that you want to pause, and what independent support might help if saying no is
+      not respected?
+    alwaysPrivate: true
+outro: You can change your mind about what to share at any time.

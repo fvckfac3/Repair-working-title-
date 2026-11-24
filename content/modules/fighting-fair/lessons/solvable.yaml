@@ -1,0 +1,32 @@
+id: ff-lesson-solvable
+module: fighting-fair
+type: lesson
+title: Solvable vs. perpetual problems
+summary: Choose a practical trial or a way to live with a recurring difference.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Two kinds of question
+    body: A practical problem has a defined target, such as who buys groceries this week. An ongoing
+      difference, such as wanting different amounts of social time, may return even after a good
+      plan. Either can matter.
+  - heading: Test the label
+    body: "Ask: “Could a specific, acceptable action resolve this particular instance?” If yes,
+      brainstorm a small trial. If deeper preferences or values keep recurring, allow for a
+      continuing difference. The label can change."
+  - heading: Handle a mixed problem
+    body: For different sleep schedules, a practical trial might be headphones after 10 p.m.; the
+      ongoing difference is the preferred bedtime. Revisit whether the trial works without demanding
+      identical preferences.
+  - heading: Safety is not a compromise category
+    body: Threats, coercion, or violence are not “perpetual differences” to manage together. Stop
+      couples work and prioritize individual safety and specialized support.
+takeaway:
+  question: Which issue is most clearly a practical problem to test?
+  options:
+    - Deciding who picks up groceries on Tuesday.
+    - Making two people have identical social needs.
+    - Persuading someone to accept intimidation.
+  answer: 0
+  explanation: A concrete task has a target and a way to check a trial.

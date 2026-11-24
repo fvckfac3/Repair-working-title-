@@ -1,0 +1,117 @@
+id: mat-assessment
+module: money-as-a-team
+type: assessment
+title: Money Harmony
+summary: Reflect on money stress, practical decisions, privacy and agency.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Think about the past month, or the nearest relevant period. These original prompts are
+  educational, not a validated measure or diagnosis; scores cannot tell you what to do. Skip any
+  item; a skipped answer means no overall band or recommendations. Cutoffs are illustrative, not
+  clinical. Your result is stored on this device; consider whether using it is safe if someone else
+  has access. If fear, coercion or violence is present, skip joint work and seek individual
+  specialist support.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: meaning
+    label: Money meanings
+    description: Past experiences and concerns about money.
+    threshold: 50
+    recommend:
+      - mat-lesson-money-story
+      - mat-ex-autobiography
+    sensitive: true
+  - id: decisions
+    label: Everyday decisions
+    description: How practical decisions are made and revisited.
+    threshold: 50
+    recommend:
+      - mat-lesson-money-meaning
+      - mat-ex-system
+    sensitive: true
+  - id: privacy
+    label: Privacy and discussion
+    description: Whether choosing what to discuss feels difficult.
+    threshold: 50
+    recommend:
+      - mat-lesson-privacy
+      - mat-ex-disclosure
+    sensitive: true
+  - id: agency
+    label: Financial agency
+    description: Whether you can make choices without pressure.
+    threshold: 50
+    recommend:
+      - mat-lesson-privacy
+      - mat-ex-disclosure
+    sensitive: true
+items:
+  - id: m1
+    subscale: meaning
+    text: Money conversations bring up worries from my past.
+  - id: m2
+    subscale: meaning
+    text: I have trouble explaining what financial security means to me.
+  - id: m3
+    subscale: meaning
+    text: I recognize when an old money experience affects my reaction.
+    reverse: true
+  - id: d1
+    subscale: decisions
+    text: Everyday spending decisions lead to unresolved tension.
+  - id: d2
+    subscale: decisions
+    text: I understand how decisions about shared expenses will be made.
+    reverse: true
+  - id: d3
+    subscale: decisions
+    text: We postpone shared money decisions until they become urgent.
+  - id: p1
+    subscale: privacy
+    text: I feel pressure to share financial details before I am ready.
+  - id: p2
+    subscale: privacy
+    text: I can choose what personal money information to discuss.
+    reverse: true
+  - id: p3
+    subscale: privacy
+    text: I worry a shared expense will not be discussed in time.
+  - id: a1
+    subscale: agency
+    text: I can say no to a money request without being punished or threatened.
+    reverse: true
+  - id: a2
+    subscale: agency
+    text: Someone restricts my access to money or necessities to control me.
+    flagAtOrAbove: 1
+  - id: a3
+    subscale: agency
+    text: I have difficulty making financial decisions without pressure from another person.
+bands:
+  - id: lower
+    label: Some areas to explore
+    min: 0
+    narrative: Your answers suggest fewer reported difficulties among items answered, not a guarantee of
+      safety or agreement. Privacy and independent choices still matter.
+  - id: middle
+    label: Several areas deserve attention
+    min: 35
+    narrative: Your responses suggest possible strain around money conversations or choices. Start with
+      a personal reflection; do not disclose more than you want.
+  - id: higher
+    label: Consider additional support
+    min: 65
+    narrative: Money discussions or agency may feel difficult. For personal financial information
+      consider an independent qualified professional. If fear or control is involved, seek
+      individual domestic abuse specialist support rather than couples work.
+gapThreshold: 25

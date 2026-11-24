@@ -1,0 +1,35 @@
+id: ei-ex-choices-boundaries
+module: exploring-intimacy
+type: exercise
+title: My choices and boundaries
+summary: Reflect individually on current preferences without matching or sharing results.
+minutes: 8
+mode: solo
+intensity: deep
+intro: For adults. This is an individual reflection, not a matching tool. Skip any question and
+  avoid recording details if doing so feels unsafe. Your preferences can change, and no answer
+  commits you to an activity.
+steps:
+  - id: welcome
+    kind: list
+    prompt: List kinds of connection you currently welcome, if any.
+    help: Examples include talking, time alone, a walk, or a specific affectionate gesture.
+  - id: not-now
+    kind: list
+    prompt: List anything you do not want or do not want right now.
+    help: You do not need to justify a boundary; include nonsexual or sexual activities only if useful
+      to you.
+  - id: uncertain
+    kind: text
+    prompt: Is there anything you are unsure about or only want under particular circumstances?
+    help: “Not sure” means do not proceed; it is not a yes.
+  - id: words
+    kind: text
+    prompt: Write a phrase you could use to state a boundary or change your mind.
+    help: "For example: “I want to stop now.”"
+  - id: care
+    kind: text
+    prompt: What would help you feel free to decline without explaining or negotiating?
+    help: If fear, coercion, or violence is present, consider specialist individual support instead of a
+      joint activity.
+outro: Use these notes for your own clarity. Nothing is automatically matched or sent to another person.

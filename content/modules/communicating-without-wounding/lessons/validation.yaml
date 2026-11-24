@@ -1,0 +1,29 @@
+id: cww-lesson-validation
+module: communicating-without-wounding
+type: lesson
+title: Validation isn't agreement
+summary: Acknowledge another person’s experience without surrendering your own account.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Validate the experience
+    body: "Validation identifies an emotion or understandable impact: “I hear that the canceled plan
+      felt disappointing.” It is different from declaring that every interpretation is fact."
+  - heading: Stay specific and honest
+    body: "If you do not understand, ask: “What about that moment felt hardest?” Avoid “I understand
+      perfectly” if you do not. Do not use “but” to erase the acknowledgement immediately."
+  - heading: Hold two perspectives
+    body: You can say “I see why you felt left out. I remember the timing differently; can we look at
+      that after I understand more?” You can also disagree with a requested action.
+  - heading: Do not validate abuse
+    body: You can recognize someone is angry while refusing insults, threats, or control. No one must
+      agree to a conversation that feels unsafe; individual support is an option.
+takeaway:
+  question: Which response validates without necessarily agreeing?
+  options:
+    - “I hear that you felt left out.”
+    - “You are right about every detail.”
+    - “You should not feel that way.”
+  answer: 0
+  explanation: It acknowledges the feeling without declaring the disputed account correct.

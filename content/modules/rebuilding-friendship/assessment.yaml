@@ -1,0 +1,104 @@
+id: rf-assessment-friendship
+module: rebuilding-friendship
+type: assessment
+title: Friendship & Positivity
+summary: Notice fondness, curiosity, shared enjoyment, and barriers to time together.
+minutes: 5
+mode: solo
+intensity: light
+kind: standard
+intro: Consider the past month. Answer according to the friendship and amount of contact you want;
+  skip items that do not fit. This original educational reflection is not a validated measure or a
+  diagnosis. A low score does not establish safety or mean harm should be overlooked. If fear,
+  coercion, or violence is present, prioritize specialist individual support.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: fondness
+    label: Fondness
+    description: Opportunities to notice what you value.
+    threshold: 50
+    recommend:
+      - rf-lesson-fondness
+      - rf-ex-admiration
+  - id: interest
+    label: Curiosity
+    description: Whether you feel interested in each other as you are now.
+    threshold: 50
+    recommend:
+      - rf-lesson-positive-moments
+      - rf-ex-first-valued
+  - id: enjoyment
+    label: Enjoyment
+    description: Access to activities that feel enjoyable without pressure.
+    threshold: 50
+    recommend:
+      - rf-lesson-playfulness
+      - rf-ex-ideas
+  - id: capacity
+    label: Time and capacity
+    description: Practical obstacles and choice in spending time together.
+    threshold: 50
+    recommend:
+      - rf-lesson-novelty
+      - rf-ex-date-planner
+items:
+  - id: f1
+    subscale: fondness
+    text: I notice qualities in my partner that I value.
+    reverse: true
+  - id: f2
+    subscale: fondness
+    text: It is difficult to think of a recent interaction that felt kind or respectful.
+  - id: i1
+    subscale: interest
+    text: I feel curious about who my partner is now, not only who they used to be.
+    reverse: true
+  - id: i2
+    subscale: interest
+    text: Our interactions leave little room for learning about each other.
+  - id: e1
+    subscale: enjoyment
+    text: We have opportunities for activities that feel enjoyable to both of us.
+    reverse: true
+  - id: e2
+    subscale: enjoyment
+    text: Time together feels like another obligation rather than a choice.
+  - id: e3
+    subscale: enjoyment
+    text: It is hard to think of a simple activity we might both enjoy.
+  - id: c1
+    subscale: capacity
+    text: Practical demands crowd out the time together I would like.
+  - id: c2
+    subscale: capacity
+    text: We can adapt plans to fit energy, access needs, and budget.
+    reverse: true
+  - id: c3
+    subscale: capacity
+    text: I feel able to decline an activity or suggest a different one.
+    reverse: true
+bands:
+  - id: low
+    label: A place to begin
+    min: 0
+    narrative: Your answers suggest fewer areas of strain among the questions answered. You can still
+      choose a small idea to explore; positive moments never make harm acceptable.
+  - id: some
+    label: Some room for care
+    min: 35
+    narrative: Some areas may feel thin or constrained. Look at the themes and pick one small, realistic
+      activity, if it feels safe and wanted.
+  - id: more
+    label: Friendship feels strained
+    min: 65
+    narrative: Several answered areas may be difficult right now. No one needs to manufacture gratitude
+      or fun. Begin with your own needs and consider individual support; if fear, coercion or
+      violence is present, seek specialist individual support rather than couples activities.

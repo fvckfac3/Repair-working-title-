@@ -1,0 +1,35 @@
+id: far-exercise-the-hurt-vs-the-story
+module: forgiveness-and-resentment
+type: exercise
+title: The hurt vs. the story
+summary: Separate an observable event, its impact, and an interpretation.
+minutes: 8
+mode: solo
+intensity: medium
+intro: This exercise is not a demand to doubt yourself. You can know something happened and still be
+  uncertain about someone’s motives. Information is stored unencrypted on this device and may be
+  visible to anyone with access. Use a safer device or skip writing if this could put you at risk.
+steps:
+  - id: event
+    kind: text
+    prompt: What did I observe or experience? Describe one event without guessing intent.
+    help: "Example: “The appointment was missed and I was not told.”"
+    alwaysPrivate: true
+  - id: impact
+    kind: text
+    prompt: What feeling or practical effect followed?
+    alwaysPrivate: true
+  - id: story
+    kind: text
+    prompt: What meaning did I give it? Label a guess as a guess, without dismissing evidence.
+    help: "Example: “I wondered whether my time mattered.”"
+    alwaysPrivate: true
+  - id: uncertainty
+    kind: text
+    prompt: What do I know, what remains uncertain, and does a repeated pattern matter?
+    alwaysPrivate: true
+  - id: next
+    kind: text
+    prompt: What boundary, support, or optional question would respond to my need?
+    alwaysPrivate: true
+outro: You do not need to give someone the benefit of the doubt in order to protect yourself.

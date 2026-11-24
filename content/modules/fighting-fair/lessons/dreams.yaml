@@ -1,0 +1,30 @@
+id: ff-lesson-dreams
+module: fighting-fair
+type: lesson
+title: The dreams inside gridlock
+summary: Explore the values underneath a recurring disagreement without promising a solution.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Get specific about the stuck point
+    body: Instead of “we disagree about family,” name the recurring choice, such as how often to host
+      relatives. Each person may experience the same choice differently.
+  - heading: Ask about meaning, not evidence
+    body: “What does hosting mean to you?” may reveal belonging, rest, financial stress, or a memory. Do
+      not assume that a value explains away a harmful action.
+  - heading: Reflect before negotiating
+    body: "Try: “I hear that hosting helps you feel connected; did I get that?” Then switch if both
+      wish. Understanding another value does not require adopting it or changing a boundary."
+  - heading: Look for a narrow experiment
+    body: Maybe one gathering is shorter, or one partner attends separately. Either can decline, and
+      some differences may remain unresolved. If fear or coercion is present, do not use this as a
+      couples exercise.
+takeaway:
+  question: Why ask about the meaning underneath a disagreement?
+  options:
+    - To discover what matters to each person before considering options.
+    - To find leverage for winning.
+    - To prove a boundary is negotiable.
+  answer: 0
+  explanation: Curiosity can reveal values without creating an obligation to agree.

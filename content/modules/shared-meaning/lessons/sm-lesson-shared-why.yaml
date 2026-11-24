@@ -1,0 +1,35 @@
+id: sm-lesson-shared-why
+module: shared-meaning
+type: lesson
+title: Making room for a shared why
+summary: Explore values in common without requiring identical priorities.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: Meaning is not a slogan
+    body: Values are directions that help you choose, such as fairness, curiosity, faith, stability,
+      generosity, or independence. Two people may value the same word but mean different things by
+      it. A useful shared “why” begins with asking what the word looks like in daily life.
+  - heading: Start with your own meaning
+    body: "Choose two values and complete: “I know this matters when I make room for…” For example,
+      stability might mean predictable bills to one person and a familiar home to another. Be
+      specific before deciding whether your meanings overlap."
+  - heading: Difference is information
+    body: Partners do not need identical values or a single life plan. If freedom and stability pull in
+      different directions, name the concrete tension rather than asking either person to surrender
+      a core need. Some differences may remain unresolved or affect decisions about the
+      relationship.
+  - heading: Try a small expression
+    body: If it feels right, choose an action under your control that expresses one value this week. If
+      both people freely want a conversation and feel safe, ask what their chosen value means to
+      them. Do not use shared language to excuse harm or pressure someone to stay.
+takeaway:
+  question: What makes a values conversation useful?
+  options:
+    - Assuming the same word means the same thing
+    - Asking what each person means and allowing differences
+    - Demanding a single shared answer immediately
+  answer: 1
+  explanation: A shared direction, if wanted, starts with understanding individual meanings.
+sources: []

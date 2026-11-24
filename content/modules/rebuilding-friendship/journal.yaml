@@ -1,0 +1,18 @@
+id: rf-journal-moments
+module: rebuilding-friendship
+type: journal
+title: Moments I notice
+summary: Reflect honestly on friendship without forcing gratitude.
+minutes: 7
+mode: solo
+intensity: light
+intro: Take this at your own pace. Write only what you want to record; there is no requirement to
+  find a positive memory.
+prompts:
+  - Was there a moment recently that felt pleasant, neutral, or kind? What made it feel that way?
+  - What do I genuinely value in the other person, if anything, and what action supports that
+    observation?
+  - What do I miss, and what current limits on time, access, money, or energy matter?
+  - What enjoyable activity would I choose for myself? Is there one I might invite someone to
+    without pressure?
+  - What concern still needs attention even if there are enjoyable moments?

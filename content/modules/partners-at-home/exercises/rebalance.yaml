@@ -1,0 +1,32 @@
+id: pah-ex-rebalance
+module: partners-at-home
+type: exercise
+title: Our rebalance plan
+summary: Draft a small, revisable change in ownership and backup.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Draft your own proposal. A change needs the willing agreement of the people expected to do it.
+steps:
+  - id: task
+    kind: text
+    prompt: Choose one recurring task and write what completion includes.
+    alwaysPrivate: true
+  - id: owner
+    kind: text
+    prompt: Who could notice, plan, do and follow up? What information or resources would they need?
+    alwaysPrivate: true
+  - id: backup
+    kind: text
+    prompt: What is a realistic backup for illness, access barriers or an unusually busy week?
+    alwaysPrivate: true
+  - id: trial
+    kind: text
+    prompt: Suggest a start and review date, plus what would signal the plan needs adjustment.
+    alwaysPrivate: true
+  - id: rest
+    kind: text
+    prompt: What could be reduced so neither person simply absorbs more work?
+    alwaysPrivate: true
+outro: If both freely agree, try the plan and revise it; otherwise seek practical support or make an
+  individual plan.

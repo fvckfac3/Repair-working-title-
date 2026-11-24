@@ -49,6 +49,13 @@ describe('itemConcern', () => {
   it('rejects out-of-range answers', () => {
     expect(() => itemConcern(5, { min: 0, max: 4 })).toThrow(RangeError);
   });
+  it('rejects non-finite and non-discrete answers and invalid scales', () => {
+    for (const value of [NaN, Infinity, -Infinity, 1.5]) {
+      expect(() => itemConcern(value, { min: 0, max: 4 })).toThrow(RangeError);
+    }
+    expect(() => itemConcern(1, { min: 0, max: NaN })).toThrow();
+    expect(() => itemConcern(1, { min: 1, max: 1 })).toThrow();
+  });
 });
 
 describe('bandFor', () => {
@@ -92,6 +99,9 @@ describe('scoreAssessment', () => {
     expect(r.complete).toBe(false);
     expect(r.subscales.find((s) => s.id === 'trust')?.score).toBeNull();
     expect(r.overall).toBe(50);
+    expect(r.band).toBeNull();
+    expect(r.recommendations).toEqual([]);
+    expect(rankModules([r])).toEqual([]);
   });
 
   it('returns nulls when nothing is answered', () => {
@@ -121,6 +131,17 @@ describe('compareResults with sensitive subscales', () => {
     const a = scoreAssessment(sensitive, { c1: 4, c2: 0, t1: 4, s1: 0 });
     const b = scoreAssessment(sensitive, { c1: 0, c2: 4, t1: 0, s1: 0 });
     expect(compareResults(a, b, 25).map((g) => g.id)).toEqual(['conflict']);
+  });
+
+  it('excludes a subscale if either result marks it sensitive', () => {
+    const regular = scoreAssessment(assessment, { c1: 4, c2: 0, t1: 4, s1: 0 });
+    const changed = Assessment.parse({
+      ...assessment,
+      subscales: assessment.subscales.map((s) => s.id === 'trust' ? { ...s, sensitive: true } : s),
+    });
+    const sensitive = scoreAssessment(changed, { c1: 0, c2: 4, t1: 0, s1: 0 });
+    expect(compareResults(regular, sensitive, 25).map((g) => g.id)).toEqual(['conflict']);
+    expect(compareResults(sensitive, regular, 25).map((g) => g.id)).toEqual(['conflict']);
   });
 });
 

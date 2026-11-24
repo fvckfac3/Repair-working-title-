@@ -1,0 +1,62 @@
+id: ff-conv-solvable
+module: fighting-fair
+type: conversation
+title: Solving a solvable problem
+summary: Use a five-step trial for one low-stakes, practical decision.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use this educational guide only at a calm time and only if both freely choose. You do not
+  have to reach agreement or reconcile.
+groundRules:
+  - Both choose freely whether to participate. Either can pause, skip, or end the conversation
+    without a required return.
+  - No insults, threats, pressure, or demands for agreement; leave room for a different view.
+  - If fear, coercion, or violence is present, do not use this together. Prioritize individual
+    safety and specialized support.
+phases:
+  - id: prep
+    title: 1. Choose one issue
+    kind: prep
+    prompts:
+      - If both want to proceed, choose a narrow task, not a recurring safety concern. State the
+        issue without a character judgment.
+    seconds: 60
+  - id: a
+    title: 2. A describes the need
+    kind: turn
+    speaker: A
+    prompts:
+      - What outcome would help me, and what constraint matters?
+    listenerPrompts:
+      - Reflect the outcome and constraint; ask if you understood.
+    seconds: 120
+  - id: b
+    title: 2. B describes the need
+    kind: turn
+    speaker: B
+    prompts:
+      - What outcome would help me, and what constraint matters?
+    listenerPrompts:
+      - Reflect without rebuttal; allow a correction.
+    seconds: 120
+  - id: options
+    title: 3. List options
+    kind: together
+    prompts:
+      - Offer at least two possible actions without committing yet. Either may reject an option.
+    seconds: 120
+  - id: trial
+    title: 4. Choose a trial
+    kind: together
+    prompts:
+      - Only if both agree, name who will do what, when, and for how long. If no option works, stop
+        without agreement.
+    seconds: 120
+  - id: close
+    title: 5. Review later if wanted
+    kind: close
+    prompts:
+      - If both choose, set a check-in to ask what worked and revise or end the trial. Either may
+        pass on a follow-up.
+    seconds: 60

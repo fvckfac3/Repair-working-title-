@@ -1,0 +1,35 @@
+id: rt-ex-transparency
+module: repairing-trust
+type: exercise
+title: Transparency agreements
+summary: Plan a narrow exchange of relevant information without trading away privacy or autonomy.
+minutes: 9
+mode: solo
+intensity: medium
+intro: Work alone on a manageable example. Skip details or steps and stop whenever you wish; sharing
+  is optional. If fear, coercion, or violence is present, prioritize individual safety and
+  specialized support instead of couples activities.
+steps:
+  - id: decision
+    kind: text
+    prompt: Identify one shared decision for which information is needed, such as a joint bill. What
+      specific information is relevant?
+  - id: limits
+    kind: text
+    prompt: What information is not needed? Exclude passwords, unrestricted device access, location
+      monitoring, and private messages as default requirements.
+  - id: proposal
+    kind: text
+    prompt: "Draft a bounded proposal: who would share which information, how often, for how long, and
+      for what purpose? Both people must be free to say no."
+  - id: alternatives
+    kind: text
+    prompt: If either declines, what alternative could protect each person’s boundary while addressing
+      the shared decision? It is acceptable to have no agreement.
+  - id: review
+    kind: instruction
+    prompt: Only if both voluntarily agree and it is safe, choose when to review or end the arrangement.
+      Stop if it becomes monitoring, pressure, or control; seek individual specialized support if
+      needed.
+outro: Keep, revise, or discard your reflection. A draft is not an agreement and does not require
+  contact or reconciliation.

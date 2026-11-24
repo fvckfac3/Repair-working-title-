@@ -1,0 +1,49 @@
+id: dc-conversation-daily-stress-reducing-conversation
+module: deepening-connection
+type: conversation
+title: The daily stress-reducing conversation
+summary: Listen to an everyday stress without turning it into a problem to solve.
+minutes: 10
+mode: together
+intensity: deep
+intro: Choose an outside stress or ordinary event, not a conflict between you. This is optional and
+  is not a substitute for professional support. Either person can pass or stop.
+groundRules:
+  - Both freely choose to participate; either person can pass, pause, or end without penalty.
+  - If fear, coercion, intimidation or violence is present, do not do a joint activity; prioritize
+    individual safety and specialist support.
+  - No one owes disclosure, touch, reassurance, agreement, or a promise to continue.
+  - Listen without interrupting or fixing. Respect privacy and do not use what is shared as
+    ammunition later.
+phases:
+  - id: prep
+    title: Set a small window
+    kind: prep
+    prompts:
+      - Ask if both want to talk. Pick a few minutes and decide whether each wants listening,
+        practical ideas, or a pass.
+    seconds: 60
+  - id: a
+    title: Partner A talks
+    kind: turn
+    prompts:
+      - Share one ordinary stress or part of your day, only to the extent you want.
+    speaker: A
+    listenerPrompts:
+      - "Listen and reflect: “That sounds tiring.” Ask before offering advice."
+    seconds: 180
+  - id: b
+    title: Partner B talks
+    kind: turn
+    prompts:
+      - Share one ordinary stress or part of your day, or pass.
+    speaker: B
+    listenerPrompts:
+      - Listen without comparing whose day was harder. Ask before suggesting a fix.
+    seconds: 180
+  - id: close
+    title: Close gently
+    kind: close
+    prompts:
+      - Each can name one thing that helped or ask for space. Appreciation or another check-in is
+        optional.

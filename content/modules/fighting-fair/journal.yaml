@@ -1,0 +1,18 @@
+id: ff-journal-my-part
+module: fighting-fair
+type: journal
+title: My part in the pattern
+summary: Reflect on your choices without taking responsibility for another person’s harm.
+minutes: 7
+mode: solo
+intensity: medium
+intro: Choose a manageable example and skip anything you do not want to record. You need not share.
+  If fear, coercion, or violence is present, prioritize individual safety and specialized support.
+prompts:
+  - What disagreement am I thinking about? What did I observe, and what am I assuming?
+  - What did I feel or need? Which part was a practical issue and which part was an ongoing
+    difference?
+  - What action of mine can I honestly own, without blaming myself for another person’s choices?
+  - What boundary or pause would support me? What one action might I choose next time?
+  - Would it be safe and useful to discuss this, or would individual support or no conversation be
+    better?

@@ -1,0 +1,29 @@
+id: fab-ex-agreements
+module: family-and-boundaries
+type: exercise
+title: Agreements that respect choice
+summary: Draft a consent-based agreement about a genuinely shared decision.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Work alone to prepare; agreements are optional and need each affected person’s freely given
+  consent.
+steps:
+  - id: decision
+    kind: text
+    prompt: Choose a shared decision, such as inviting visitors into a shared home.
+    alwaysPrivate: true
+  - id: preferences
+    kind: text
+    prompt: What do you prefer, what can you decide for yourself, and what needs another person’s
+      agreement?
+    alwaysPrivate: true
+  - id: proposal
+    kind: text
+    prompt: Draft an offer or request that allows a no and avoids speaking for someone else.
+    alwaysPrivate: true
+  - id: review
+    kind: text
+    prompt: What would a fair review date or alternative look like if you do not agree?
+    alwaysPrivate: true
+outro: Respect a no; each person may keep independent relationships and change their mind.

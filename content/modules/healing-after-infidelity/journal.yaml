@@ -1,0 +1,18 @@
+id: hai-journal-processing
+module: healing-after-infidelity
+type: journal
+title: Processing, privately
+summary: Choose a prompt to make room for your own perspective.
+minutes: 6
+mode: solo
+intensity: deep
+intro: Choose one prompt; leave out details if writing them could expose you to harm. Entries are
+  stored on this device, so consider who can access it. This is an educational reflection, not
+  therapy. Information is stored unencrypted on this device and may be visible to anyone with
+  access. Use a safer device or skip writing if this could put you at risk.
+prompts:
+  - What do I need today that does not depend on making a final decision?
+  - What reminder appeared, and what helped me return to the present?
+  - What practical question matters to my health or wellbeing, and who could help me answer it?
+  - What boundary or action is within my control?
+  - What support would I offer myself without requiring forgiveness or a particular outcome?

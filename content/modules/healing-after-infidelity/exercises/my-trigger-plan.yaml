@@ -1,0 +1,43 @@
+id: hai-exercise-my-trigger-plan
+module: healing-after-infidelity
+type: exercise
+title: My trigger plan
+summary: Make a short, flexible plan for a difficult reminder.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Choose a recent, manageable reminder rather than the most distressing one. You can stop, skip
+  a step, or use a paper note if that is safer for you. Information is stored unencrypted on this
+  device and may be visible to anyone with access. Use a safer device or skip writing if this could
+  put you at risk.
+steps:
+  - id: signal
+    kind: text
+    prompt: What early sign tells me a reminder is affecting me?
+    help: "Examples: a tight jaw, checking the clock, or losing your train of thought."
+    alwaysPrivate: true
+  - id: ground
+    kind: multi
+    prompt: Which present-focused actions might help for the next five minutes?
+    options:
+      - Feel my feet on the floor
+      - Step outside if safe
+      - Drink water
+      - Contact a trusted person
+      - Another choice of my own
+    alwaysPrivate: true
+  - id: space
+    kind: text
+    prompt: What words or action can I use to create space, if it is safe?
+    help: "Example: “I am taking a break; I will decide later whether to talk.”"
+    alwaysPrivate: true
+  - id: support
+    kind: text
+    prompt: Who or what can support me if this does not settle, and how can I reach them safely?
+    alwaysPrivate: true
+  - id: trial
+    kind: instruction
+    prompt: Try one selected action for a minute if you want. Notice whether it helps; replace it if it
+      does not.
+outro: Keep only the parts that help. If you are afraid or controlled, prioritize independent safety
+  support over asking the other person to carry out your plan.

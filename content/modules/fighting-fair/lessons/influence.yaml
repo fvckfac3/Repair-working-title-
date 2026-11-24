@@ -1,0 +1,29 @@
+id: ff-lesson-influence
+module: fighting-fair
+type: lesson
+title: Accepting influence
+summary: Take another person’s perspective into account without surrendering your own judgment.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Influence is a choice, not compliance
+    body: Listening for useful information means considering a perspective, not agreeing automatically.
+      Both people retain the right to disagree, set limits, or stop.
+  - heading: Name what changes your thinking
+    body: "Try: “I had not considered the cost of a late pickup. I could move it earlier.” Be specific
+      about the point you heard instead of promising more than you can deliver."
+  - heading: Offer your own constraint
+    body: Add “I cannot leave work before 5; could we try 5:30?” A real agreement needs both people’s
+      voluntary consent and a workable plan.
+  - heading: Notice unequal power
+    body: If one person is afraid to say no, more influence is not the goal. Prioritize individual
+      safety and specialized support; do not use negotiation to manage coercion or violence.
+takeaway:
+  question: What does accepting influence mean?
+  options:
+    - Changing your mind whenever asked.
+    - Considering a valid point while keeping your own boundaries.
+    - Ignoring a disagreement to preserve peace.
+  answer: 1
+  explanation: Listening can change a plan without requiring either person to give up consent.

@@ -5,14 +5,14 @@ import { StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { Button, Card, Option, Pill, Screen, Section } from '@/components/ui';
-import { activitiesFor, getModule, isHiddenForSafety, TYPE_LABELS } from '@/content';
+import { activitiesFor, getModule, isHiddenForSafety, outlinePlanned, TYPE_LABELS } from '@/content';
 import { useStore } from '@/state/store';
 
-const SECTIONS: { type: ActivityType; title: string; outlineKey?: 'lessons' | 'exercises' | 'conversations' }[] = [
+const SECTIONS: { type: ActivityType; title: string }[] = [
   { type: 'assessment', title: 'Assess' },
-  { type: 'lesson', title: 'Understand', outlineKey: 'lessons' },
-  { type: 'exercise', title: 'Practice', outlineKey: 'exercises' },
-  { type: 'conversation', title: 'Talk', outlineKey: 'conversations' },
+  { type: 'lesson', title: 'Understand' },
+  { type: 'exercise', title: 'Practice' },
+  { type: 'conversation', title: 'Talk' },
   { type: 'journal', title: 'Reflect' },
   { type: 'ritual', title: 'Make it a habit' },
 ];
@@ -31,6 +31,16 @@ export default function ModuleScreen() {
     );
   }
 
+  if (!__DEV__ || !state.hydrated || !state.safetyScreenDone || state.safetyMode) {
+    return (
+      <Screen>
+        <ThemedText type="subtitle">This module is unavailable</ThemedText>
+        <ThemedText>Support is available without taking the safety check or opening a module.</ThemedText>
+        <Button label="Safety & Support" onPress={() => router.replace('/safety')} />
+      </Screen>
+    );
+  }
+
   const needsAdult = mod.gating.adultsOnly && !state.adultConfirmed;
   const needsGate = mod.gating.confirmations.length > 0 && !state.gatesAccepted[mod.slug];
   const all = activitiesFor(mod.slug);
@@ -40,16 +50,19 @@ export default function ModuleScreen() {
       <Stack.Screen options={{ title: mod.title }} />
       <ThemedText type="title">{mod.title}</ThemedText>
       <ThemedText themeColor="textSecondary">{mod.description}</ThemedText>
+      <ThemedText type="small" themeColor="textSecondary">
+        Development preview only; content awaits clinical review. The app cannot verify another person's screening or consent. Participation must be freely chosen and can be withdrawn.
+      </ThemedText>
       <View style={styles.pills}>
         <Pill label={`${mod.intensity} intensity`} />
         {mod.status === 'draft' && <Pill label="Coming soon" />}
-        {mod.status === 'in_review' && <Pill label="Early access · in clinical review" />}
+        {mod.status === 'in_review' && <Pill label="Draft · awaiting clinical review" />}
       </View>
 
       {mod.gating.therapistRecommended && (
         <Card>
           <ThemedText type="small">
-            We strongly recommend working through this module with a couples therapist alongside the app.
+            If fear, coercion or violence is present, consider individual specialist support rather than joint counseling. Consider a couples therapist only when it is safe and both people freely choose to participate.
           </ThemedText>
           <Button label="Find a therapist" variant="secondary" onPress={() => router.push('/safety')} />
         </Card>
@@ -62,7 +75,8 @@ export default function ModuleScreen() {
         </Card>
       ) : needsGate ? (
         <Card tone="accent">
-          <ThemedText type="smallBold">Before you begin, privately confirm:</ThemedText>
+          <ThemedText type="smallBold">Before you begin, review these statements:</ThemedText>
+          <ThemedText type="small">Your selections are stored on this device. They are your own responses, not independent verification of a partner's knowledge, consent or safety.</ThemedText>
           {mod.gating.confirmations.map((c, i) => (
             <Option key={c} label={`${checked[i] ? '☑' : '☐'}  ${c}`} selected={!!checked[i]} onPress={() => setChecked({ ...checked, [i]: !checked[i] })} />
           ))}
@@ -73,9 +87,9 @@ export default function ModuleScreen() {
           />
         </Card>
       ) : (
-        SECTIONS.map(({ type, title, outlineKey }) => {
+        SECTIONS.map(({ type, title }) => {
           const authored = all.filter((a) => a.type === type);
-          const planned = outlinePlanned(mod.outline, type, outlineKey, authored);
+          const planned = outlinePlanned(mod.outline, type, authored);
           if (!authored.length && !planned.length) return null;
           return (
             <Section key={type} title={title}>
@@ -95,20 +109,6 @@ export default function ModuleScreen() {
       )}
     </Screen>
   );
-}
-
-function outlinePlanned(
-  outline: NonNullable<ReturnType<typeof getModule>>['outline'],
-  type: ActivityType,
-  key: 'lessons' | 'exercises' | 'conversations' | undefined,
-  authored: Activity[],
-): string[] {
-  if (authored.length) return [];
-  if (key) return outline[key];
-  if (type === 'assessment') return [outline.assessment];
-  if (type === 'journal' && outline.journal) return [outline.journal];
-  if (type === 'ritual' && outline.ritual) return [outline.ritual];
-  return [];
 }
 
 function ActivityRow({ activity: a }: { activity: Activity }) {

@@ -1,0 +1,33 @@
+id: ei-ex-connection-menu
+module: exploring-intimacy
+type: exercise
+title: Non-sexual connection menu
+summary: Create a menu that can include conversation, space, or touch only if wanted.
+minutes: 8
+mode: solo
+intensity: deep
+intro: List ways you personally like to connect. Nothing here is a request or permission to touch
+  another person.
+steps:
+  - id: no-touch
+    kind: list
+    prompt: List non-touch options you might welcome.
+    help: "Examples: a short walk, listening to music separately, a kind message, or companionable
+      silence."
+  - id: optional-touch
+    kind: text
+    prompt: If you want to, name a specific non-sexual touch you might welcome; otherwise write “none.”
+    help: You can always prefer no touch.
+  - id: conditions
+    kind: text
+    prompt: For a chosen option, what conditions or limits make it comfortable?
+    help: Consider timing, duration, privacy, and whether you might change your mind.
+  - id: ask
+    kind: text
+    prompt: Write an invitation that makes declining easy.
+    help: "Example: “Would a walk feel good today? No is completely fine.”"
+  - id: alternative
+    kind: text
+    prompt: What will you do for yourself if the other person declines or is unsure?
+    help: Choose something that does not punish, persuade, or demand an alternative.
+outro: A menu is a changing personal preference, not an agreement.

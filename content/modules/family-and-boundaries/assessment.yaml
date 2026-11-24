@@ -1,0 +1,117 @@
+id: fab-assessment
+module: family-and-boundaries
+type: assessment
+title: Boundaries & Loyalty
+summary: Reflect on outside pressures, choice about contact, privacy and attention.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Think about the past month, or the nearest relevant period. These original prompts are
+  educational, not a validated measure or diagnosis; scores cannot tell you what to do. Skip any
+  item; a skipped answer means no overall band or recommendations. Cutoffs are illustrative, not
+  clinical. Your result is stored on this device; consider whether using it is safe if someone else
+  has access. If fear, coercion or violence is present, skip joint work and seek individual
+  specialist support.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: outside
+    label: Outside involvement
+    description: How outside requests affect your choices.
+    threshold: 50
+    recommend:
+      - fab-lesson-connection
+      - fab-ex-boundary-map
+    sensitive: true
+  - id: limits
+    label: Limits and follow-through
+    description: How easy it is to set and respect a limit.
+    threshold: 50
+    recommend:
+      - fab-lesson-boundaries
+      - fab-ex-agreements
+    sensitive: true
+  - id: loyalty
+    label: Competing loyalties
+    description: How difficult it feels to navigate different relationships.
+    threshold: 50
+    recommend:
+      - fab-lesson-loyalty
+      - fab-ex-visit
+    sensitive: true
+  - id: digital
+    label: Digital privacy and attention
+    description: How devices and sharing affect connection or privacy.
+    threshold: 50
+    recommend:
+      - fab-lesson-tech
+      - fab-ex-tech
+    sensitive: true
+items:
+  - id: o1
+    subscale: outside
+    text: Requests from relatives or others leave me feeling overextended.
+  - id: o2
+    subscale: outside
+    text: Plans with other people are made without considering my availability or preferences.
+  - id: o3
+    subscale: outside
+    text: I can choose how much contact I want with people outside the relationship.
+    reverse: true
+  - id: l1
+    subscale: limits
+    text: When I express a limit, it is dismissed or negotiated after I have said no.
+  - id: l2
+    subscale: limits
+    text: I can express a limit without fear of retaliation.
+    reverse: true
+  - id: l3
+    subscale: limits
+    text: I fear punishment or threats if I decline contact or a request.
+    flagAtOrAbove: 1
+  - id: y1
+    subscale: loyalty
+    text: I feel caught between my partner and someone else who matters to me.
+  - id: y2
+    subscale: loyalty
+    text: I feel pressured to prove loyalty by cutting someone off.
+  - id: y3
+    subscale: loyalty
+    text: Different relationships in my life can matter without a loyalty test.
+    reverse: true
+  - id: d1
+    subscale: digital
+    text: Phone use interrupts attention I hoped to share.
+  - id: d2
+    subscale: digital
+    text: Personal information or images are shared without my permission.
+  - id: d3
+    subscale: digital
+    text: I can keep my devices and communications private without punishment.
+    reverse: true
+bands:
+  - id: lower
+    label: Some areas to explore
+    min: 0
+    narrative: The items answered suggest fewer reported difficulties. This does not prove your
+      boundaries are safe or respected; you may still decide a particular limit matters.
+  - id: middle
+    label: Some boundaries need attention
+    min: 35
+    narrative: Your responses suggest tension around contact, expectations or privacy. Identify a limit
+      you can set for yourself, without requiring someone else to cut ties.
+  - id: higher
+    label: Consider outside support
+    min: 65
+    narrative: Outside pressure or limits may be difficult to navigate. Individual support may help; if
+      fear, coercion or violence is involved, choose a domestic abuse specialist rather than joint
+      boundary-setting.
+gapThreshold: 25

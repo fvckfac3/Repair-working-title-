@@ -7,13 +7,14 @@ minutes: 15
 mode: together
 intensity: light
 intro: >-
-  A regular, predictable time to talk means small issues don't have to wait
-  until they explode. Keep it short and kind, and do it at the same time
-  every week if you can.
+  A predictable, optional time to talk can help with everyday logistics.
+  Both people must freely want to participate. If either person feels
+  afraid or controlled, pause joint activities and seek individual support.
 groundRules:
-  - Start with appreciation, always.
+  - Either person may skip a prompt, pause or stop without explaining.
+  - Offer appreciation only if it feels genuine; it is OK to skip it.
   - Bring at most one concern each. Bigger issues get their own time.
-  - Use your time-out signal if either of you starts to flood.
+  - Take a break if either of you feels overwhelmed; resuming is optional.
 phases:
   - id: appreciate
     title: Appreciations
