@@ -1,0 +1,32 @@
+id: mat-ex-system
+module: money-as-a-team
+type: exercise
+title: Choosing a money system
+summary: Compare how a small shared responsibility could work.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Individually sketch options. This is educational, not financial or legal advice; no account
+  details are needed.
+steps:
+  - id: expense
+    kind: text
+    prompt: Name a shared responsibility in general terms, such as groceries or a utility bill.
+    alwaysPrivate: true
+  - id: options
+    kind: list
+    prompt: List possible arrangements, including separate contributions, pooled resources, a hybrid, or
+      another approach.
+    alwaysPrivate: true
+  - id: compare
+    kind: text
+    prompt: For each option, consider access to necessities, decision-making, effort, flexibility and
+      whether each person can say no.
+    alwaysPrivate: true
+  - id: trial
+    kind: text
+    prompt: If appropriate, sketch a limited trial, who would do what, when to revisit it, and what
+      would make you decline or stop.
+    alwaysPrivate: true
+outro: A plan remains an option until everyone affected freely agrees; seek independent professional
+  guidance for individual questions.

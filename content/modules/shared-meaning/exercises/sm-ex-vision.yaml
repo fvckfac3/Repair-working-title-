@@ -1,0 +1,32 @@
+id: sm-ex-vision
+module: shared-meaning
+type: exercise
+title: Five-year vision in words
+summary: Imagine possibilities and identify one step without making a promise.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Use words instead of a visual board. The future is uncertain; you may imagine your own life
+  with or without a relationship, and you can skip anything.
+steps:
+  - id: scene
+    kind: text
+    prompt: Imagine an ordinary day about five years from now. What would you like more or less of?
+    help: Consider home, work, rest, community, health, or any other domain that matters to you.
+  - id: meaning
+    kind: text
+    prompt: Which value is visible in that imagined day? What does it look like in practice?
+  - id: unknown
+    kind: text
+    prompt: What feels uncertain or outside your control?
+    help: A possibility is not a prediction.
+  - id: needs
+    kind: text
+    prompt: Which parts feel important to your autonomy or wellbeing, and which details could change?
+  - id: small
+    kind: text
+    prompt: What is one information-gathering or low-cost step you could take in the next month?
+  - id: revisit
+    kind: text
+    prompt: When might you revisit the picture, knowing you may choose a different path?
+outro: Your vision belongs to you and is allowed to change.

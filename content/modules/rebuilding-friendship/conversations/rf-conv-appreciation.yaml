@@ -1,0 +1,59 @@
+id: rf-conv-appreciation
+module: rebuilding-friendship
+type: conversation
+title: Appreciation exchange
+summary: Offer one genuine observation, without asking for praise back.
+minutes: 15
+mode: together
+intensity: light
+intro: Use only if both freely choose to talk and feel safe. Appreciation is optional; neither
+  person needs to invent it.
+groundRules:
+  - Both people choose freely whether to take part, skip a prompt, pause, or stop without
+    consequence.
+  - If fear, coercion, or violence is present, do not use this guide together; seek specialist
+    individual support and make choices that are safe for you.
+  - Speak for yourself; listen without debating, interpreting, or demanding disclosure.
+phases:
+  - id: prepare
+    title: Choose whether this is a good time
+    kind: prep
+    prompts:
+      - Check that both freely want to talk now. Either person may pass or end without a promise to
+        resume.
+      - Choose a low-pressure setting and a short time; no one owes an answer.
+  - id: turn-a
+    title: First perspective
+    kind: turn
+    speaker: A
+    prompts:
+      - If I want, name one specific action I valued and what it meant to me.
+      - If nothing feels genuine, I can pass.
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: turn-b
+    title: Second perspective
+    kind: turn
+    speaker: B
+    prompts:
+      - If I want, name one specific action I valued and what it meant to me.
+      - If nothing feels genuine, I can pass.
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: choose
+    title: Choose a possible next step
+    kind: together
+    prompts:
+      - Ask, “Did that land as I intended?” Listen to the answer without requiring gratitude.
+      - If both wish, discuss what everyday kind actions are welcome; no promises are necessary.
+    seconds: 180
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Either person can say what felt comfortable or end quietly. Appreciation does not cancel
+        unmet needs or harm.

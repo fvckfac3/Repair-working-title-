@@ -1,0 +1,44 @@
+id: sm-ritual-fourteen
+module: shared-meaning
+type: ritual
+title: Build one new ritual in 14 days
+summary: A two-week, solo experiment in designing and reviewing a small routine.
+minutes: 5
+mode: solo
+intensity: light
+intro: Choose a ritual for yourself, or make a voluntary invitation only if both people freely want
+  it and feel safe. If fear, coercion or violence is present, prioritize specialist individual
+  support instead of a joint ritual. Skip or change any day; these are prompts, not reminders or
+  required streaks.
+days:
+  - day: 1
+    task: Name a purpose you care about, such as rest, curiosity, or connection.
+  - day: 2
+    task: Choose a cue already in your day and a one-minute action that fits it.
+  - day: 3
+    task: Try the action if you want to. Notice whether the cue was convenient.
+  - day: 4
+    task: Adjust the timing or setting for your energy, access, and privacy needs.
+  - day: 5
+    task: Try a smaller version, or skip it without treating that as failure.
+  - day: 6
+    task: Notice whether the action supports your purpose; change it if it does not.
+  - day: 7
+    task: "Review the first week: keep, adjust, or stop. Any choice is valid."
+  - day: 8
+    task: If continuing, identify what made the routine easy or difficult.
+  - day: 9
+    task: Remove one unnecessary step or cost.
+  - day: 10
+    task: Choose a fallback for busy or low-energy days, including taking a day off.
+  - day: 11
+    task: If you want a shared version and it is safe, offer an easy-to-decline invitation; otherwise
+      continue solo.
+  - day: 12
+    task: Notice whose needs the routine serves and whether anyone feels pressure; change or stop if
+      needed.
+  - day: 13
+    task: Try the current version only if it still feels useful and wanted.
+  - day: 14
+    task: Decide whether to continue, revise, or end. A shared ritual continues only with each person’s
+      freely given choice.

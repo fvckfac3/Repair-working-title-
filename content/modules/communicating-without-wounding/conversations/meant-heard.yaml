@@ -1,0 +1,55 @@
+id: cww-conv-meant-heard
+module: communicating-without-wounding
+type: conversation
+title: What I meant vs. what you heard
+summary: Untangle a minor misunderstanding while allowing different memories.
+minutes: 12
+mode: together
+intensity: light
+intro: Use this guide at a calm time only if both freely want to. It is educational, not therapy. No
+  conversation or reconciliation is required.
+groundRules:
+  - Participate only if both freely choose. Either person may pause, decline a prompt, or stop
+    without owing a return time.
+  - Speak one at a time; no insults, threats, or pressure to agree.
+  - If fear, coercion, or violence is present, do not do this together. Prioritize individual safety
+    and specialized support.
+phases:
+  - id: prep
+    title: Select a small example
+    kind: prep
+    prompts:
+      - Each choose whether to participate. Pick a recent low-stakes misunderstanding, not a
+        frightening or unresolved incident.
+    seconds: 60
+  - id: a
+    title: A shares the intention
+    kind: turn
+    speaker: A
+    prompts:
+      - What did I say, and what did I intend to convey? What part might have landed differently?
+    listenerPrompts:
+      - Reflect the intention without deciding whether it excuses the impact.
+    seconds: 120
+  - id: b
+    title: B shares the impact
+    kind: turn
+    speaker: B
+    prompts:
+      - What did I hear? What impact did it have on me?
+    listenerPrompts:
+      - Summarize the impact; avoid “That is not what I meant” until the summary is checked.
+    seconds: 120
+  - id: repair
+    title: Check and revise
+    kind: together
+    prompts:
+      - Ask each other “What did I miss?” If both want to, try a clearer sentence for next time.
+        Neither must agree on a single account.
+    seconds: 120
+  - id: close
+    title: Close by choice
+    kind: close
+    prompts:
+      - Name one thing you understood better, or simply stop. A follow-up is optional.
+    seconds: 60

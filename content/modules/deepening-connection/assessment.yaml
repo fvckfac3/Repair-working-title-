@@ -1,0 +1,99 @@
+id: dc-assessment-connection-check
+module: deepening-connection
+type: assessment
+title: Connection Check
+summary: Reflect on being known, responsiveness, and room for connection.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Think about the past two weeks from your own perspective. Skip items that do not fit,
+  including when you have not had an opportunity to try. This original educational reflection is not
+  a validated measure, an attachment-style diagnosis, or proof of safety. If fear, coercion or
+  violence is present, prioritize individual safety and specialist support rather than joint work.
+  Information is stored unencrypted on this device and may be visible to anyone with access. Use a
+  safer device or skip writing if this could put you at risk.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: known
+    label: Feeling known
+    threshold: 50
+    recommend:
+      - dc-lesson-staying-curious-about-each-other
+      - dc-exercise-how-well-do-you-know-me-now
+    sensitive: true
+  - id: response
+    label: Responses to connection
+    threshold: 50
+    recommend:
+      - dc-lesson-bids-for-connection
+      - dc-exercise-bids-tracker
+    sensitive: true
+  - id: expression
+    label: Expressing a need
+    threshold: 50
+    recommend:
+      - dc-lesson-softening
+      - dc-exercise-my-softer-emotions
+    sensitive: true
+items:
+  - id: k1
+    subscale: known
+    text: My partner seems curious about what matters to me lately.
+    reverse: true
+  - id: k2
+    subscale: known
+    text: I feel alone with important parts of my daily life.
+  - id: k3
+    subscale: known
+    text: There is room for my interests or concerns to have changed.
+    reverse: true
+  - id: r1
+    subscale: response
+    text: Small attempts to connect seem to go unnoticed.
+  - id: r2
+    subscale: response
+    text: When I ask for attention, I receive a response even if the answer is “not now.”
+    reverse: true
+  - id: r3
+    subscale: response
+    text: I find it difficult to notice or respond to my partner’s invitations to connect.
+  - id: e1
+    subscale: expression
+    text: I can name a need without having to explain it perfectly.
+    reverse: true
+  - id: e2
+    subscale: expression
+    text: I hold back a need because I expect it will not be understood.
+  - id: e3
+    subscale: expression
+    text: I know at least one way to ask for a small moment of connection.
+    reverse: true
+bands:
+  - id: some-connection
+    label: Some moments of connection
+    min: 0
+    narrative: Some answered areas may already feel supported. A score cannot show whether a
+      relationship is safe. You may enjoy noticing one helpful response or choosing a low-pressure
+      question.
+  - id: some-distance
+    label: Room for attention
+    min: 30
+    narrative: Some answered areas may feel distant. Pick one small invitation or individual reflection,
+      rather than trying to change everything at once. Participation and touch are always optional.
+  - id: more-distance
+    label: Consider additional support
+    min: 60
+    suggestTherapist: true
+    narrative: The areas you answered may feel quite lonely or difficult. Individual support may help
+      you identify what you need. Couples support is an option only when freely chosen and safe; if
+      there is fear, coercion or violence, seek individual specialist support first.
+gapThreshold: 25

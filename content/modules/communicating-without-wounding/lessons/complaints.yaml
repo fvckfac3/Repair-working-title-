@@ -1,0 +1,32 @@
+id: cww-lesson-complaints
+module: communicating-without-wounding
+type: lesson
+title: Complaints vs. criticism
+summary: Name an observable action without turning it into a verdict about someone.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: A complaint has an address
+    body: "A complaint points to something specific that happened and its effect: “The dishes were still
+      in the sink this morning, and I felt rushed.” Criticism turns a moment into a character
+      judgment: “You are lazy.”"
+  - heading: Replace the verdict
+    body: Pick one recent, observable event; leave out “always,” “never,” and motives you cannot know.
+      Describe its impact on you without presenting your interpretation as a fact.
+  - heading: Make a request, not a demand
+    body: "Try: “Could we decide who washes the dishes tonight?” A request can be answered with no or a
+      different proposal. If the answer is no, you can decide what boundary or practical step you
+      need."
+  - heading: Respect does not excuse harm
+    body: Softer wording is a tool, not a requirement to earn respectful treatment. You are not
+      responsible for another person’s intimidation or violence. Stop and seek individual support if
+      raising concerns feels unsafe.
+takeaway:
+  question: Which opening is a specific complaint rather than a character attack?
+  options:
+    - “You never care about anyone.”
+    - “When the dishes were left, I felt rushed; could we make a plan?”
+    - “You are such a slob.”
+  answer: 1
+  explanation: The second identifies an event, an impact, and a request without labeling the person.

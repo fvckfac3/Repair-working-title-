@@ -1,17 +1,21 @@
 # Repair: Content Map
 
-The source of truth for **what** the app teaches. Each module's authored content lives in
-`content/modules/<slug>/` and is validated by `pnpm content:build`. Modules marked
-`draft` in their `module.yaml` have an outline only; their titles here are the plan.
+Each module's authored content lives in `content/modules/<slug>/` and is validated by
+`pnpm content:build`. The YAML files are authoritative for what is actually available;
+the topic descriptions below are an original product outline and may include ideas
+or functionality that is not implemented.
 
-**Status:** Module 1 (*Calming the Storm*) is fully authored (`in_review`, pending
-clinical sign-off). Modules 2–14 are outlined (`draft`). The global onboarding check,
-private safety screen, check-ins, weekly *State of Us* and crisis resources are authored.
+**Status:** All 14 modules contain draft assessments, lessons, exercises, conversations,
+journals and rituals and are marked `in_review`. No module has clinical approval.
+The global onboarding check and safety questions are original, unvalidated drafts.
+See [release readiness](release-readiness.md) before any public use. Partner accounts,
+sharing, mutual matching, encryption, app lock, reminders and sync are not implemented.
 
-### Research basis for module selection
-- **Why couples seek help.** Doss, Simpson & Christensen (2004) found emotional affection and communication tied for first, then divorce concerns, arguments, children, sex, personal problems and trust. The BACP/Relate study (UK) found communication 79.7%, arguments 68.9%, conflict management 67.8%, and fear the relationship will end 65.1%. Couples wait about 6 years after problems begin before getting help, so users arrive in an entrenched state. That makes de-escalation the first module and a "crossroads" (stay or go) module necessary.
-- **Evidence-based frameworks to draw on, in original wording.** The Gottman Method covers conflict patterns, repair, flooding, turning toward, and the atone/attune/attach approach to affair recovery. EFT (Emotionally Focused Therapy) covers attachment, the "negative cycle" and softening. IBCT (Integrative Behavioral Couple Therapy) covers acceptance and the unified detachment stance. Doherty's discernment counseling covers the stay-or-go decision. OurRelationship (Doss) is an online program shown in RCTs to work for distressed couples. Its format of observe, understand, respond is a useful model for each module's arc.
-- **Safety research on IPV apps (JMIR 2021).** Abuse screening must use validated items and cover emotional violence and coercive control, not only physical violence, and it must be private to each partner. Couples exercises are contraindicated where there is coercive control. Safety is therefore a system that runs through the whole app, not a module.
+### Rationale for module selection
+
+The topics reflect common areas a person might want to think about, from conflict and communication to trust, practical pressures and uncertainty about the relationship's future. This organization is a design hypothesis, not evidence that the app produces clinical outcomes. The content uses original wording and is not a substitute for a tested treatment or licensed assessment.
+
+Safety is a cross-cutting concern, not a module. The current screening questions and responses require independent specialist review. If fear, coercion or violence is present, prioritize individual support and safety planning rather than assuming that joint exercises or couples counseling are appropriate. A negative response does not establish safety. See [release readiness](release-readiness.md) and its specialist resources.
 
 ## Part 1: Activity types (the shared "player" engine)
 Every module is assembled from the same building blocks:
@@ -86,7 +90,7 @@ Each module follows the same arc: **Assess → Understand (lessons) → Practice
 **8. Exploring Intimacy (Sex & Physical Affection)**
 - Assessment: *Intimacy Profile* (satisfaction, desire discrepancy, comfort talking about sex, affection outside sex, pain or health factors); 18+ confirmation required
 - Lessons: Desire discrepancy is normal · Spontaneous vs. responsive desire · Accelerators and brakes · Rebuilding physical affection after distance or betrayal · When to see a doctor or sex therapist
-- Exercises: Yes/No/Maybe list. Each partner fills it privately and **only mutual matches are revealed**. · Accelerators and brakes worksheet · Non-sexual touch menu · A "sensate focus" style graduated touch plan (no-pressure stages)
+- Exercises: Individual choices and boundaries reflection · Accelerators and brakes worksheet · Non-sexual connection menu · A consent-led closeness plan. The app does not implement partner matching or mutual-match reveals.
 - Conversation guides: Talking about sex without blame · Initiation and declining gracefully · Planning intimacy together
 - Ritual: 7-day affection-only challenge (no pressure)
 

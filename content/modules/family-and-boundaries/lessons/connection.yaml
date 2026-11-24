@@ -1,0 +1,33 @@
+id: fab-lesson-connection
+module: family-and-boundaries
+type: lesson
+title: Connection without losing yourself
+summary: Build partnership while preserving each person’s independent relationships.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: A partnership is not a merger
+    body: Family of origin, chosen family, friends and community can remain important. Building a “we”
+      need not mean choosing a partner over everyone else, accepting mistreatment, or surrendering
+      individual relationships.
+  - heading: Name the actual conflict
+    body: "Instead of “your family always comes first,” identify a concrete situation: “The visit was
+      planned for Saturday before I was asked; I need a say in my availability.” Avoid guessing what
+      a relative intended."
+  - heading: Joint and individual choices
+    body: A shared home or joint hosting plan may require agreement from those affected. Each person can
+      also choose their own contact and decline participation. A partner cannot set limits for
+      another adult as a loyalty test.
+  - heading: Make room for both
+    body: If safe, ask what each person values and can freely choose. One person may attend a family
+      meal while the other stays home, without demanding that either prove devotion.
+takeaway:
+  question: Which choice supports connection and autonomy?
+  options:
+    - Require both partners to cut off relatives.
+    - Agree about joint hosting while each chooses their own contact.
+    - Plan a visit for everyone without asking.
+  answer: 1
+  explanation: Shared decisions and individual relationships both deserve respect.
+sources: []

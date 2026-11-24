@@ -1,0 +1,56 @@
+id: aac-conv-where-i-am
+module: at-a-crossroads
+type: conversation
+title: Sharing where I am, by choice
+summary: Offer only what each person chooses about their current perspective.
+minutes: 15
+mode: together
+intensity: deep
+intro: Only talk if both freely choose to and neither fears retaliation. No one needs to disclose a
+  decision, private writing, or plans. An individual counselor may be a better source of support. If
+  there is fear, coercion or violence, do not use this guide together. Seek individual support from
+  a local domestic abuse specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - Would you like to say anything about what you are feeling or needing now? “I am not ready to
+        say” is enough.
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - Would you like to say anything about your own feelings or needs? You may pass without
+        explanation.
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - Ask whether there is any immediate practical topic both want to discuss. Do not request an
+        answer about staying or leaving, or access to private notes.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Acknowledge what remains unknown; either person can end or choose not to schedule another
+        conversation.

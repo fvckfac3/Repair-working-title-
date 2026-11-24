@@ -1,0 +1,60 @@
+id: sm-conv-dreams
+module: shared-meaning
+type: conversation
+title: Dreams and life goals
+summary: Exchange hopes and uncertainties without negotiating away core needs.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use only if both freely want to and feel safe. There is no requirement to imagine the same
+  future, decide whether to stay, or resolve a difference today.
+groundRules:
+  - Both people choose freely whether to take part, skip a prompt, pause, or stop without
+    consequence.
+  - If fear, coercion, or violence is present, do not use this guide together; seek specialist
+    individual support and make choices that are safe for you.
+  - Speak for yourself; listen without debating, interpreting, or demanding disclosure.
+phases:
+  - id: prepare
+    title: Choose whether this is a good time
+    kind: prep
+    prompts:
+      - Check that both freely want to talk now. Either person may pass or end without a promise to
+        resume.
+      - Choose a low-pressure setting and a short time; no one owes an answer.
+  - id: turn-a
+    title: First perspective
+    kind: turn
+    speaker: A
+    prompts:
+      - What is one hope for my life, and why does it matter to me?
+      - What feels uncertain or important to preserve?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: turn-b
+    title: Second perspective
+    kind: turn
+    speaker: B
+    prompts:
+      - What is one hope for my life, and why does it matter to me?
+      - What feels uncertain or important to preserve?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: choose
+    title: Choose a possible next step
+    kind: together
+    prompts:
+      - Name one overlap and one difference, if any. Ask about meaning instead of trying to persuade.
+      - If both want, choose one small information-gathering step; otherwise leave the question
+        open. Autonomy, safety, and access to resources are not bargaining chips.
+    seconds: 180
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Each may say what they learned or pass. Either person can revise a hope or choose a
+        different path.

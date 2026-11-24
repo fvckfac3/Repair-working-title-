@@ -2,30 +2,27 @@ slug: at-a-crossroads
 title: At a Crossroads
 tier: D
 order: 14
-tagline: Get clear on whether and how to move forward.
-description: >-
-  Often one partner is leaning in and the other is leaning out. This
-  module doesn't push you to stay together. It helps each of you get clear
-  about where you are, your own part in the problems, and the path you
-  choose: keep things as they are, separate, or commit fully to a
-  time-limited effort to repair.
-status: draft
+tagline: Make room for clarity without a prescribed outcome.
+description: Explore uncertainty, possible changes, staying, and separation without pressure to
+  choose a particular path. Individual professional support can help; no one is required to disclose
+  a decision or participate together.
+status: in_review
 intensity: deep
 gating:
-  therapistRecommended: true
+  therapistRecommended: false
 outline:
   assessment: Commitment & Ambivalence
   lessons:
-    - Mixed-agenda couples are common
-    - Three paths forward
-    - Your own part in the problem
-    - What all-in really means
+    - When partners want different things
+    - Possible paths forward
+    - Looking at my actions without taking blame
+    - A time-limited effort, if freely chosen
   exercises:
-    - Private ambivalence journal
-    - My contributions inventory
+    - Personal ambivalence reflection
+    - My choices and contributions
     - Decision clarity worksheet
   conversations:
-    - Sharing where I am, honestly
-    - Agreeing on a path and a timeframe
-  journal: What I'm afraid to say out loud
-  ritual: Weekly clarity check for six weeks
+    - Sharing where I am, by choice
+    - Discussing next steps without pressure
+  journal: What I am not ready to say aloud
+  ritual: Six-week personal clarity check

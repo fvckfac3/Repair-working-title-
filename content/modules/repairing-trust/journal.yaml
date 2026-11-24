@@ -1,0 +1,19 @@
+id: rt-journal-where-trust
+module: repairing-trust
+type: journal
+title: Where trust lives for me
+summary: Explore your own evidence, boundaries, and choices without a forced outcome.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Choose what is safe to record, skip any prompt, and stop whenever you wish. You do not have
+  to share. If fear, coercion, or violence is present, prioritize individual safety and specialized
+  support.
+prompts:
+  - What specific event or pattern affected my trust? What did I observe, and what remains uncertain?
+  - What practical impact did it have on me? What feelings or needs do I notice without judging them?
+  - What actions, if any, would be useful evidence of change? Which decisions or feelings remain
+    mine to make?
+  - What boundaries about contact, information, time, or support do I want to maintain?
+  - What options—including space, individual support, or ending the relationship—do I want to
+    consider? I do not have to decide today.

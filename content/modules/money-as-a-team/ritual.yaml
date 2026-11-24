@@ -1,0 +1,27 @@
+id: mat-ritual
+module: money-as-a-team
+type: ritual
+title: 7-day money reflection
+summary: Notice one money-related need or choice each day without required disclosure.
+minutes: 5
+mode: solo
+intensity: light
+intro: Try these personal prompts over seven days. Skip any day, and do not record balances,
+  credentials or transactions. If your device is monitored or money is used to control you, consider
+  safer individual specialist support.
+days:
+  - day: 1
+    task: Name one feeling that shows up around a routine expense.
+  - day: 2
+    task: Recall a money message you learned and whether it still fits.
+  - day: 3
+    task: Identify one current need, such as stability, flexibility or rest.
+  - day: 4
+    task: Notice a shared responsibility that could benefit from a clearer owner.
+  - day: 5
+    task: Name one type of financial information you choose to keep private.
+  - day: 6
+    task: Consider one non-urgent decision and an option to wait or change it.
+  - day: 7
+    task: Review what you noticed and choose whether any next step, conversation or independent advice
+      would be useful.

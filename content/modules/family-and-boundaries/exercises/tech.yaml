@@ -1,0 +1,27 @@
+id: fab-ex-tech
+module: family-and-boundaries
+type: exercise
+title: Our tech agreement
+summary: Draft a small attention or posting request without surveillance.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Consider your own needs first. No passwords, accounts, locations or private messages are needed.
+steps:
+  - id: moment
+    kind: text
+    prompt: Identify one situation where attention or online sharing feels difficult.
+    alwaysPrivate: true
+  - id: need
+    kind: text
+    prompt: What would help, and what access, work, care or safety needs must be considered?
+    alwaysPrivate: true
+  - id: request
+    kind: text
+    prompt: Draft a request that either person can decline, such as asking before posting an image.
+    alwaysPrivate: true
+  - id: review
+    kind: text
+    prompt: How would you revisit or end a voluntary trial? Include the option to use devices when needed.
+    alwaysPrivate: true
+outro: A request for attention does not justify searches, tracking or pressure to hand over credentials.

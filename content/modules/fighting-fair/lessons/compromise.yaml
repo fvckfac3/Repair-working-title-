@@ -1,0 +1,31 @@
+id: ff-lesson-compromise
+module: fighting-fair
+type: lesson
+title: Compromise without losing yourself
+summary: Separate non-negotiable boundaries from flexible details, then test an agreement.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Start separately
+    body: Write down what you need to protect—such as sleep, control of your own body, or a spending
+      limit you can afford. A boundary is about what you will do, not a rule you can force on
+      another person.
+  - heading: Find flexible details
+    body: "List details you could adjust without violating that boundary: timing, duration, location, or
+      who does a task. Do not label someone’s safety or consent as a bargaining chip."
+  - heading: Propose a small experiment
+    body: For instance, “Could we try visitors ending by 9 on work nights for two weeks?” Both can
+      propose changes or decline. Record the action, owner, timing, and a check-in only if both
+      choose.
+  - heading: Review, do not coerce
+    body: At the check-in, ask what worked and what did not. Revise or end the trial. A refusal to
+      compromise about safety, bodily autonomy, or dignity is legitimate.
+takeaway:
+  question: Which element belongs in a workable trial?
+  options:
+    - An action, a duration, and agreement by both.
+    - A demand that neither person may decline.
+    - An exchange of one person’s safety for convenience.
+  answer: 0
+  explanation: A limited, mutually chosen trial can be reviewed without erasing boundaries.

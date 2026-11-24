@@ -1,0 +1,54 @@
+id: fab-conv-boundary
+module: family-and-boundaries
+type: conversation
+title: Setting a boundary together
+summary: Coordinate a jointly chosen limit while allowing different individual choices.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use only when people freely want a shared plan; a personal boundary does not require a
+  partner’s permission. If there is fear, coercion or violence, do not use this guide together. Seek
+  individual support from a local domestic abuse specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - What shared situation is difficult, and what limit would you choose for your own
+        participation?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What is your preference, and what would you choose for your own participation?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - If there is agreement, draft who will say what to whom, without disclosing another person’s
+        private details. If not, name each person’s independent options.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Decide whether to review later. It is acceptable to decline, pause or seek individual
+        support.

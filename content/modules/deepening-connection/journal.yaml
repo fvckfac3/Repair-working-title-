@@ -1,0 +1,18 @@
+id: dc-journal-closest
+module: deepening-connection
+type: journal
+title: When I feel closest to you
+summary: Notice the conditions that support connection for you.
+minutes: 6
+mode: solo
+intensity: deep
+intro: Choose a prompt and keep as much to yourself as you wish. Entries are stored on this device;
+  consider who can access it. You do not owe anyone disclosure or contact. Information is stored
+  unencrypted on this device and may be visible to anyone with access. Use a safer device or skip
+  writing if this could put you at risk.
+prompts:
+  - When have I felt seen recently, and what specifically helped?
+  - What kind of attention feels welcome today, and what does not?
+  - What is one invitation for connection I could make without demanding a yes?
+  - What limit would help me be present without overextending myself?
+  - Who else in my support network helps me feel known?

@@ -1,0 +1,33 @@
+id: pah-lesson-mental-load
+module: partners-at-home
+type: lesson
+title: The invisible mental load
+summary: Break a household job into noticing, planning, doing and following up.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: A task has hidden stages
+    body: Dinner is not only cooking. Someone notices food is low, checks preferences and dietary needs,
+      plans meals, shops, cooks and handles leftovers. The visible chore is only part of the work.
+  - heading: Ownership includes remembering
+    body: “Tell me what to do” can leave one person as project manager. For one task, name who notices,
+      plans, executes and checks completion, including who handles exceptions. These stages can be
+      split if both agree.
+  - heading: Count context, not only minutes
+    body: Work schedules, physical access, disability, energy, childcare and paid work shape available
+      capacity. Fairness may mean different contributions and rest for each person, rather than a
+      perfect 50/50 count.
+  - heading: Make a small transfer
+    body: Choose a recurring task, agree what “done” means, transfer necessary information with consent,
+      and name a backup. One person might own a grocery trip from list through putting food away.
+      Review after a week.
+takeaway:
+  question: What makes a task transfer more than helping on request?
+  options:
+    - An agreed owner handles planning and follow-through, with a backup.
+    - The usual planner keeps reminding the other.
+    - Only visible minutes count.
+  answer: 0
+  explanation: Clear ownership covers noticing and follow-through while allowing an agreed backup.
+sources: []

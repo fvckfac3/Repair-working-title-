@@ -1,0 +1,29 @@
+id: cww-lesson-listening
+module: communicating-without-wounding
+type: lesson
+title: Listening to understand
+summary: Practice checking the message before preparing your response.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Listen for the point, not the rebuttal
+    body: Put aside your counterexample for one short turn. Notice the event, the feeling the speaker
+      names, and the request, if any. You can take a break rather than force attention.
+  - heading: Reflect tentatively
+    body: Say “What I heard was that the late change left you stressed. Did I get that?” Let the speaker
+      correct you; the listener does not need to repeat every word.
+  - heading: Clarify before defending
+    body: Ask one focused question such as “Was the hard part the change itself, or not knowing?” Do not
+      cross-examine or demand examples the speaker does not want to give.
+  - heading: Then take your turn
+    body: Once the speaker says the summary is close enough, ask if they have capacity to hear your
+      view. Understanding is not agreement, and each person can decline or stop.
+takeaway:
+  question: What is a useful first response after listening?
+  options:
+    - “That is not what happened.”
+    - “What I heard was… did I get it?”
+    - “Let me explain your feelings.”
+  answer: 1
+  explanation: A tentative summary gives the speaker room to correct you.

@@ -1,0 +1,32 @@
+id: rt-lesson-accountability
+module: repairing-trust
+type: lesson
+title: What real accountability looks like
+summary: Acknowledge an action and impact without excuses, then offer a specific repair.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Identify what you did
+    body: "Say what happened in concrete terms: “I said I had paid the bill when I had not.” Avoid vague
+      phrases like “mistakes were made” or “sorry you felt that way.”"
+  - heading: Hear the impact
+    body: If the affected person wants to speak, listen without correcting their feelings. “You had to
+      spend time fixing the late fee, and it left you uncertain about the budget.” Check whether you
+      understood.
+  - heading: Own the choice; offer, do not demand
+    body: “I chose not to tell you. That was my responsibility. I will pay the fee and tell you when the
+      payment is made, if that is useful.” Do not blame the other person or ask for immediate
+      reassurance.
+  - heading: Follow through and allow a no
+    body: Make a feasible plan, act on it, and correct any new mistake. The affected person can refuse a
+      conversation or repair, take space, or leave. An apology is not a transaction for renewed
+      trust.
+takeaway:
+  question: Which apology includes ownership without pressure?
+  options:
+    - “I hid the missed payment; I am responsible and will pay the fee.”
+    - “I am sorry, but you made it hard to tell you.”
+    - “I apologized, so you must trust me.”
+  answer: 0
+  explanation: It names the action and a repair without placing responsibility on the affected person.

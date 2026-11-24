@@ -1,0 +1,25 @@
+id: fab-ritual
+module: family-and-boundaries
+type: ritual
+title: 7-day intentional attention
+summary: Make intentional attention and privacy choices for one week.
+minutes: 5
+mode: solo
+intensity: light
+intro: Try one optional reflection each day. Connection can include accessible devices, and nobody
+  needs to turn off a phone, share a password or report completion.
+days:
+  - day: 1
+    task: Notice one moment when you would welcome more or less attention.
+  - day: 2
+    task: Ask what your device helps you do, including work, care, access or safety.
+  - day: 3
+    task: If wanted, request a short shared moment and accept a no.
+  - day: 4
+    task: Before sharing an image or personal update, ask each person affected for permission.
+  - day: 5
+    task: Choose a small break from a distraction for yourself, if useful.
+  - day: 6
+    task: Notice whether a request for attention respects both people’s access needs.
+  - day: 7
+    task: Consider what you want to continue, change or stop; no shared report is required.

@@ -1,0 +1,59 @@
+id: rt-conv-feel-safe
+module: repairing-trust
+type: conversation
+title: What I need to feel safe
+summary: Discuss chosen boundaries and practical conditions without promising safety.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use this educational guide only when both freely want to and feel safe. It does not replace
+  professional support or require reconciliation.
+groundRules:
+  - Both people must freely choose to participate; either may skip, pause, or stop without a
+    required return.
+  - No insults, threats, coercion, forced disclosures, or pressure to forgive, agree, or reconcile.
+  - If fear, coercion, or violence is present, do not do this together. Prioritize individual safety
+    and specialized support.
+phases:
+  - id: prep
+    title: Choose whether to talk
+    kind: prep
+    prompts:
+      - Only proceed if both freely choose and neither is afraid of the other. Pick a manageable
+        topic. If fear, coercion, or violence is present, stop and seek individual specialized
+        support.
+    seconds: 60
+  - id: a
+    title: A names a condition
+    kind: turn
+    speaker: A
+    prompts:
+      - What would help me feel more at ease around this specific issue? What boundary do I want to
+        maintain?
+    listenerPrompts:
+      - Reflect without arguing. The speaker need not justify a boundary or disclose more.
+    seconds: 180
+  - id: b
+    title: B names a condition
+    kind: turn
+    speaker: B
+    prompts:
+      - What would help me feel more at ease around this specific issue? What boundary do I want to
+        maintain?
+    listenerPrompts:
+      - Reflect without bargaining away safety, privacy, or consent.
+    seconds: 180
+  - id: options
+    title: Consider one action
+    kind: together
+    prompts:
+      - If both want, offer a specific action and a way to review it. Either can say no. Do not
+        require passwords, device access, location tracking, or unwanted disclosures.
+    seconds: 120
+  - id: close
+    title: Close
+    kind: close
+    prompts:
+      - "Each may state what they choose next: a trial, space, individual support, or no further
+        conversation."
+    seconds: 60

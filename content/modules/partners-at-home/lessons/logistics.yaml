@@ -1,0 +1,32 @@
+id: pah-lesson-logistics
+module: partners-at-home
+type: lesson
+title: Reducing the strain of family logistics
+summary: Build a short planning loop without making one person the default manager.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: Externalize recurring work
+    body: A calendar, paper list or other accessible method can hold appointments, supplies, care
+      coverage and deadlines. Use a method each person can access safely rather than assuming a
+      particular app feature.
+  - heading: Plan for exceptions
+    body: For each important task, identify a primary person and a willing backup. Ask what happens when
+      a shift changes, someone is sick or transport falls through; backup should not always be the
+      same person.
+  - heading: Set a stop time
+    body: A short weekly review can cover what is due, who owns each item, what is overloaded and what
+      can be dropped. Leave charged issues for a separate, consensual discussion.
+  - heading: Review the whole load
+    body: At week’s end, check completion as well as interruption, reminders, rest and fairness. Change
+      a plan if it relies on someone doing extra invisible coordination.
+takeaway:
+  question: Which review question checks the invisible load?
+  options:
+    - Who had to remember, follow up and handle exceptions?
+    - Who looked busiest for five minutes?
+    - Did we avoid changing the plan?
+  answer: 0
+  explanation: Planning, reminders and exception handling count alongside visible completion.
+sources: []

@@ -1,0 +1,28 @@
+id: mat-ex-goal
+module: money-as-a-team
+type: exercise
+title: A shared goal without pressure
+summary: Explore a goal and its tradeoffs without entering balances or committing money.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Start alone. A shared goal is optional and can be modified or declined by either person.
+steps:
+  - id: goal
+    kind: text
+    prompt: Name a possible goal in broad terms and why it matters to you.
+    alwaysPrivate: true
+  - id: needs
+    kind: text
+    prompt: What current needs or constraints must be respected before considering it?
+    alwaysPrivate: true
+  - id: alternatives
+    kind: list
+    prompt: List two possible routes, including waiting, changing scope, or not pursuing it.
+    alwaysPrivate: true
+  - id: review
+    kind: text
+    prompt: What information would you need, from whom, and when would you revisit the idea? Keep
+      personal details out.
+    alwaysPrivate: true
+outro: Discuss only if both want to; a goal is not a commitment to spend.

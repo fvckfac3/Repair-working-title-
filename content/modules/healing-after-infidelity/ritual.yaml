@@ -1,0 +1,29 @@
+id: hai-ritual-self-check-ins
+module: healing-after-infidelity
+type: ritual
+title: Seven days of self check-ins
+summary: A week of small, individual choices after a difficult experience.
+minutes: 5
+mode: solo
+intensity: light
+intro: Each day, choose whether to do the prompt. You can skip days or stop; no contact,
+  forgiveness, disclosure, or relationship decision is required. If fear or control is present,
+  prioritize individual safety and specialist support.
+days:
+  - day: 1
+    task: Name one sensation or feeling; choose one way to make the next hour easier.
+  - day: 2
+    task: Notice a reminder. If one appears, try a grounding action you chose; otherwise choose a
+      restful action.
+  - day: 3
+    task: Identify a trusted person or professional you could contact safely, without needing to share
+      details.
+  - day: 4
+    task: "Ask yourself what practical need deserves attention: sleep, food, finances, health care, or
+      space."
+  - day: 5
+    task: Write one question you may want to consider later. You do not have to ask it.
+  - day: 6
+    task: Notice a boundary you can choose for yourself today; it may be as small as taking a break.
+  - day: 7
+    task: Review what helped and what did not. Keep one useful action, or stop the ritual.

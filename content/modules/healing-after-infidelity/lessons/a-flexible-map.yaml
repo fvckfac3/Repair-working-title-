@@ -1,0 +1,33 @@
+id: hai-lesson-a-flexible-map
+module: healing-after-infidelity
+type: lesson
+title: A flexible map, not a recovery timetable
+summary: Consider stabilization, accountability, and future choices without a prescribed sequence.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: Start where you are
+    body: Some people first need sleep, practical support, or distance. Others want to understand what
+      happened. There is no universal sequence or deadline, and a relationship may end.
+  - heading: Accountability is observable
+    body: If the involved person chooses to repair, accountability can mean acknowledging specific
+      actions and their impact without blaming the hurt person, making realistic commitments, and
+      following through. A statement of regret alone does not establish trust.
+  - heading: Look at the pattern over time
+    body: If both freely want to continue, they can notice whether agreed actions happen, whether either
+      can say no, and whether hard topics can be paused. Set a modest review date rather than
+      demanding certainty today.
+  - heading: Bring in the right help
+    body: An individual therapist can support either person’s decisions. A qualified couples therapist
+      may help when both want to participate and there is no coercion or violence. If there is fear
+      or control, prioritize independent specialist support instead.
+takeaway:
+  question: Which statement best describes this map?
+  options:
+    - Everyone must reach the same final stage
+    - It offers possible tasks, not a deadline or a requirement to stay
+    - A lower score means an affair is resolved
+  answer: 1
+  explanation: People move differently, and safety and choice are more important than a schedule.
+sources: []

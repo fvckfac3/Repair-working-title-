@@ -7,8 +7,10 @@ minutes: 4
 mode: solo
 intensity: light
 intro: >-
-  Answer about the past month. There are no right answers. Your responses
-  stay private unless you choose to compare results with your partner.
+  Answer about the past month. There are no right answers. This draft is a
+  reflection tool, not a validated assessment. Results are stored on this
+  device without an app lock or encryption; anyone with access may see them.
+  Partner comparisons are not available in this version.
 scale:
   min: 0
   max: 4
@@ -80,8 +82,8 @@ bands:
     min: 75
     suggestTherapist: true
     narrative: >-
-      Conflict is likely affecting your wellbeing and your sense of safety.
-      The tools here can help, but we strongly encourage you to work with a
-      couples therapist as well. If you ever feel unsafe, see the Safety &
-      Support resources. You don't have to handle this alone.
+      Your answers suggest conflict may be taking a toll. Consider talking
+      with a qualified professional. If you feel afraid or controlled, seek
+      individual support from a domestic-violence advocate; joint activities
+      or couples counseling may not be safe. See Safety & Support.
 gapThreshold: 25

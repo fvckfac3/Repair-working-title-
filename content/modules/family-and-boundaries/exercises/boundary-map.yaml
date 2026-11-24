@@ -1,0 +1,28 @@
+id: fab-ex-boundary-map
+module: family-and-boundaries
+type: exercise
+title: Our boundary map
+summary: Map an outside request, your choice and your own possible limit.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Start individually. You do not need to name the people involved or share the map.
+steps:
+  - id: situation
+    kind: text
+    prompt: Describe one request or recurring situation in broad terms.
+    alwaysPrivate: true
+  - id: choice
+    kind: text
+    prompt: Which decisions are yours, which belong to another person, and which require joint agreement?
+    alwaysPrivate: true
+  - id: limit
+    kind: text
+    prompt: "Draft a limit in terms of your own action: “If ... I will ...”."
+    alwaysPrivate: true
+  - id: support
+    kind: text
+    prompt: What would help you follow the limit, and is expressing it safe? If not, consider individual
+      specialist support.
+    alwaysPrivate: true
+outro: A boundary is not a tool for deciding who another adult may see.

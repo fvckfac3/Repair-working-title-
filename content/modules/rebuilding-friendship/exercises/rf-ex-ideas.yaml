@@ -1,0 +1,28 @@
+id: rf-ex-ideas
+module: rebuilding-friendship
+type: exercise
+title: A flexible idea list
+summary: Collect varied activities with a small, accessible first step.
+minutes: 8
+mode: solo
+intensity: light
+intro: Start with your own ideas. Someone else is never required to choose or join one.
+steps:
+  - id: ideas
+    kind: list
+    prompt: List activities that might be enjoyable, including free, at-home, accessible, or solo options.
+    help: Try a new snack, a short game, listening to music, or a quiet walk if accessible.
+  - id: constraints
+    kind: text
+    prompt: What time, money, access, sensory, or energy limits matter right now?
+  - id: resize
+    kind: text
+    prompt: Select one idea and make it smaller or easier.
+    help: For example, replace a day trip with ten minutes looking at photos of a place.
+  - id: alternative
+    kind: text
+    prompt: What is an equally valid no-cost, low-energy alternative or a way to take time alone?
+  - id: offer
+    kind: text
+    prompt: If you want to invite someone, how can you make declining easy and accept their answer?
+outro: A list is a collection of possibilities, not a set of promises or a test of enthusiasm.

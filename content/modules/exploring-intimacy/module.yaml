@@ -2,14 +2,13 @@ slug: exploring-intimacy
 title: Exploring Intimacy
 tier: C
 order: 8
-tagline: Rebuild physical closeness with less pressure and more honesty.
-description: >-
-  Sex is often the first casualty of conflict and the hardest thing to talk
-  about. This module covers desire differences, responsive vs. spontaneous
-  desire, and what speeds up or slows down each partner's interest. It
-  offers a gradual, no-pressure path back to touch and a private way to
-  share interests in which only mutual matches are shown.
-status: draft
+tagline: Make room for choice, comfort, and honest conversations about closeness.
+description: For adults, explore how desire, circumstances, health and different preferences affect
+  the closeness you want. Reflect individually on boundaries and interests, and consider optional
+  conversations or affection only when both freely choose them. The app does not match or compare
+  interests. If fear, coercion or violence is present, prioritize specialist individual support
+  rather than couples activities.
+status: in_review
 intensity: deep
 gating:
   adultsOnly: true
@@ -23,13 +22,13 @@ outline:
     - Rebuilding affection after distance or betrayal
     - When to see a doctor or sex therapist
   exercises:
-    - Yes / No / Maybe (mutual matches only)
+    - My choices and boundaries
     - Accelerators & brakes worksheet
-    - Non-sexual touch menu
-    - Graduated touch plan
+    - Non-sexual connection menu
+    - A no-pressure closeness plan
   conversations:
     - Talking about sex without blame
     - Initiating and declining with care
     - Planning intimacy together
   journal: What closeness means to me
-  ritual: 7-day affection-only challenge
+  ritual: 7-day connection without pressure

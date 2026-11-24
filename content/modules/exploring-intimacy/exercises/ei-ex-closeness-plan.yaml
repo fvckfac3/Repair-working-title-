@@ -1,0 +1,34 @@
+id: ei-ex-closeness-plan
+module: exploring-intimacy
+type: exercise
+title: A no-pressure closeness plan
+summary: Make an optional plan for connection with explicit stopping points.
+minutes: 8
+mode: solo
+intensity: deep
+intro: Plan for yourself first. Physical touch is optional and never a required stage. Only consider
+  an activity with someone else if both adults freely want the specific activity in that moment.
+steps:
+  - id: aim
+    kind: text
+    prompt: What kind of closeness would you like, if any?
+    help: "Examples: a few minutes of conversation, shared tea, or space."
+  - id: small
+    kind: text
+    prompt: What is one small, reversible option that would be worthwhile without sex?
+    help: Do not plan a progression toward a sexual outcome.
+  - id: boundaries
+    kind: text
+    prompt: What limits, timing, or setting would you need?
+    help: Include a way to end immediately without explanation.
+  - id: ask
+    kind: text
+    prompt: How could you ask once, make no an easy answer, and accept uncertainty?
+    help: A prior yes is not consent for a later occasion or a different activity.
+  - id: after
+    kind: text
+    prompt: How will you notice whether it felt comfortable for you afterward?
+    help: If there is discomfort or pain, stop; consider a clinician for physical pain. If fear,
+      coercion, or violence is present, prioritize specialist individual support.
+outro: The plan may stay a personal reflection. It is not a promise, and either person can opt out
+  at any point.

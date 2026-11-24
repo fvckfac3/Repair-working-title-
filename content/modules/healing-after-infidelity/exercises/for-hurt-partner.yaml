@@ -1,0 +1,40 @@
+id: hai-exercise-for-hurt-partner
+module: healing-after-infidelity
+type: exercise
+title: For the hurt partner
+summary: Clarify your choices and sources of support without setting a deadline.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Use this if you identify as the person who was hurt; skip it otherwise. You do not owe a
+  decision, forgiveness, a conversation, or reassurance. Information is stored unencrypted on this
+  device and may be visible to anyone with access. Use a safer device or skip writing if this could
+  put you at risk.
+steps:
+  - id: need
+    kind: list
+    prompt: List up to three things you need for the next week.
+    help: Consider rest, health care, money, housing, time alone, or a trusted person.
+    alwaysPrivate: true
+  - id: control
+    kind: text
+    prompt: Which one small step is within my control, regardless of my partner’s response?
+    alwaysPrivate: true
+  - id: question
+    kind: text
+    prompt: Is there a question I need answered for a practical decision? What detail do I not want?
+    alwaysPrivate: true
+  - id: option
+    kind: choice
+    prompt: What is the next step I want to consider?
+    options:
+      - Seek individual support
+      - Take more time
+      - Consider a practical boundary
+      - Not sure yet
+    alwaysPrivate: true
+  - id: check
+    kind: instruction
+    prompt: Notice whether the next step is safe to take. If fear, coercion or violence is present,
+      consult an individual specialist using a device you consider safe.
+outro: Your needs can change. Taking time is a valid choice.

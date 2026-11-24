@@ -1,0 +1,55 @@
+id: mat-conv-money-date
+module: money-as-a-team
+type: conversation
+title: The monthly money date
+summary: Use a short, consent-based agenda for one practical shared issue.
+minutes: 15
+mode: together
+intensity: medium
+intro: Pick a non-urgent time and one shared expense or general goal. No balances, credentials or
+  personal records are required. If there is fear, coercion or violence, do not use this guide
+  together. Seek individual support from a local domestic abuse specialist, using a safe device if
+  possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - What shared topic would you like to cover, and what is one concern or need?
+      - What information are you comfortable discussing, if any?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What is your perspective and what would you prefer to keep outside this conversation?
+      - What constraint should the other person understand?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - If both agree, name one small action, its owner and a review date. If you disagree, note
+        that no agreement was reached.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Ask whether another check-in is wanted; either can decline.

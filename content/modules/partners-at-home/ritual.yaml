@@ -1,0 +1,39 @@
+id: pah-ritual
+module: partners-at-home
+type: ritual
+title: 14-day load-sharing trial
+summary: Try one small voluntary load-sharing action a day, then review what changed.
+minutes: 5
+mode: together
+intensity: light
+intro: For households where both freely choose to participate and feel safe. Skip a day or stop; if
+  fear, coercion or violence is present, skip joint work and seek individual specialist support.
+days:
+  - day: 1
+    task: Each name one recurring task you notice but others may not see.
+  - day: 2
+    task: Choose one task together and list planning, doing and follow-up stages.
+  - day: 3
+    task: Agree who will own one whole task for this trial, if both can do so.
+  - day: 4
+    task: Identify a willing backup and what information they need.
+  - day: 5
+    task: Notice whether reminders are still falling on the previous owner.
+  - day: 6
+    task: Simplify or postpone one nonessential task if both agree.
+  - day: 7
+    task: Check whether each person had some uninterrupted rest.
+  - day: 8
+    task: Adjust the trial for changes in health, work or care.
+  - day: 9
+    task: The task owner handles an exception or asks the agreed backup.
+  - day: 10
+    task: Ask whether the definition of done is clear and realistic.
+  - day: 11
+    task: Notice one part of household work neither had counted.
+  - day: 12
+    task: Each name a task or interruption that still feels heavy.
+  - day: 13
+    task: Consider a small change, outside help or ending the trial.
+  - day: 14
+    task: Review ownership, reminders, rest and fairness; decide whether to continue, revise or stop.

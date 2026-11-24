@@ -1,0 +1,41 @@
+id: far-exercise-choosing-what-to-bring-forward
+module: forgiveness-and-resentment
+type: exercise
+title: Choosing what to bring forward
+summary: Decide whether a conversation would serve you and is safe.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Not every hurt needs a joint conversation. If fear, coercion or violence is present, do not
+  use this to prepare a joint confrontation; seek individual specialist support. Information is
+  stored unencrypted on this device and may be visible to anyone with access. Use a safer device or
+  skip writing if this could put you at risk.
+steps:
+  - id: goal
+    kind: text
+    prompt: "If I raised this, what would I hope for: understanding, a practical change, an apology, or
+      something else?"
+    alwaysPrivate: true
+  - id: safe
+    kind: choice
+    prompt: Can I freely decline or stop a conversation without fear of retaliation?
+    options:
+      - Yes
+      - No
+      - Unsure
+    alwaysPrivate: true
+  - id: plan
+    kind: text
+    prompt: If yes and I choose to talk, what one example and request would I use? Otherwise, what
+      individual support or boundary might I consider?
+    alwaysPrivate: true
+  - id: alternative
+    kind: text
+    prompt: What can I do if the other person declines or the conversation is unhelpful?
+    help: For example, take space, ask a trusted person for support, or reassess an agreement.
+    alwaysPrivate: true
+  - id: permission
+    kind: instruction
+    prompt: You may choose not to raise the issue. If unsure about safety, consult an individual
+      specialist before any joint activity.
+outro: Your choice can change. A conversation is an invitation, not a duty.

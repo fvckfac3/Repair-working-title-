@@ -1,0 +1,112 @@
+id: sm-assessment-meaning
+module: shared-meaning
+type: assessment
+title: Shared Meaning
+summary: Notice where values, daily rituals, roles, and future hopes need attention.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Think about the past month and the kind of relationship or independent future you want. Skip
+  anything that does not fit. This original educational reflection is not a validated measure,
+  diagnosis, or decision about whether to stay. A score cannot establish safety. If fear, coercion,
+  or violence is present, seek specialist individual support rather than couples activities.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: values
+    label: Values and voice
+    description: Whether you can recognize and express what matters to you.
+    threshold: 50
+    recommend:
+      - sm-lesson-shared-why
+      - sm-ex-values
+  - id: rituals
+    label: Daily rituals
+    description: Whether routines support connection or individual wellbeing.
+    threshold: 50
+    recommend:
+      - sm-lesson-rituals
+      - sm-ex-ritual-design
+  - id: roles
+    label: Roles and expectations
+    description: Clarity and choice around everyday responsibilities.
+    threshold: 50
+    recommend:
+      - sm-lesson-roles
+      - sm-ex-values
+  - id: future
+    label: Future possibilities
+    description: Space for your own hopes and uncertainty.
+    threshold: 50
+    recommend:
+      - sm-lesson-growing
+      - sm-ex-vision
+items:
+  - id: v1
+    subscale: values
+    text: I can name values that matter to me in this relationship or in my own life.
+    reverse: true
+  - id: v2
+    subscale: values
+    text: It is difficult to express a value that differs from my partner’s.
+  - id: v3
+    subscale: values
+    text: My choices leave room for what I care about.
+    reverse: true
+  - id: r1
+    subscale: rituals
+    text: Our daily routines make little space for the kind of connection or quiet I want.
+  - id: r2
+    subscale: rituals
+    text: I can change or decline a routine that no longer fits me.
+    reverse: true
+  - id: r3
+    subscale: rituals
+    text: I have at least one small routine that supports my wellbeing.
+    reverse: true
+  - id: o1
+    subscale: roles
+    text: I am unclear about what responsibilities my partner expects me to take on.
+  - id: o2
+    subscale: roles
+    text: I feel able to discuss the practical load attached to my roles.
+    reverse: true
+  - id: o3
+    subscale: roles
+    text: My current responsibilities leave too little space for my own needs.
+  - id: f1
+    subscale: future
+    text: I have room to imagine a future that reflects my own hopes.
+    reverse: true
+  - id: f2
+    subscale: future
+    text: Uncertainty about the future makes it hard for me to identify any next step.
+  - id: f3
+    subscale: future
+    text: I can acknowledge a difference in future hopes without assuming we must resolve it immediately.
+    reverse: true
+bands:
+  - id: low
+    label: A place to begin
+    min: 0
+    narrative: Your answers suggest fewer areas of strain among the questions answered. Values and plans
+      can still change; this result does not establish safety or predict your future.
+  - id: some
+    label: Some questions to explore
+    min: 35
+    narrative: Some themes may need more attention. Choose one area that matters to you and explore it
+      without making a commitment or forcing agreement.
+  - id: more
+    label: Several themes feel difficult
+    min: 65
+    narrative: Several answered areas may need care. You do not have to settle the future now. Consider
+      individual support; if fear, coercion, or violence is present, prioritize specialist
+      individual support over couples activities.

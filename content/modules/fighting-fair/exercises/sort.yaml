@@ -1,0 +1,37 @@
+id: ff-ex-sort
+module: fighting-fair
+type: exercise
+title: Sort our issues
+summary: Sort concrete problems from ongoing differences and select a safe next step.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Start on your own and choose a low-stakes example. Sharing is optional. If fear, coercion, or
+  violence is present, prioritize individual safety and specialized support rather than couples
+  activities.
+steps:
+  - id: list
+    kind: list
+    prompt: List up to three disagreements in neutral terms. Exclude any issue that feels unsafe to record.
+  - id: choice
+    kind: text
+    prompt: Pick one and describe the precise decision or recurring difference. Who is affected?
+  - id: type
+    kind: choice
+    prompt: Which description fits best right now?
+    options:
+      - A practical decision we might resolve
+      - A recurring difference we may need to manage
+      - A mixture of both
+      - Not sure yet
+      - Unsafe to discuss together
+  - id: practical
+    kind: text
+    prompt: What small practical piece, if any, could be tested? What larger preference or value may
+      remain?
+  - id: next
+    kind: text
+    prompt: "Choose a next step: a solo reflection, an optional low-stakes discussion, or no discussion.
+      If fear, coercion, or violence is present, prioritize individual safety and specialized
+      support."
+outro: You may revise, keep this to yourself, or stop. No agreement is required.

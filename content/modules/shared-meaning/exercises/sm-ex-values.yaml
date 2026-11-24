@@ -1,0 +1,46 @@
+id: sm-ex-values
+module: shared-meaning
+type: exercise
+title: Values reflection
+summary: Name your values, define them in action, and consider possible tensions.
+minutes: 8
+mode: solo
+intensity: medium
+intro: This is an individual written reflection, not an automatic comparison. Skip any step. You do
+  not have to agree with someone else or share your answers.
+steps:
+  - id: select
+    kind: multi
+    prompt: Which values matter to you right now? Choose any or none.
+    help: You can add different values in the next step.
+    options:
+      - Care
+      - Fairness
+      - Autonomy
+      - Stability
+      - Creativity
+      - Faith or spirituality
+      - Community
+      - Learning
+      - Rest
+      - Honesty
+  - id: other
+    kind: list
+    prompt: List any other values that matter to you.
+  - id: prioritize
+    kind: text
+    prompt: Choose up to three values from your selections and list them in an order that feels useful
+      today.
+    help: Your order may change. There is no correct ranking.
+  - id: meaning
+    kind: text
+    prompt: "For one value, finish: “This matters to me when I…”"
+    help: Describe a concrete action or choice, not what someone else must do.
+  - id: tension
+    kind: text
+    prompt: Where might two values pull in different directions? What feels flexible and what does not?
+    help: Consider the difference between a preference and autonomy, safety, or access to resources.
+  - id: step
+    kind: text
+    prompt: What is one small action under your control that expresses a value this week?
+outro: You can revisit your list without making a joint agreement.

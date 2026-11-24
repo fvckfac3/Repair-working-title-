@@ -1,0 +1,31 @@
+id: fab-lesson-tech
+module: family-and-boundaries
+type: lesson
+title: Phones, social media and attention
+summary: Negotiate attention and consent without monitoring devices.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: Different uses, different needs
+    body: A phone can be work, accessibility, caregiving, support or leisure. Rather than assume
+      disinterest, ask about a specific interruption and what kind of attention would be welcome.
+  - heading: Request a small window
+    body: Try “Would you like ten minutes together after dinner, with optional phone breaks?” Either
+      person may decline or need a device nearby for care, safety or access.
+  - heading: Ask before posting
+    body: Discuss permission before sharing another person’s image, location, message or personal news.
+      Consent to one post is not consent to future posts; removal requests deserve respect.
+  - heading: Privacy is not a problem to solve
+    body: Do not require passwords, location tracking, device checks or access to private communications
+      as proof of trust. If someone monitors or restricts device use, consider individual specialist
+      support on a safer device.
+takeaway:
+  question: Which technology agreement respects autonomy?
+  options:
+    - Demand passwords.
+    - Ask before posting a photo and allow a no.
+    - Ban all devices regardless of accessibility or care.
+  answer: 1
+  explanation: Consent and realistic access needs matter more than surveillance.
+sources: []

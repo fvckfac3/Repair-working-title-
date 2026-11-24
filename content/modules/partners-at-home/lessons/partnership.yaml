@@ -1,0 +1,32 @@
+id: pah-lesson-partnership
+module: partners-at-home
+type: lesson
+title: Making room for partnership
+summary: Protect rest and connection without putting a relationship above safety or individual needs.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: Start with capacity
+    body: Connection can be hard when someone is exhausted or carrying invisible work. Instead of adding
+      a date to an overloaded schedule, identify what can be paused, shared, simplified or supported
+      by others.
+  - heading: Connection can be small
+    body: "Ask what contact is welcome: a few quiet minutes, sharing tea, or being left alone to rest.
+      Each person can decline touch, a conversation or an outing without having to justify it."
+  - heading: Not “couple first” at any cost
+    body: Children need safe, responsive care, and adults need autonomy and support. Protecting
+      partnership time never means ignoring a child’s urgent needs or pressuring someone into
+      closeness.
+  - heading: Try one realistic window
+    body: If both want, choose ten minutes and a backup for interruptions. If it does not happen, treat
+      that as information about capacity rather than evidence that someone does not care.
+takeaway:
+  question: When someone is exhausted, what is a practical first step?
+  options:
+    - Insist on a demanding weekly date.
+    - Ask what can be simplified or shared and what connection is welcome.
+    - Ignore a child’s immediate needs.
+  answer: 1
+  explanation: Rest and safe care make voluntary connection more feasible.
+sources: []

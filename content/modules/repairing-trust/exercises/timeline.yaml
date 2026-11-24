@@ -1,0 +1,34 @@
+id: rt-ex-timeline
+module: repairing-trust
+type: exercise
+title: Our trust timeline
+summary: Map significant moments and your response without having to share the record.
+minutes: 9
+mode: solo
+intensity: medium
+intro: Work alone on a manageable example. Skip details or steps and stop whenever you wish; sharing
+  is optional. If fear, coercion, or violence is present, prioritize individual safety and
+  specialized support instead of couples activities.
+steps:
+  - id: scope
+    kind: instruction
+    prompt: Choose a manageable period. You can omit details or stop; do not record sensitive
+      information if doing so could put you at risk.
+  - id: events
+    kind: list
+    prompt: List up to three events that affected your trust, using brief factual descriptions and
+      approximate dates.
+  - id: impact
+    kind: text
+    prompt: Choose one event. What changed for you in practical terms, feelings, or decisions? Separate
+      what you observed from what you inferred.
+  - id: responses
+    kind: text
+    prompt: "What happened afterward: an acknowledgement, a repair, a repeated behavior, or no response?
+      What remains uncertain?"
+  - id: choice
+    kind: text
+    prompt: What boundary, support, or next step do you want now? Sharing the timeline or seeking
+      reconciliation is optional.
+outro: Keep, revise, or discard your reflection. A draft is not an agreement and does not require
+  contact or reconciliation.

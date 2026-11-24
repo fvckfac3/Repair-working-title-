@@ -1,0 +1,35 @@
+id: ei-lesson-clinician-support
+module: exploring-intimacy
+type: lesson
+title: When to see a doctor or sex therapist
+summary: Find appropriate support for physical discomfort or ongoing questions.
+minutes: 4
+mode: solo
+intensity: deep
+cards:
+  - heading: Pain is not a task to push through
+    body: If a sexual or physical activity hurts, stop that activity. You do not need to tolerate pain
+      to maintain a relationship or complete an exercise. Pain or a change in comfort is a reason to
+      consider talking with a qualified clinician, even if it is intermittent.
+  - heading: Prepare for an appointment
+    body: If you want, note when the discomfort occurs, what you have already tried, relevant health
+      changes or medications, and your questions. You can decide what to disclose and ask the
+      clinician to explain options. This lesson cannot identify a cause or recommend treatment.
+  - heading: Choose support that fits
+    body: A licensed clinician can help explore physical concerns. A qualified sex therapist may help
+      with questions about desire, communication, or distress; individual support is an option. Ask
+      about credentials, approach, cost, and whether the provider respects consent and diverse
+      identities.
+  - heading: Safety comes first
+    body: If someone pressures you, controls your choices, or you are afraid, do not use couples work as
+      the first response. Consider contacting a specialist violence or sexual-assault support
+      service individually, in a way that is safe for you. You decide what to do next.
+takeaway:
+  question: What is an appropriate response to pain during an activity?
+  options:
+    - Continue to finish the exercise
+    - Stop the painful activity and consider speaking with a qualified clinician
+    - Assume it will resolve without attention
+  answer: 1
+  explanation: Pain is not something anyone needs to endure for intimacy.
+sources: []

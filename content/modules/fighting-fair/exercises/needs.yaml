@@ -1,0 +1,32 @@
+id: ff-ex-needs
+module: fighting-fair
+type: exercise
+title: Core needs vs. flexible areas
+summary: Separate personal boundaries from details open to negotiation.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Start on your own and choose a low-stakes example. Sharing is optional. If fear, coercion, or
+  violence is present, prioritize individual safety and specialized support rather than couples
+  activities.
+steps:
+  - id: issue
+    kind: text
+    prompt: Choose one non-urgent issue and describe the choice in neutral terms.
+  - id: core
+    kind: list
+    prompt: List what you need to protect and what you will do to respect your own boundary. Safety,
+      consent, and dignity are not bargaining chips.
+  - id: flex
+    kind: list
+    prompt: List details you could genuinely adjust, such as timing, frequency, cost, or location.
+      “Nothing yet” is allowed.
+  - id: trial
+    kind: text
+    prompt: Draft one small option with who, what, and for how long. Include a way to review or end it;
+      no one has to agree.
+  - id: check
+    kind: instruction
+    prompt: Check that the option does not require you or anyone else to abandon a boundary. Keep it as
+      a solo draft if discussion is not wanted or safe.
+outro: You may revise, keep this to yourself, or stop. No agreement is required.

@@ -1,0 +1,28 @@
+id: aac-ex-ambivalence
+module: at-a-crossroads
+type: exercise
+title: Personal ambivalence reflection
+summary: Name different feelings and needs without reaching or sharing a decision.
+minutes: 10
+mode: solo
+intensity: deep
+intro: Reflect alone. You may leave this blank or use broad terms. If someone can inspect your
+  device, consider whether writing here is safe; you never have to share your response.
+steps:
+  - id: pulls
+    kind: text
+    prompt: What different feelings or hopes are present for you right now?
+    alwaysPrivate: true
+  - id: needs
+    kind: text
+    prompt: What needs or limits matter regardless of the eventual path?
+    alwaysPrivate: true
+  - id: uncertainty
+    kind: text
+    prompt: What is uncertain, and what would you rather not discuss or record yet?
+    alwaysPrivate: true
+  - id: space
+    kind: text
+    prompt: What could give you more space or individual support to think, if safe?
+    alwaysPrivate: true
+outro: You do not have to resolve competing feelings today or disclose your reflections.

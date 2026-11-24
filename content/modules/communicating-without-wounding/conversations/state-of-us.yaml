@@ -1,0 +1,54 @@
+id: cww-conv-state-of-us
+module: communicating-without-wounding
+type: conversation
+title: State of Us (weekly)
+summary: A brief optional check-in focused on listening and one practical request.
+minutes: 12
+mode: together
+intensity: light
+intro: Use this guide at a calm time only if both freely want to. It is educational, not therapy. No
+  conversation or reconciliation is required.
+groundRules:
+  - Participate only if both freely choose. Either person may pause, decline a prompt, or stop
+    without owing a return time.
+  - Speak one at a time; no insults, threats, or pressure to agree.
+  - If fear, coercion, or violence is present, do not do this together. Prioritize individual safety
+    and specialized support.
+phases:
+  - id: prep
+    title: Choose a time
+    kind: prep
+    prompts:
+      - Confirm both want this check-in now. Choose one small topic and a stopping point.
+    seconds: 60
+  - id: a
+    title: A checks in
+    kind: turn
+    speaker: A
+    prompts:
+      - What has felt manageable or hard this week? Is there one specific request I want to make?
+    listenerPrompts:
+      - Reflect first; ask if you understood before responding.
+    seconds: 180
+  - id: b
+    title: B checks in
+    kind: turn
+    speaker: B
+    prompts:
+      - What has felt manageable or hard this week? Is there one specific request I want to make?
+    listenerPrompts:
+      - Reflect first; requests can be declined or discussed.
+    seconds: 180
+  - id: plan
+    title: Choose an optional next step
+    kind: together
+    prompts:
+      - If both want, choose one small action, who will do it, and when. Otherwise end without a
+        plan.
+    seconds: 120
+  - id: close
+    title: Finish
+    kind: close
+    prompts:
+      - If genuine and welcome, offer a specific appreciation; either may pass.
+    seconds: 60

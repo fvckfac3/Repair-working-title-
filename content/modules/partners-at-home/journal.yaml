@@ -1,0 +1,16 @@
+id: pah-journal
+module: partners-at-home
+type: journal
+title: What I carry that you might not see
+summary: Identify unseen work, limits and a change you may want.
+minutes: 6
+mode: solo
+intensity: medium
+intro: Use these prompts whether or not children live in your home. Choose a prompt or skip it.
+  Entries are stored on this device; consider whether writing is safe if someone else can access it.
+prompts:
+  - Which tasks do I notice and plan before anyone sees the work?
+  - What interruptions or reminders use more energy than the visible task?
+  - Where do health, time, access or caregiving responsibilities limit my capacity?
+  - What task would I like to simplify, transfer or stop, and what would make that possible?
+  - What kind of rest or connection would be welcome this week?

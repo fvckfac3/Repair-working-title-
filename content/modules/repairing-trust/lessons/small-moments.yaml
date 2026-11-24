@@ -1,0 +1,32 @@
+id: rt-lesson-small-moments
+module: repairing-trust
+type: lesson
+title: How trust is built in small moments
+summary: Make modest commitments and communicate clearly when circumstances change.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: A clear promise can be observed
+    body: “I will call the plumber by Thursday afternoon” is easier to evaluate than “I will be more
+      dependable.” Only promise what you can reasonably do. A clear no is preferable to a reluctant
+      yes.
+  - heading: Acknowledge changes early
+    body: "If a plan becomes impossible, give an honest update as soon as practical: “I cannot call
+      today; would Friday work, or would you rather make another plan?” The other person can decline
+      the revision."
+  - heading: Look at patterns, not a single signal
+    body: One kept promise may be useful information; it does not erase earlier harm or prove future
+      trustworthiness. The person affected decides what the evidence means to them.
+  - heading: Trust is not an obligation
+    body: Someone can notice improvement and still want distance, boundaries, or separation. If fear,
+      coercion, or violence is present, prioritize individual safety and specialized support instead
+      of rebuilding trust together.
+takeaway:
+  question: What makes a commitment easier to evaluate?
+  options:
+    - A specific action and time.
+    - An assurance that nothing will ever go wrong.
+    - A demand for immediate trust.
+  answer: 0
+  explanation: Specific actions make it possible to see what happened, without guaranteeing an outcome.

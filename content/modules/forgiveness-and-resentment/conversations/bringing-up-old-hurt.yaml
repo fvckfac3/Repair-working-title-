@@ -1,0 +1,57 @@
+id: far-conversation-bringing-up-old-hurt
+module: forgiveness-and-resentment
+type: conversation
+title: Bringing up an old hurt safely
+summary: Discuss one manageable hurt only when both freely agree.
+minutes: 15
+mode: together
+intensity: deep
+intro: Choose a calm time and a non-urgent example. This is optional; if you cannot safely say no or
+  end the discussion, seek individual specialist support instead.
+groundRules:
+  - Both must freely choose to participate and be able to stop or decline without retaliation.
+  - If fear, coercion, intimidation or violence is present, do not use a joint guide; seek
+    individual specialist support.
+  - Speak about one event and its impact; no insults, interrogation, or pressure to forgive.
+  - Either person can pause or end without promising to return; respect requests for space.
+phases:
+  - id: prep
+    title: Check willingness
+    kind: prep
+    prompts:
+      - Ask whether now is a good time for one old hurt. Either person can decline.
+      - Agree on a pause signal and on stopping if either wishes.
+    seconds: 60
+  - id: a
+    title: Partner A shares
+    kind: turn
+    prompts:
+      - Describe one event, its effect on you, and a request if you have one. Avoid assuming you
+        know the other person’s intent.
+    speaker: A
+    listenerPrompts:
+      - Reflect the impact you heard. Ask “Did I understand?” Do not argue the feeling away.
+    seconds: 180
+  - id: b
+    title: Partner B responds
+    kind: turn
+    prompts:
+      - If you choose, say what you understood and take ownership of any action you recognize. You
+        may ask to pause before responding further.
+    speaker: B
+    listenerPrompts:
+      - Listen. You do not have to accept an explanation, apology, or proposed solution.
+    seconds: 180
+  - id: together
+    title: Choose a next step
+    kind: together
+    prompts:
+      - If both want, make one specific request and decide whether it is accepted, declined, or
+        needs thought. No agreement is required.
+    seconds: 120
+  - id: close
+    title: Close with choice
+    kind: close
+    prompts:
+      - Each can name a support or activity for afterward. Appreciation is optional and should be
+        genuine.

@@ -1,0 +1,110 @@
+id: cww-assessment-communication-patterns
+module: communicating-without-wounding
+type: assessment
+title: Communication Patterns
+summary: Reflect on requests, defensiveness, respect, withdrawal, and listening.
+minutes: 5
+mode: solo
+intensity: light
+kind: standard
+intro: Think about the past month. This original, unvalidated reflection is not a diagnosis or a
+  safety screen; scores show patterns to explore, not who is right. Answer from your own
+  perspective. Skip this activity if it feels unsafe. If fear, coercion, or violence is present,
+  seek individual safety and specialized support instead of couples activities.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: criticism
+    label: Specific requests are hard
+    description: Global judgments versus specific requests.
+    threshold: 50
+    recommend:
+      - cww-lesson-complaints
+      - cww-ex-rewrite
+  - id: defensiveness
+    label: Defensive responses
+    description: Difficulty hearing feedback without counterattacking.
+    threshold: 50
+    recommend:
+      - cww-lesson-defensiveness
+      - cww-ex-i-need
+  - id: disrespect
+    label: Disrespectful language
+    description: Mockery or dismissive reactions when upset.
+    threshold: 50
+    recommend:
+      - cww-lesson-contempt
+  - id: withdrawal
+    label: Unexplained withdrawal
+    description: Pauses without clarity about whether further discussion is possible.
+    threshold: 50
+    recommend:
+      - cww-lesson-defensiveness
+  - id: listening
+    label: Being understood
+    description: Room to finish and check what was heard.
+    threshold: 50
+    recommend:
+      - cww-lesson-listening
+      - cww-ex-reflective
+items:
+  - id: c1
+    subscale: criticism
+    text: I describe my partner as the problem instead of naming a specific action.
+  - id: c2
+    subscale: criticism
+    text: When I raise a concern, I ask for a specific change.
+    reverse: true
+  - id: d1
+    subscale: defensiveness
+    text: When I hear a complaint, I respond with a counter-complaint.
+  - id: d2
+    subscale: defensiveness
+    text: I can acknowledge a part of a concern without accepting blame for everything.
+    reverse: true
+  - id: r1
+    subscale: disrespect
+    text: Sarcasm, eye-rolling, or mockery enters our disagreements.
+  - id: r2
+    subscale: disrespect
+    text: Even when frustrated, I speak without insulting my partner.
+    reverse: true
+  - id: w1
+    subscale: withdrawal
+    text: A discussion ends in silence without anyone explaining whether they want to return to it.
+  - id: w2
+    subscale: withdrawal
+    text: When I need a break, I can say so without using it as punishment.
+    reverse: true
+  - id: l1
+    subscale: listening
+    text: I feel interrupted before I can finish a thought.
+  - id: l2
+    subscale: listening
+    text: Someone checks whether they understood me before responding.
+    reverse: true
+bands:
+  - id: less
+    label: Fewer concerns noticed
+    min: 0
+    narrative: Your answers suggest fewer difficulties in these particular areas. A low score does not
+      establish safety or invalidate a specific hurt. Choose a skill you want to practice.
+  - id: some
+    label: Some concerns noticed
+    min: 30
+    narrative: A few patterns may deserve attention. Review the higher-concern areas, then try one
+      specific change on a low-stakes topic if you both want to.
+  - id: more
+    label: More concerns noticed
+    min: 60
+    suggestTherapist: true
+    narrative: Communication may feel difficult in several areas. Consider individual or relationship
+      support as appropriate; if fear, coercion, or violence is present, prioritize individual
+      safety and specialized support, not couples activities.

@@ -1,0 +1,31 @@
+id: cww-lesson-contempt
+module: communicating-without-wounding
+type: lesson
+title: Contempt and its antidote
+summary: Interrupt ridicule and replace it with a specific concern or a pause.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Spot the behavior
+    body: Mocking a voice, name-calling, sneering, or treating someone as beneath you attacks dignity
+      rather than a problem. Note what you actually did, not just that the conversation “got bad.”
+  - heading: Stop rather than add a compliment
+    body: "If you catch yourself, interrupt the behavior: “That was mocking. I am stopping.” An
+      appreciation cannot cancel an insult; the other person may need space and does not owe
+      forgiveness."
+  - heading: Return only if both choose
+    body: "If appropriate, own the action without “but”: “I rolled my eyes while you spoke. That was
+      disrespectful.” Then ask whether a future conversation about the specific issue is welcome."
+  - heading: Protect your boundaries
+    body: Receiving contempt does not mean you must speak more sweetly to stop it. You can leave a
+      conversation and seek support. If fear, coercion, or violence is present, prioritize
+      individual safety.
+takeaway:
+  question: What is an accountable response after mocking someone?
+  options:
+    - “I mocked you; I am stopping.”
+    - “I mocked you because you made me.”
+    - “Here is a compliment, so forget it.”
+  answer: 0
+  explanation: Naming and stopping the behavior is more useful than excusing it.

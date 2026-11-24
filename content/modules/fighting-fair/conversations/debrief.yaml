@@ -1,0 +1,58 @@
+id: ff-conv-debrief
+module: fighting-fair
+type: conversation
+title: Debriefing a past fight
+summary: Review feelings, perspectives, ownership, and a possible future response.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use this educational guide only at a calm time and only if both freely choose. You do not
+  have to reach agreement or reconcile.
+groundRules:
+  - Both choose freely whether to participate. Either can pause, skip, or end the conversation
+    without a required return.
+  - No insults, threats, pressure, or demands for agreement; leave room for a different view.
+  - If fear, coercion, or violence is present, do not use this together. Prioritize individual
+    safety and specialized support.
+phases:
+  - id: prep
+    title: Choose whether to revisit
+    kind: prep
+    prompts:
+      - Both agree to discuss a lower-intensity past argument. Do not choose an incident involving
+        fear, coercion, or violence. Either can stop.
+    seconds: 60
+  - id: a
+    title: A describes the experience
+    kind: turn
+    speaker: A
+    prompts:
+      - What did I feel? What did I notice, and what meaning did I give it? What is one action of
+        mine I can honestly own?
+    listenerPrompts:
+      - Summarize without correcting the account. The speaker need not take responsibility for the
+        other person’s actions.
+    seconds: 180
+  - id: b
+    title: B describes the experience
+    kind: turn
+    speaker: B
+    prompts:
+      - What did I feel? What did I notice, and what meaning did I give it? What is one action of
+        mine I can honestly own?
+    listenerPrompts:
+      - Summarize; make room for a different memory.
+    seconds: 180
+  - id: future
+    title: Look ahead
+    kind: together
+    prompts:
+      - If both wish, identify one signal, boundary, or action each person can choose next time.
+        Acknowledgement does not require forgiveness.
+    seconds: 120
+  - id: close
+    title: End
+    kind: close
+    prompts:
+      - Check whether each wants to stop or arrange an optional follow-up.
+    seconds: 60

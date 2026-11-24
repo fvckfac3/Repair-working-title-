@@ -2,41 +2,45 @@ slug: healing-after-infidelity
 title: Healing After Infidelity
 tier: B
 order: 5
-tagline: A structured path through the aftermath of an affair.
-description: >-
-  An affair is one of the hardest things a couple can go through. Recovery
-  usually moves through three phases: atoning, attuning and re-attaching.
-  This module has separate tracks for the partner who was hurt and the
-  partner who strayed, plus guided conversations that keep hard questions
-  from re-wounding. We strongly recommend doing this module alongside a
-  couples therapist.
-status: draft
+tagline: Find steadiness and choice after a breach of trust.
+description: A self-directed educational guide to the aftermath of infidelity, with practical ways
+  to manage triggers, consider boundaries, and decide what support you want. It does not decide
+  whether you should stay or replace professional care. This module and its progress can be visible
+  to someone with access to this device; consider whether opening it is safe. If fear, coercion or
+  violence is present, prioritize your individual safety and contact a specialist rather than doing
+  joint activities.
 intensity: deep
 gating:
   therapistRecommended: true
   hiddenInSafetyMode: true
   confirmations:
-    - The affair has ended and contact has stopped, or there is a clear plan to end it.
-    - We both know about the affair. This app will never be used to disclose it.
-    - I am choosing to work on recovery, not deciding yet whether to stay.
+    - I understand this is educational, not therapy, and that my confirmation does not confirm what
+      anyone else knows or chooses.
+    - I will not use this module to disclose an affair or new information about one. I will use a
+      joint activity only if the other person already knows the relevant facts and freely agrees;
+      otherwise I can seek individual support.
+    - I understand that joint repair calls for outside contact to have ended or for a freely chosen
+      plan to end or manage unavoidable contact. This checkbox does not verify another person’s
+      choices.
+    - I understand I may pause, seek individual support, or leave the relationship. If I feel
+      afraid, controlled or unsafe, I will prioritize individual safety rather than a couples
+      activity.
 outline:
-  assessment: Affair Recovery Stage
+  assessment: Recovery Needs Check
   lessons:
-    - Why you feel like this (betrayal trauma)
-    - The three phases of recovery
-    - Questions that help vs. questions that hurt
-    - "For the involved partner: holding steady"
-    - Understanding vulnerabilities without excusing
-    - When to see a therapist
+    - Why reactions can linger
+    - A flexible map, not a recovery timetable
+    - Questions with a purpose
+    - Responding without defensiveness
+    - Context is not an excuse
   exercises:
     - My trigger plan
-    - Our transparency agreement
+    - Boundaries without surveillance
     - For the hurt partner
-    - For the partner who strayed
-    - The impact letter
+    - For the involved partner
   conversations:
     - Structured question time
     - Responding to a trigger
-    - Building relationship 2.0
   journal: Processing, privately
-  ritual: Daily check-in for 21 days
+  ritual: Seven days of self check-ins
+status: in_review

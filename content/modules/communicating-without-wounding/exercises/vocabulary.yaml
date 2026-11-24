@@ -1,0 +1,45 @@
+id: cww-ex-vocabulary
+module: communicating-without-wounding
+type: exercise
+title: My feelings & needs vocabulary
+summary: Find precise words before choosing whether to speak.
+minutes: 7
+mode: solo
+intensity: light
+intro: Work at your own pace. Choose an example that is safe to consider; you need not share your
+  answers. If fear, coercion, or violence is present, prioritize individual safety and specialized
+  support.
+steps:
+  - id: situation
+    kind: text
+    prompt: Name one recent situation in a sentence, without guessing anyone’s motive.
+  - id: feelings
+    kind: multi
+    prompt: Which words fit your experience? Select any that fit.
+    options:
+      - Disappointed
+      - Overwhelmed
+      - Lonely
+      - Frustrated
+      - Relieved
+      - Uncertain
+      - None of these
+  - id: needs
+    kind: multi
+    prompt: What might matter underneath? These are possibilities, not demands.
+    options:
+      - Rest
+      - Predictability
+      - Being heard
+      - Autonomy
+      - Practical help
+      - Respect
+      - None of these
+  - id: words
+    kind: text
+    prompt: "Add your own words and finish: “When ___ happened, I felt ___; what matters to me is ___.”"
+  - id: choice
+    kind: instruction
+    prompt: Decide whether to keep this reflection to yourself, change it, or ask for a conversation.
+      You may stop at any point.
+outro: Keep what is useful. You may revise, stop, or choose not to share your work.

@@ -1,0 +1,31 @@
+id: pah-ex-audit
+module: partners-at-home
+type: exercise
+title: Household task audit
+summary: Map recurring tasks across noticing, planning, doing and checking.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Work alone first. Choose any household tasks relevant to you; children are not required. Use
+  broad descriptions and skip sensitive details.
+steps:
+  - id: tasks
+    kind: list
+    prompt: List three recurring tasks, such as meals, medication pickup, bills or laundry.
+    alwaysPrivate: true
+  - id: stages
+    kind: text
+    prompt: For each, note who notices the need, plans, does the work and checks or follows up. Include
+      reminders and interruptions.
+    alwaysPrivate: true
+  - id: capacity
+    kind: text
+    prompt: What time, access, health, paid work, caregiving or other constraints shape each person’s
+      capacity?
+    alwaysPrivate: true
+  - id: candidate
+    kind: text
+    prompt: Which task might be clarified, simplified, shared or reassigned with agreement?
+    alwaysPrivate: true
+outro: This is your view, not a verdict. If safe and mutually wanted, compare observations without
+  treating disagreement as proof of bad intent.

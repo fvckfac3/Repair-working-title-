@@ -1,0 +1,31 @@
+id: fab-lesson-boundaries
+module: family-and-boundaries
+type: lesson
+title: Flexible boundaries and limits
+summary: Create a limit about your own participation, not a rule controlling someone else.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: A boundary names your action
+    body: “If a conversation turns to insults, I will leave the call” describes an action you can take.
+      “You must never talk to your sibling” attempts to control another person’s relationship.
+  - heading: Be specific and proportionate
+    body: "Name the situation, limit and next step: “I cannot host overnight this month; I can meet for
+      lunch if that works.” You can decline entirely, and need not explain more than you want."
+  - heading: Flexibility is chosen
+    body: A limit may change for an emergency or new information, but exceptions require your consent.
+      Respecting someone’s limit also means not repeatedly pressing after a no.
+  - heading: Safety changes the plan
+    body: If setting a limit may provoke threats, stalking, control or violence, do not confront the
+      person through a joint exercise. Seek individual support from a domestic abuse specialist and
+      use a safe device if possible.
+takeaway:
+  question: Which is a boundary rather than a demand to control someone?
+  options:
+    - “If insults continue, I will leave the visit.”
+    - “You may never contact your friend again.”
+    - “Give me your phone to prove loyalty.”
+  answer: 0
+  explanation: A boundary describes what you will do and respects the other person’s autonomy.
+sources: []

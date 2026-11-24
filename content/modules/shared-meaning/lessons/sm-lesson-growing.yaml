@@ -1,0 +1,34 @@
+id: sm-lesson-growing
+module: shared-meaning
+type: lesson
+title: Growing apart and growing together
+summary: Make space for change without treating a shared future as mandatory.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: People and circumstances change
+    body: Career hopes, health, identity, caregiving, finances, beliefs, or interests may shift. Change
+      does not automatically mean a relationship is failing, and sameness is not the only way to
+      remain connected. It is also possible to decide that a relationship no longer fits.
+  - heading: Ask about directions, not predictions
+    body: A five-year picture is a possibility, not a forecast or promise. Ask what you want more or
+      less of and what feels uncertain. A person may hope for stability while another wants change;
+      neither must make their hope disappear to keep the conversation comfortable.
+  - heading: Separate the negotiable from the essential
+    body: For each hope, name one flexible detail and one important need. “I want meaningful work” might
+      allow several locations; “I need control over my own money” is not a bargaining chip. If a
+      difference involves safety or coercion, seek specialist individual support.
+  - heading: Take a small step without deciding everything
+    body: Try gathering information, protecting time for an interest, or revisiting a question in a
+      month. If both freely want to talk, exchange perspectives without requiring a joint plan.
+      Either person can pause, revise, or choose a different path.
+takeaway:
+  question: How should a five-year vision be treated?
+  options:
+    - As a binding promise
+    - As one possible direction that can be revised
+    - As proof that both people must stay together
+  answer: 1
+  explanation: A vision is a tool for reflection, not a commitment or prediction.
+sources: []

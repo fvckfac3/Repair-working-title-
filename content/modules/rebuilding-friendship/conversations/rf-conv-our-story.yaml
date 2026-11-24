@@ -1,0 +1,61 @@
+id: rf-conv-our-story
+module: rebuilding-friendship
+type: conversation
+title: Our story, revisited
+summary: Share a memory and listen for how the other person experienced it.
+minutes: 15
+mode: together
+intensity: light
+intro: Only do this if both people freely want to and feel safe. Memories can differ; you do not
+  need a happy beginning or an agreed account.
+groundRules:
+  - Both people choose freely whether to take part, skip a prompt, pause, or stop without
+    consequence.
+  - If fear, coercion, or violence is present, do not use this guide together; seek specialist
+    individual support and make choices that are safe for you.
+  - Speak for yourself; listen without debating, interpreting, or demanding disclosure.
+phases:
+  - id: prepare
+    title: Choose whether this is a good time
+    kind: prep
+    prompts:
+      - Check that both freely want to talk now. Either person may pass or end without a promise to
+        resume.
+      - Choose a low-pressure setting and a short time; no one owes an answer.
+  - id: turn-a
+    title: First perspective
+    kind: turn
+    speaker: A
+    prompts:
+      - If I choose, what early or recent memory of us would I like to share?
+      - What detail or feeling stands out to me?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: turn-b
+    title: Second perspective
+    kind: turn
+    speaker: B
+    prompts:
+      - If I choose, what memory of us would I like to share?
+      - What detail or feeling stands out to me?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: choose
+    title: Choose a possible next step
+    kind: together
+    prompts:
+      - What did we each notice that was different? Let both accounts exist without correcting each
+        other.
+      - If both want, choose one small way to make room for a pleasant moment now; it is also fine
+        to make no plan.
+    seconds: 180
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Each may name one thing they learned or pass. A memory does not obligate either person to
+        stay or overlook harm.

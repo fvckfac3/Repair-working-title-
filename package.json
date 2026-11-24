@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Repair (working title): a guided app for couples working through hard seasons.",
   "packageManager": "pnpm@10.28.0",
-  "engines": { "node": ">=20" },
+  "engines": { "node": ">=22.13" },
   "scripts": {
     "content:build": "tsx scripts/build-content.ts",
     "content:check": "tsx scripts/build-content.ts --check",

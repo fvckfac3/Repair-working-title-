@@ -1,0 +1,35 @@
+id: sm-ex-ritual-design
+module: shared-meaning
+type: exercise
+title: Design a ritual
+summary: Create a small, flexible routine for meaning or connection.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Design a solo routine first, or draft a possible invitation to a shared routine. The other
+  person can decline; this exercise does not create an agreement.
+steps:
+  - id: purpose
+    kind: text
+    prompt: What purpose would the ritual serve for you?
+    help: "Examples: a calmer start, noticing a transition, or time to connect."
+  - id: cue
+    kind: text
+    prompt: Choose a reliable cue, a simple action, and an approximate length.
+    help: "Example: after making tea, pause quietly for one minute."
+  - id: fit
+    kind: text
+    prompt: What needs to fit your time, energy, access, sensory preferences, or budget?
+  - id: fallback
+    kind: text
+    prompt: What is a smaller version, and what will you do if you miss or no longer want it?
+  - id: invite
+    kind: text
+    prompt: If you want a shared ritual, draft an invitation that accepts no, a different preference, or
+      a change of mind.
+    help: If fear, coercion or violence is present, choose specialist individual support instead of a
+      joint activity.
+  - id: review
+    kind: text
+    prompt: When and how will you decide whether to keep, change, or stop the ritual?
+outro: A ritual is a revisable choice, not a test of devotion.

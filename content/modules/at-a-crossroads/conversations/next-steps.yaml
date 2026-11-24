@@ -1,0 +1,55 @@
+id: aac-conv-next-steps
+module: at-a-crossroads
+type: conversation
+title: Discussing next steps without pressure
+summary: Discuss a voluntary, limited next step while keeping staying and separation possible.
+minutes: 15
+mode: together
+intensity: deep
+intro: This guide cannot produce a decision for either person. Do not use it where fear, coercion or
+  violence is present; get individual specialist support instead. If there is fear, coercion or
+  violence, do not use this guide together. Seek individual support from a local domestic abuse
+  specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - What, if anything, would you be willing to discuss or try? What are your limits?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What, if anything, are you willing to discuss or try? What are your limits?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - If both wish, consider a specific small action and an optional review time. Either can
+        decline or stop; gathering information separately or exploring separation also remain
+        options.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Name whether there is agreement, uncertainty or no agreement. No one has to share a private
+        decision, make a promise, or return to the discussion.

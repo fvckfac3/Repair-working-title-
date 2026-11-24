@@ -1,0 +1,52 @@
+id: hai-conversation-responding-to-a-trigger
+module: healing-after-infidelity
+type: conversation
+title: Responding to a trigger
+summary: Ask what support is welcome when a known reminder appears.
+minutes: 10
+mode: together
+intensity: deep
+intro: Use only when both freely agree and already know the relevant facts. Do not use this guide
+  for a first disclosure. The person experiencing a reminder chooses whether to speak at all.
+groundRules:
+  - Do this only if both freely want to, already know the relevant facts, and feel safe saying no.
+    Do not use this guide to disclose an affair or new information.
+  - If there is fear, coercion, intimidation or violence, do not do a joint activity; seek
+    individual specialist support instead.
+  - Either person can pause or end without penalty. Do not pursue, threaten, demand a response, or
+    require a return time.
+  - Avoid unwanted graphic detail. The listener may ask for clarification, not cross-examine.
+phases:
+  - id: prep
+    title: Check consent
+    kind: prep
+    prompts:
+      - "Ask: “Would it help to talk about a reminder, or would space be better?” If either person
+        declines, stop."
+    seconds: 60
+  - id: a
+    title: Partner A describes a need
+    kind: turn
+    prompts:
+      - "If you wish, name a current signal and one support that might help: quiet, space,
+        listening, or practical help. You do not need to describe the event."
+    speaker: A
+    listenerPrompts:
+      - Reflect the request briefly. Do not defend, interrogate, or demand reassurance.
+    seconds: 180
+  - id: b
+    title: Partner B responds
+    kind: turn
+    prompts:
+      - Say what you heard and which request you can freely meet. If you cannot, say so respectfully
+        and offer an alternative only if wanted.
+    speaker: B
+    listenerPrompts:
+      - Correct any misunderstanding or decline the alternative.
+    seconds: 180
+  - id: close
+    title: End or pause
+    kind: close
+    prompts:
+      - Each name one immediate next step if desired. Either person can leave the conversation
+        without a promise to resume.

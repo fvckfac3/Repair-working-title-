@@ -1,0 +1,55 @@
+id: pah-conv-redistribute
+module: partners-at-home
+type: conversation
+title: Redistributing the load
+summary: Negotiate one task from noticing through follow-through.
+minutes: 15
+mode: together
+intensity: medium
+intro: Choose a recurring household task; both people must be willing and able to discuss it safely.
+  If there is fear, coercion or violence, do not use this guide together. Seek individual support
+  from a local domestic abuse specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - Which invisible stages or reminders are you carrying?
+      - What part of this task most affects your capacity?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What work or constraints may be less visible to either of us?
+      - What responsibility could you realistically take or adjust?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - If both agree, name the task owner, definition of done, willing backup and review date.
+        Consider simplifying or dropping a task if capacity is limited.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Each say whether the proposed plan feels workable. Either may ask for time rather than agree
+        now.

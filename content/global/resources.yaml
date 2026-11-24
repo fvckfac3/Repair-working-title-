@@ -1,25 +1,56 @@
-# Verify all numbers and links before every release.
+# US resources verified against the provider websites on 2026-11-24.
+# Recheck contact details, availability, and URLs before every release.
 - id: emergency
-  name: Emergency services
-  description: If you or someone else is in immediate danger.
+  name: Emergency services (US)
+  description: If you or someone else is in immediate danger, call 911 in the US. Elsewhere, use your local emergency number.
   phone: "911"
+  region: US
   category: crisis
 - id: suicide-crisis-lifeline
-  name: 988 Suicide & Crisis Lifeline
-  description: Free, confidential, 24/7 support for anyone in emotional distress.
+  name: 988 Suicide & Crisis Lifeline (US)
+  description: Free, confidential, 24/7 support for emotional distress by call, text or online chat.
   phone: "988"
-  text: "988"
-  url: https://988lifeline.org
+  text: "Text 988"
+  url: https://988lifeline.org/
+  region: US
   category: crisis
 - id: national-dv-hotline
-  name: National Domestic Violence Hotline
-  description: Confidential support and safety planning, 24/7.
+  name: National Domestic Violence Hotline (US)
+  description: Connect with an advocate for support and individual safety planning by call, text or online chat.
   phone: "1-800-799-7233"
   text: "Text START to 88788"
-  url: https://www.thehotline.org
+  url: https://www.thehotline.org/
+  region: US
+  category: safety
+- id: hotline-safety-planning
+  name: Personal safety planning
+  description: Explore options for a safety plan, including children, pets and technology. Use a safer device if possible.
+  url: https://www.thehotline.org/plan-for-safety/
+  region: US
+  category: safety
+- id: hotline-internet-safety
+  name: Technology and internet safety
+  description: Device and internet use can be monitored, and history cannot be completely erased. Review precautions on a safer device.
+  url: https://www.thehotline.org/plan-for-safety/internet-safety/
+  region: US
+  category: safety
+- id: national-sexual-assault-hotline
+  name: RAINN National Sexual Assault Hotline (US)
+  description: Free, confidential 24/7 support and referrals following sexual violence or abuse.
+  phone: "1-800-656-4673"
+  text: "Text HOPE to 64673"
+  url: https://rainn.org/get-help/
+  region: US
+  category: safety
+- id: domestic-violence-local-providers
+  name: Find local domestic-violence services (US)
+  description: Search for shelter, legal assistance, counseling and other local support through the National Domestic Violence Hotline.
+  url: https://www.thehotline.org/get-help/directory-of-local-providers/
+  region: US
   category: safety
 - id: find-a-therapist-aamft
-  name: Find a couples therapist (AAMFT)
-  description: Directory of licensed marriage and family therapists.
-  url: https://www.aamft.org
+  name: Find a marriage and family therapist (AAMFT)
+  description: Explore professional therapist-finding resources. If you feel afraid or controlled, consider individual advocacy or support first.
+  url: https://www.aamft.org/web/web/About-Marriage---Family-Therapy/Find-A-Therapist.aspx?hkey=fa97612d-7bc5-4e1c-b977-48428b966690
+  region: US
   category: therapy

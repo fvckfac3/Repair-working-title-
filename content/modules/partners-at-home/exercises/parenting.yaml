@@ -1,0 +1,38 @@
+id: pah-ex-parenting
+module: partners-at-home
+type: exercise
+title: Parenting values comparison
+summary: Clarify a care value and possible response without requiring identical approaches.
+minutes: 10
+mode: solo
+intensity: medium
+intro: Use only if relevant to children in your care. Reflect separately; avoid identifying details.
+  A child’s safety comes first.
+steps:
+  - id: moment
+    kind: text
+    prompt: Choose a routine such as leaving for school or bedtime; describe what happens without
+      labeling the child.
+    alwaysPrivate: true
+  - id: value
+    kind: choice
+    prompt: Which value matters most to you in this moment?
+    options:
+      - Safety
+      - Predictability
+      - Respect
+      - Independence
+      - Connection
+      - Another value
+    alwaysPrivate: true
+  - id: response
+    kind: text
+    prompt: What response could express that value while meeting the child’s needs and developmental stage?
+    alwaysPrivate: true
+  - id: review
+    kind: text
+    prompt: What observation would help you tell whether the approach is helping, and when might you
+      review it?
+    alwaysPrivate: true
+outro: If a child is in danger, address safety immediately and seek appropriate local help rather
+  than waiting for a comparison.

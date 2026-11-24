@@ -1,0 +1,30 @@
+id: ff-ritual-repair-challenge
+module: fighting-fair
+type: ritual
+title: 7-day repair attempt challenge
+summary: Notice opportunities to pause, take ownership, and respect space.
+minutes: 5
+mode: solo
+intensity: light
+intro: This is a solo practice with an optional, mutually chosen interaction on day six. Skip any
+  day or stop. If fear, coercion, or violence is present, prioritize individual safety and
+  specialized support, not couples activities. A repair attempt does not make anyone responsible for
+  another person’s behavior.
+days:
+  - day: 1
+    task: Notice one early sign that a discussion is becoming tense; decide whether you want to pause.
+  - day: 2
+    task: Write a pause phrase you could use without promising to resume an unsafe conversation.
+  - day: 3
+    task: Notice whether you interrupt; if you do, stop and offer space only if the other person wants
+      it.
+  - day: 4
+    task: Rehearse acknowledging one specific action without adding an excuse.
+  - day: 5
+    task: Practice hearing “not now” without pursuing or demanding a new time.
+  - day: 6
+    task: If both freely choose and feel safe, practice a brief reset on a low-stakes topic; either may
+      pass.
+  - day: 7
+    task: Review what felt useful, what did not, and whether you want to continue; no streak or
+      reconciliation is required.

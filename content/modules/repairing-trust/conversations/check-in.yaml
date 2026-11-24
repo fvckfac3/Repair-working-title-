@@ -1,0 +1,57 @@
+id: rt-conv-check-in
+module: repairing-trust
+type: conversation
+title: Monthly trust check-in
+summary: Review a chosen commitment and decide separately what to do next.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use this educational guide only when both freely want to and feel safe. It does not replace
+  professional support or require reconciliation.
+groundRules:
+  - Both people must freely choose to participate; either may skip, pause, or stop without a
+    required return.
+  - No insults, threats, coercion, forced disclosures, or pressure to forgive, agree, or reconcile.
+  - If fear, coercion, or violence is present, do not do this together. Prioritize individual safety
+    and specialized support.
+phases:
+  - id: prep
+    title: Check consent
+    kind: prep
+    prompts:
+      - Only continue if both choose. Pick one specific commitment to review, and agree either can
+        stop.
+    seconds: 60
+  - id: a
+    title: A reflects
+    kind: turn
+    speaker: A
+    prompts:
+      - What happened with the commitment? What impact or uncertainty remains for me?
+    listenerPrompts:
+      - Reflect the experience without promising that it should feel different.
+    seconds: 180
+  - id: b
+    title: B reflects
+    kind: turn
+    speaker: B
+    prompts:
+      - What happened with the commitment? What action can I honestly own, and what is or is not
+        feasible next?
+    listenerPrompts:
+      - Reflect without demanding a promise or deciding what trust should look like.
+    seconds: 180
+  - id: review
+    title: Revise or end
+    kind: together
+    prompts:
+      - If both agree, specify any change, responsibility, and optional review date. Either can
+        decline and choose a separate boundary or support.
+    seconds: 120
+  - id: close
+    title: Close without a verdict
+    kind: close
+    prompts:
+      - Name one thing you understand better if you wish. No one has to give a trust rating or
+        promise reconciliation.
+    seconds: 60

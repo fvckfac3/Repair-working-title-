@@ -1,0 +1,18 @@
+id: far-journal-carrying
+module: forgiveness-and-resentment
+type: journal
+title: What I'm still carrying
+summary: Reflect on a hurt and what you want for yourself now.
+minutes: 6
+mode: solo
+intensity: deep
+intro: Choose one prompt. Entries are stored on this device; leave out details if someone else might
+  access it and that would be unsafe. You do not have to share or forgive. Information is stored
+  unencrypted on this device and may be visible to anyone with access. Use a safer device or skip
+  writing if this could put you at risk.
+prompts:
+  - Which hurt is asking for attention, and is the behavior still happening?
+  - What did I need at the time, and which need is still present?
+  - What is the difference between a boundary I can set and a change only another person can choose?
+  - What would care for myself look like if forgiveness were not a requirement?
+  - Whose support would I like, and how could I contact them safely?

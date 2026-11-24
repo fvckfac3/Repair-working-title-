@@ -1,0 +1,32 @@
+id: pah-lesson-parenting
+module: partners-at-home
+type: lesson
+title: Different parenting styles, shared care
+summary: Discuss care differences without silencing concerns or overriding a child’s wellbeing.
+minutes: 5
+mode: solo
+intensity: medium
+cards:
+  - heading: Separate values from tactics
+    body: Caregivers may both value safety and respect but prefer different bedtime routines. Ask what
+      each hopes a child will learn or feel before debating the tactic.
+  - heading: Respond to immediate needs
+    body: If a child is at risk or needs comfort, respond to their safety now. A “united front” is not a
+      reason to tolerate frightening, degrading or harmful treatment or stay silent about a concern.
+  - heading: Disagree away from the child when possible
+    body: "For a non-urgent disagreement, compare observations in private: “I noticed bedtime took
+      longer; what did you see?” Seek age-appropriate input from a child where suitable, without
+      making them choose sides."
+  - heading: Make a testable plan
+    body: Select one routine and a response each can carry out, a backup and a review date. If concerns
+      about a child’s safety, development or wellbeing persist, consult an appropriate child-care
+      professional or local protective resource.
+takeaway:
+  question: What is a child-centered response to an urgent safety concern?
+  options:
+    - Wait for adults to present a united front.
+    - Address immediate safety and seek appropriate help.
+    - Ask the child to decide which caregiver is right.
+  answer: 1
+  explanation: A shared approach must not override immediate safety or silence concerns.
+sources: []

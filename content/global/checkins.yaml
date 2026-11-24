@@ -8,7 +8,7 @@ daily:
     kind: scale
     labels: [Very distant, Distant, Neutral, Close, Very close]
   - id: note
-    text: Anything you'd like your partner to know? (optional, you choose whether to share)
+    text: Anything you want to note for yourself? (optional; saved on this device)
     kind: text
 weekly:
   conversation: weekly-state-of-us

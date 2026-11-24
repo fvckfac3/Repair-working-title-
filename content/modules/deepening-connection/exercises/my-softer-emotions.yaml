@@ -1,0 +1,42 @@
+id: dc-exercise-my-softer-emotions
+module: deepening-connection
+type: exercise
+title: My softer emotions
+summary: Name a feeling or need under a manageable irritation.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Choose a low-stakes moment. Anger can be valid, especially when a boundary is crossed; you do
+  not need to uncover a softer emotion or share it. Information is stored unencrypted on this device
+  and may be visible to anyone with access. Use a safer device or skip writing if this could put you
+  at risk.
+steps:
+  - id: moment
+    kind: text
+    prompt: What happened in one recent, manageable moment?
+    alwaysPrivate: true
+  - id: feeling
+    kind: multi
+    prompt: Which feelings fit, if any?
+    options:
+      - Irritation
+      - Hurt
+      - Loneliness
+      - Worry
+      - Disappointment
+      - None of these
+    alwaysPrivate: true
+  - id: need
+    kind: text
+    prompt: "What did I need or value? For example: inclusion, predictability, rest, or autonomy."
+    alwaysPrivate: true
+  - id: request
+    kind: text
+    prompt: If safe and useful, draft a small request that the other person may decline.
+    help: “When ___, I felt ___; would you be willing to ___?”
+    alwaysPrivate: true
+  - id: choice
+    kind: instruction
+    prompt: Choose whether to share, revise, or keep it to yourself. If expressing a need could bring
+      retaliation, seek individual support instead.
+outro: Your feelings and boundaries matter whether or not you share them.

@@ -1,0 +1,34 @@
+id: hai-lesson-questions-with-a-purpose
+module: healing-after-infidelity
+type: lesson
+title: Questions with a purpose
+summary: Choose questions that support decisions while limiting unwanted detail.
+minutes: 4
+mode: solo
+intensity: medium
+cards:
+  - heading: Begin with the reason
+    body: "Before asking, complete: “I need this information to decide ___.” Questions about relevant
+      health, current contact, and practical boundaries may be more useful for decisions than an
+      exhaustive replay."
+  - heading: Agree on a container
+    body: Only if both already know the relevant facts and freely agree, choose one question, a time
+      limit, and a way to stop. Either person may decline details or choose to discuss them with an
+      individual professional first.
+  - heading: Avoid detail you cannot unhear
+    body: Ask at the level you actually want. For example, “What contact is ongoing?” may be more useful
+      than asking for a minute-by-minute description. You can change your mind, stop, and revisit a
+      question later.
+  - heading: Make health decisions independently
+    body: If sexual health is a concern, consult a qualified clinician about testing, timing, and
+      protection. You can seek care without waiting for a partner’s permission or for a joint
+      discussion.
+takeaway:
+  question: What makes a question more likely to be useful?
+  options:
+    - It supports a decision and respects the desired level of detail
+    - It collects every possible detail
+    - It guarantees the answer will feel comfortable
+  answer: 0
+  explanation: Purpose and control over detail can help reduce unnecessary overwhelm.
+sources: []

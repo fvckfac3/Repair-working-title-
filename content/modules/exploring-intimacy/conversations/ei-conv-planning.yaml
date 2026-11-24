@@ -1,0 +1,60 @@
+id: ei-conv-planning
+module: exploring-intimacy
+type: conversation
+title: Planning intimacy together
+summary: Discuss optional time for connection without booking an outcome.
+minutes: 15
+mode: together
+intensity: deep
+intro: "For adults: use only if both independently choose to talk and feel safe. Planning time does
+  not imply consent to any activity."
+groundRules:
+  - Both people choose freely whether to take part, skip a prompt, pause, or stop without
+    consequence.
+  - If fear, coercion, or violence is present, do not use this guide together; seek specialist
+    individual support and make choices that are safe for you.
+  - Speak for yourself; listen without debating, interpreting, or demanding disclosure.
+  - No plan, relationship status, or previous agreement grants consent to touch or sex.
+phases:
+  - id: prepare
+    title: Choose whether this is a good time
+    kind: prep
+    prompts:
+      - Check that both freely want to talk now. Either person may pass or end without a promise to
+        resume.
+      - Choose a low-pressure setting and a short time; no one owes an answer.
+  - id: turn-a
+    title: First perspective
+    kind: turn
+    speaker: A
+    prompts:
+      - What kind of time or space might feel restorative to me? What would I not want planned?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: turn-b
+    title: Second perspective
+    kind: turn
+    speaker: B
+    prompts:
+      - What kind of time or space might feel restorative to me? What would I not want planned?
+    listenerPrompts:
+      - Listen without fixing or rebutting. Reflect one thing you heard and ask whether you
+        understood.
+    seconds: 180
+  - id: choose
+    title: Choose a possible next step
+    kind: together
+    prompts:
+      - If both wish, choose a low-pressure window for a conversation or other mutually welcome
+        activity; it is fine to choose none.
+      - How will each person check in at the time and decline, change the plan, or stop without
+        consequence?
+    seconds: 180
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Each may say what made choice easier, or pass. Neither person owes touch, sex, or a
+        rescheduled date.

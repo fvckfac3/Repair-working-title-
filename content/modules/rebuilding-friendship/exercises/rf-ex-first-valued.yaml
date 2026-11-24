@@ -1,0 +1,32 @@
+id: rf-ex-first-valued
+module: rebuilding-friendship
+type: exercise
+title: What I first valued
+summary: Remember an early quality and notice whether it still fits today.
+minutes: 8
+mode: solo
+intensity: light
+intro: This is an individual reflection. You may have mixed memories or skip the activity entirely;
+  remembering a positive moment does not require ignoring harm.
+steps:
+  - id: memory
+    kind: text
+    prompt: Recall an early moment you genuinely enjoyed, if one comes to mind.
+    help: Where were you and what happened? No idealized story is required.
+  - id: quality
+    kind: text
+    prompt: What action or quality did you value in that moment?
+    help: Describe what you observed rather than making a broad claim.
+  - id: now
+    kind: text
+    prompt: Does that quality show up differently now, or no longer fit?
+    help: People change; either answer is useful.
+  - id: choice
+    kind: text
+    prompt: If you wanted to express an observation, what could you honestly say without expecting
+      anything back?
+  - id: need
+    kind: text
+    prompt: What do you need in the present that a pleasant memory cannot resolve?
+outro: You may keep your reflection to yourself or choose a safe, willing moment to say something in
+  your own words.

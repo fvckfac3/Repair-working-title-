@@ -1,0 +1,55 @@
+id: ff-conv-dream
+module: fighting-fair
+type: conversation
+title: The dream within the conflict
+summary: Explore the meaning beneath a recurring difference, not a demand to compromise.
+minutes: 15
+mode: together
+intensity: medium
+intro: Use this educational guide only at a calm time and only if both freely choose. You do not
+  have to reach agreement or reconcile.
+groundRules:
+  - Both choose freely whether to participate. Either can pause, skip, or end the conversation
+    without a required return.
+  - No insults, threats, pressure, or demands for agreement; leave room for a different view.
+  - If fear, coercion, or violence is present, do not use this together. Prioritize individual
+    safety and specialized support.
+phases:
+  - id: prep
+    title: Select a recurring difference
+    kind: prep
+    prompts:
+      - Both opt in to a low-stakes topic. No one needs to share a memory or value they prefer to
+        keep to themselves.
+    seconds: 60
+  - id: a
+    title: A shares what matters
+    kind: turn
+    speaker: A
+    prompts:
+      - What does this issue represent to me? What value or experience shapes my preference?
+    listenerPrompts:
+      - Reflect the value and ask if you got it right. Do not debate it.
+    seconds: 180
+  - id: b
+    title: B shares what matters
+    kind: turn
+    speaker: B
+    prompts:
+      - What does this issue represent to me? What value or experience shapes my preference?
+    listenerPrompts:
+      - Reflect and allow a correction; do not interpret for the speaker.
+    seconds: 180
+  - id: options
+    title: Consider room for both
+    kind: together
+    prompts:
+      - If both want, identify one small option that respects both boundaries. No solution is
+        required and either may decline.
+    seconds: 120
+  - id: close
+    title: Close
+    kind: close
+    prompts:
+      - Name something newly understood if you wish, or end here.
+    seconds: 60

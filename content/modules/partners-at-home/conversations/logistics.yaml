@@ -1,0 +1,53 @@
+id: pah-conv-logistics
+module: partners-at-home
+type: conversation
+title: The weekly family logistics meeting
+summary: Use a brief, shared agenda for next week’s tasks and backups.
+minutes: 15
+mode: together
+intensity: medium
+intro: This guide works for households with or without children. Choose a time when both are willing
+  to participate. If there is fear, coercion or violence, do not use this guide together. Seek
+  individual support from a local domestic abuse specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - What is coming up, and which task or constraint might the other person not see?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What is coming up for you, and where is your capacity limited?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - For each urgent item, name an owner and willing backup. Identify one task to simplify, defer
+        or seek outside help for.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Check that both have some room for rest. Choose whether and when to review; unresolved items
+        can wait.

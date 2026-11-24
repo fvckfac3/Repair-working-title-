@@ -1,0 +1,38 @@
+id: far-exercise-the-unsent-letter
+module: forgiveness-and-resentment
+type: exercise
+title: The unsent letter
+summary: Give a hurt words without deciding to send them.
+minutes: 8
+mode: solo
+intensity: medium
+intro: This is a draft for you, not an instruction to contact anyone. Leave out identifying details
+  if storing them here is unsafe. Information is stored unencrypted on this device and may be
+  visible to anyone with access. Use a safer device or skip writing if this could put you at risk.
+steps:
+  - id: opening
+    kind: text
+    prompt: "Write: “When ___ happened, the impact on me was ___.”"
+    alwaysPrivate: true
+  - id: missing
+    kind: text
+    prompt: What did I need then, and what do I need now?
+    alwaysPrivate: true
+  - id: limits
+    kind: text
+    prompt: What would I want the other person to understand, and what is not theirs to decide for me?
+    alwaysPrivate: true
+  - id: choice
+    kind: choice
+    prompt: What do I want to do with the draft today?
+    options:
+      - Leave it unsent
+      - Revisit it later
+      - Keep only a lesson for myself
+      - Not sure
+    alwaysPrivate: true
+  - id: close
+    kind: instruction
+    prompt: Pause and choose a settling activity. Sending, sharing, forgiving and reconciling are not
+      required.
+outro: A letter can be useful even if no one else ever reads it.

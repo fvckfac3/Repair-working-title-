@@ -1,0 +1,52 @@
+id: fab-conv-family
+module: family-and-boundaries
+type: conversation
+title: Talking about family without attacking
+summary: Discuss a specific outside interaction without condemning a person or demanding disconnection.
+minutes: 15
+mode: together
+intensity: medium
+intro: Choose one non-urgent incident, not a verdict on someone’s family or friends. If there is
+  fear, coercion or violence, do not use this guide together. Seek individual support from a local
+  domestic abuse specialist, using a safe device if possible.
+groundRules:
+  - Participation is voluntary; either person can pass, pause or end. No pressure to disclose or
+    agree.
+  - Speak about your experience; do not threaten, punish, interrogate, or use a response against
+    anyone.
+phases:
+  - id: prep
+    title: Check consent and scope
+    kind: prep
+    prompts:
+      - Is each person freely willing to talk now? Either may decline, skip a question, pause, or
+        end without explaining. Choose a low-pressure time and a topic.
+  - id: a
+    title: Partner A speaks
+    kind: turn
+    speaker: A
+    prompts:
+      - What happened, what was its effect on you, and what would you like to request?
+    listenerPrompts:
+      - Listen without correcting; reflect one point and ask whether you understood.
+    seconds: 180
+  - id: b
+    title: Partner B speaks
+    kind: turn
+    speaker: B
+    prompts:
+      - What was your experience, and what relationship or value matters to you?
+    listenerPrompts:
+      - Listen without rebuttal; ask permission before offering ideas.
+    seconds: 180
+  - id: together
+    title: Consider a next step
+    kind: together
+    prompts:
+      - Separate decisions about shared plans from each person’s independent contact. Consider one
+        limited request or agree to think separately.
+  - id: close
+    title: Close without pressure
+    kind: close
+    prompts:
+      - Each may state one limit or uncertainty; neither must choose sides or justify a no.

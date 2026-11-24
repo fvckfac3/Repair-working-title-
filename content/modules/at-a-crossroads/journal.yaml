@@ -1,0 +1,17 @@
+id: aac-journal
+module: at-a-crossroads
+type: journal
+title: What I am not ready to say aloud
+summary: Reflect privately on what you need and what you are not ready to say.
+minutes: 6
+mode: solo
+intensity: deep
+intro: Write only what you choose; no disclosure to a partner is required. If someone may inspect
+  this device, consider whether writing is safe. Choose a prompt or skip it. Entries are stored on
+  this device; consider whether writing is safe if someone else can access it.
+prompts:
+  - What am I feeling about the present, without needing to decide the future?
+  - Which needs or limits matter whether I stay, separate, or remain unsure?
+  - What do I want to keep to myself for now?
+  - What information or individual support might help me understand my options?
+  - What would give me room to reconsider without pressure?

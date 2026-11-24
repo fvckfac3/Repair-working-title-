@@ -1,0 +1,34 @@
+id: rf-lesson-fondness
+module: rebuilding-friendship
+type: lesson
+title: Fondness and admiration as a buffer
+summary: Practice grounded appreciation while making space for mixed feelings.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Remember a real quality
+    body: Fondness can mean noticing someone’s humor, steadiness, creativity, or care. Choose a specific
+      quality you genuinely value rather than a compliment you feel you should give. Mixed feelings
+      are allowed, and there may be times you cannot identify one.
+  - heading: Connect quality and action
+    body: “I value your patience when you helped our neighbor carry boxes” links a quality to something
+      observable. It is more informative than “You are perfect.” If you choose to say it, do so
+      without expecting praise, affection, or agreement in return.
+  - heading: Present-tense curiosity matters
+    body: A person changes. What you admired early on may still fit, may look different now, or may no
+      longer be true. Ask what you genuinely notice today. Avoid using a memory to imply someone
+      must become their old self.
+  - heading: Do not make gratitude a duty
+    body: Appreciation is not a tool for silencing pain, persuading someone to stay, or avoiding
+      accountability. If nothing feels authentic, you can skip it. If fear, coercion or violence is
+      present, prioritize individual specialist support.
+takeaway:
+  question: Which appreciation is most grounded?
+  options:
+    - You should always be more positive
+    - I noticed you patiently helped carry those boxes; I value your care
+    - I must praise you even when I do not mean it
+  answer: 1
+  explanation: A specific and sincere observation is an invitation, not an obligation.
+sources: []

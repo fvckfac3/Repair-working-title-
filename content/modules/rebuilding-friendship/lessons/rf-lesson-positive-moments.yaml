@@ -1,0 +1,34 @@
+id: rf-lesson-positive-moments
+module: rebuilding-friendship
+type: lesson
+title: Making room for positive moments
+summary: Notice small moments of kindness without counting them against harm.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: Pay attention, not points
+    body: When life is crowded with logistics or tension, small pleasant interactions can go unnoticed.
+      A shared joke or a helpful gesture may be worth noticing, but there is no magic ratio of
+      positive to negative moments that proves a relationship is healthy.
+  - heading: Be specific
+    body: “You made sure I had time to finish my call” describes a real action more clearly than a
+      general demand to be positive. If the gesture mattered to you, you can say so. You never need
+      to invent appreciation or soften a serious concern.
+  - heading: Leave room for the hard parts
+    body: A pleasant evening does not cancel a broken agreement, erase injury, or make someone safe.
+      Enjoyment and accountability can both matter. If fear, coercion or violence is present, do not
+      use positive rituals to manage it; seek specialist individual support.
+  - heading: Try noticing once
+    body: At the end of a day, recall one moment that was neutral, kind, or pleasant, if there was one.
+      What made it possible? If nothing comes to mind, record that honestly and consider what you
+      need rather than forcing a positive answer.
+takeaway:
+  question: How should a positive moment be understood?
+  options:
+    - As evidence that harm no longer matters
+    - As one moment worth noticing, not a substitute for accountability
+    - As a point that cancels one negative interaction
+  answer: 1
+  explanation: Positive moments can be meaningful without offsetting harm.
+sources: []

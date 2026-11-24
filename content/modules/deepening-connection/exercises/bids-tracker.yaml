@@ -1,0 +1,36 @@
+id: dc-exercise-bids-tracker
+module: deepening-connection
+type: exercise
+title: Bids tracker
+summary: Notice invitations for attention and how you respond.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Over a day, observe only what is natural. Do not track messages, location, devices, or your
+  partner’s behavior as proof. A missed invitation is not a failure. Information is stored
+  unencrypted on this device and may be visible to anyone with access. Use a safer device or skip
+  writing if this could put you at risk.
+steps:
+  - id: moment
+    kind: text
+    prompt: Recall one small invitation for attention, from you or someone else. What happened?
+    help: "Example: “I asked if they wanted to see a photo.”"
+    alwaysPrivate: true
+  - id: response
+    kind: text
+    prompt: How was it answered? Include context, such as work or tiredness, without guessing motives.
+    alwaysPrivate: true
+  - id: need
+    kind: text
+    prompt: What kind of response would have felt useful, if any?
+    alwaysPrivate: true
+  - id: experiment
+    kind: text
+    prompt: What is one invitation or response I can try that leaves room for no?
+    help: "Example: “Could we talk for five minutes later, if you want?”"
+    alwaysPrivate: true
+  - id: review
+    kind: instruction
+    prompt: Later, notice whether the experiment felt useful. A declined invitation is not a debt;
+      adjust or let it go.
+outro: Use observations for curiosity, not a scorecard or an obligation.

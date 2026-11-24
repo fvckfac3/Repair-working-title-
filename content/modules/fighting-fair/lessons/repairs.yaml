@@ -1,0 +1,32 @@
+id: ff-lesson-repairs
+module: fighting-fair
+type: lesson
+title: Repair attempts
+summary: Use a short pause, acknowledgement, or reset without demanding immediate forgiveness.
+minutes: 4
+mode: solo
+intensity: light
+cards:
+  - heading: A repair is an invitation
+    body: "A repair attempt interrupts an unhelpful exchange: “That came out sharply; I want to try
+      again,” or “I need a break.” It does not guarantee that the other person feels ready to
+      continue."
+  - heading: Match the action to the moment
+    body: If you interrupted, stop and invite the person to finish. If you insulted, name the insult and
+      stop it; do not use humor or touch to cover it. If overwhelmed, pause without chasing the
+      other person.
+  - heading: Receiving is optional
+    body: “I hear your apology; I need time” is a valid response. Do not insist that a partner accept a
+      repair, give affection, or resume immediately.
+  - heading: Look beyond the phrase
+    body: A repeated apology without a change in behavior may not repair harm. If there is fear,
+      coercion, or violence, a repair phrase is not a safety plan; seek individual specialized
+      support.
+takeaway:
+  question: After an insult, which response is a repair attempt?
+  options:
+    - “I insulted you; that was wrong. I will stop.”
+    - “I apologized, so you must move on.”
+    - “You made me say it.”
+  answer: 0
+  explanation: It acknowledges the action and stops it without demanding forgiveness.

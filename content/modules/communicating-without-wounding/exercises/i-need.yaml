@@ -1,0 +1,30 @@
+id: cww-ex-i-need
+module: communicating-without-wounding
+type: exercise
+title: From "you always" to "I need"
+summary: Convert an absolute accusation into a bounded, negotiable request.
+minutes: 7
+mode: solo
+intensity: light
+intro: Work at your own pace. Choose an example that is safe to consider; you need not share your
+  answers. If fear, coercion, or violence is present, prioritize individual safety and specialized
+  support.
+steps:
+  - id: absolute
+    kind: text
+    prompt: Write the “you always” or “you never” thought. Which one example is behind it?
+  - id: impact
+    kind: text
+    prompt: What did that example cost you in time, energy, or connection? What need does it point to?
+  - id: request
+    kind: text
+    prompt: "Write: “When ___, I felt ___. I need ___. Would you be willing to ___ by ___?”"
+  - id: alternate
+    kind: text
+    prompt: If the answer is no, what alternative or personal boundary could you choose? Do not plan to
+      pressure the other person.
+  - id: check
+    kind: instruction
+    prompt: Remove mind-reading and ultimatums. If a request would put you at risk, do not raise it;
+      consider individual safety support instead.
+outro: Keep what is useful. You may revise, stop, or choose not to share your work.

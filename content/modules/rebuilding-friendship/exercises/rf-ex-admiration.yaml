@@ -1,0 +1,30 @@
+id: rf-ex-admiration
+module: rebuilding-friendship
+type: exercise
+title: Admiration notes
+summary: Build a few specific observations you genuinely believe.
+minutes: 8
+mode: solo
+intensity: light
+intro: Write only what feels authentic. This is not a scorecard or a reason to overlook harm.
+steps:
+  - id: notice
+    kind: list
+    prompt: List up to three actions you noticed recently that you genuinely valued.
+    help: Include ordinary examples such as following through on a practical task; leave blank if none
+      fit.
+  - id: quality
+    kind: text
+    prompt: Choose one action. What quality, if any, does it suggest to you?
+  - id: sentence
+    kind: text
+    prompt: Write a short observation and its impact on you.
+    help: "For example: “When you checked the bus times, I felt less rushed.”"
+  - id: check
+    kind: text
+    prompt: Does the sentence sound true and free of a hidden request? Revise or discard it.
+  - id: choice
+    kind: text
+    prompt: Would you like to say it, save it for yourself, or not use it?
+    help: A kind statement never buys agreement, affection, or forgiveness.
+outro: One sincere observation is enough; none is also an honest answer.

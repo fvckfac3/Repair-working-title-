@@ -1,0 +1,31 @@
+id: ei-ex-accelerators-brakes
+module: exploring-intimacy
+type: exercise
+title: Accelerators & brakes worksheet
+summary: Identify your own context rather than trying to change another person.
+minutes: 8
+mode: solo
+intensity: deep
+intro: Think about your own interest in connection or intimacy, without assuming sex or touch is the
+  goal. You may skip any step.
+steps:
+  - id: accelerators
+    kind: list
+    prompt: What conditions sometimes make the closeness you want more appealing?
+    help: For example, uninterrupted time, feeling rested, or a welcome conversation.
+  - id: brakes
+    kind: list
+    prompt: What conditions sometimes make that closeness less appealing?
+    help: Examples might include pressure, distraction, pain, or not wanting it. No reason is required.
+  - id: pattern
+    kind: text
+    prompt: Choose one item from either list. When have you noticed its effect, if ever?
+    help: Avoid interpreting someone else’s preferences as facts.
+  - id: adjustment
+    kind: text
+    prompt: Name one small change you can choose for your own wellbeing, with no expected sexual outcome.
+    help: If pain is involved, stop the painful activity and consider a clinician.
+  - id: review
+    kind: text
+    prompt: When might you check whether the change helped you, independently of any intimate activity?
+outro: A supportive context is not a guarantee of desire or consent.

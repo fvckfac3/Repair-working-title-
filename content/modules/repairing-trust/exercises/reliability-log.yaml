@@ -1,0 +1,34 @@
+id: rt-ex-reliability-log
+module: repairing-trust
+type: exercise
+title: Weekly reliability log
+summary: Record a few commitments and what happened, including honest changes.
+minutes: 9
+mode: solo
+intensity: medium
+intro: Work alone on a manageable example. Skip details or steps and stop whenever you wish; sharing
+  is optional. If fear, coercion, or violence is present, prioritize individual safety and
+  specialized support instead of couples activities.
+steps:
+  - id: plan
+    kind: list
+    prompt: List up to three specific commitments you chose to make this week, with a due time. Do not
+      track someone without their consent.
+  - id: outcome
+    kind: text
+    prompt: For each, note “kept,” “changed with an update,” “missed,” or “not yet due.” Record facts
+      rather than judgments about character.
+  - id: miss
+    kind: text
+    prompt: If you missed a commitment, what was the impact if known? What corrective action or honest
+      update can you offer without demanding a response?
+  - id: adjust
+    kind: text
+    prompt: Which commitment should be smaller, changed, or discontinued next week? What capacity do you
+      actually have?
+  - id: choice
+    kind: instruction
+    prompt: Review this record for your own choices. Another person is not obliged to inspect it,
+      provide reassurance, or renew trust.
+outro: Keep, revise, or discard your reflection. A draft is not an agreement and does not require
+  contact or reconciliation.

@@ -1,0 +1,41 @@
+id: hai-exercise-boundaries-without-surveillance
+module: healing-after-infidelity
+type: exercise
+title: Boundaries without surveillance
+summary: Identify a voluntary boundary and an alternative to monitoring.
+minutes: 8
+mode: solo
+intensity: medium
+intro: Work alone first. A boundary describes your choice; it is not a demand for passwords, device
+  access, location tracking, or proof. No one is required to accept monitoring. Information is
+  stored unencrypted on this device and may be visible to anyone with access. Use a safer device or
+  skip writing if this could put you at risk.
+steps:
+  - id: need
+    kind: text
+    prompt: What concrete uncertainty or practical need am I trying to address?
+    help: "For example: how unavoidable work contact will be handled, or when health information is
+      needed."
+    alwaysPrivate: true
+  - id: request
+    kind: text
+    prompt: What specific, voluntary request could I make if talking is safe?
+    help: "For example: “Would you tell me about unavoidable work contact in a weekly conversation?” A
+      no is allowed."
+    alwaysPrivate: true
+  - id: limit
+    kind: text
+    prompt: What is my own boundary if this request is declined or repeatedly unmet?
+    help: Choose something within your control, such as taking space or seeking advice. Avoid threats or
+      punishment.
+    alwaysPrivate: true
+  - id: review
+    kind: text
+    prompt: If we both agree, when and how could we revisit whether the arrangement is working?
+    alwaysPrivate: true
+  - id: safety
+    kind: instruction
+    prompt: If either person is fearful or being controlled, do not negotiate an agreement together;
+      seek independent specialist support.
+outro: An agreement is only an option when both can freely decline. You may seek support or change
+  your boundary without a partner’s permission.

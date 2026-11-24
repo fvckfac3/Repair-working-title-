@@ -1,0 +1,17 @@
+id: mat-journal
+module: money-as-a-team
+type: journal
+title: What money means to me
+summary: Explore what money represents to you without needing to share.
+minutes: 6
+mode: solo
+intensity: medium
+intro: Avoid recording passwords, account numbers or identifying financial details. Choose a prompt
+  or skip it. Entries are stored on this device; consider whether writing is safe if someone else
+  can access it.
+prompts:
+  - When money feels uncertain, what need becomes most important to me?
+  - What lesson about money would I like to question, and why?
+  - Which financial choice or information do I want to keep my own?
+  - What shared responsibility would I like clarified, if safe to discuss?
+  - Where could independent information or support help me?

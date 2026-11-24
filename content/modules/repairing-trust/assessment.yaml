@@ -1,0 +1,116 @@
+id: rt-assessment-trust-inventory
+module: repairing-trust
+type: assessment
+title: Trust Inventory
+summary: Reflect on reliability, honesty, emotional safety, information, and support.
+minutes: 5
+mode: solo
+intensity: medium
+kind: standard
+intro: Think about the past month and answer from your own experience. This original, unvalidated
+  reflection is not a diagnosis, a test of whether someone is trustworthy, or a safety screen.
+  Higher scores indicate more concern about the areas asked. A low overall score cannot establish
+  safety. Skip or stop if you wish. If fear, coercion, or violence is present, prioritize individual
+  safety and specialized support instead of couples activities.
+scale:
+  min: 0
+  max: 4
+  labels:
+    - Never
+    - Rarely
+    - Sometimes
+    - Often
+    - Almost always
+subscales:
+  - id: reliability
+    label: Reliability concerns
+    description: Whether commitments are kept or renegotiated.
+    threshold: 50
+    recommend:
+      - rt-lesson-consistency
+      - rt-ex-promises
+  - id: honesty
+    label: Honesty concerns
+    description: Whether important information is truthful and corrected.
+    threshold: 50
+    recommend:
+      - rt-lesson-accountability
+      - rt-conv-accountability
+  - id: emotional-safety
+    label: Room to express concerns
+    description: Whether concerns can be raised without dismissal.
+    threshold: 50
+    recommend:
+      - rt-lesson-betrayal
+      - rt-journal-where-trust
+  - id: information
+    label: Clarity about shared matters
+    description: Whether information needed for shared decisions is available.
+    threshold: 50
+    recommend:
+      - rt-ex-transparency
+      - rt-lesson-small-moments
+  - id: support
+    label: Support when needed
+    description: Whether support requests are heard and answered clearly.
+    threshold: 50
+    recommend:
+      - rt-ex-reliability-log
+      - rt-lesson-small-moments
+items:
+  - id: r1
+    subscale: reliability
+    text: A commitment that mattered to me was not kept or renegotiated.
+  - id: r2
+    subscale: reliability
+    text: When a plan cannot be kept, I receive an honest update in time to make another plan.
+    reverse: true
+  - id: h1
+    subscale: honesty
+    text: I have discovered that something important to a shared decision was misrepresented.
+  - id: h2
+    subscale: honesty
+    text: When an inaccurate statement is noticed, it is corrected.
+    reverse: true
+  - id: e1
+    subscale: emotional-safety
+    text: I hesitate to raise a concern because I expect it to be dismissed.
+  - id: e2
+    subscale: emotional-safety
+    text: When I express hurt, there is room to hear it without demanding that I get over it.
+    reverse: true
+  - id: i1
+    subscale: information
+    text: I lack information I need to make an informed shared decision.
+  - id: i2
+    subscale: information
+    text: We can discuss what information is relevant to a shared plan while respecting individual
+      boundaries.
+    reverse: true
+  - id: s1
+    subscale: support
+    text: When I ask for help, I am left uncertain whether it will happen.
+  - id: s2
+    subscale: support
+    text: A request for help receives a clear yes, no, or alternative.
+    reverse: true
+bands:
+  - id: less
+    label: Fewer concerns noticed
+    min: 0
+    narrative: Your answers suggest fewer concerns in the areas asked. This does not prove
+      trustworthiness or safety and does not erase a particular hurt. Choose a reflection that
+      matters to you.
+  - id: some
+    label: Some concerns noticed
+    min: 30
+    narrative: Some aspects of trust may need attention. Look at the specific areas rather than treating
+      the score as a verdict. You decide whether any conversation is wanted and safe.
+  - id: more
+    label: More concerns noticed
+    min: 60
+    suggestTherapist: true
+    narrative: Trust may feel strained in several areas. Individual support or, where appropriate and
+      freely chosen, relationship support may help you consider options. If fear, coercion, or
+      violence is present, prioritize individual safety and specialized support, not couples
+      activities.
